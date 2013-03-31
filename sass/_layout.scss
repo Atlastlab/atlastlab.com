@@ -1,0 +1,207 @@
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 4em;            // each column is 4em wide
+$gutter-width   : 1em;            // 1em gutters between columns
+$grid-padding   : $gutter-width;  // grid-padding equal to gutters
+
+$green_dark: #4e9a06;
+$green_light: #5fbc07;
+$green_shadow: #004500;
+
+$gray_light: #888a85;
+$gray_lighter: #eeeeec;
+
+
+body {
+  background: url(../img/debut_light.png);
+}
+
+header#menu-zone {
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid $green_dark;
+  background: url(../img/debut_light.png);
+  z-index: 1;
+  @include box-shadow(0 0 10px #505757);
+}
+
+#menu-wrapper {
+  @include container;
+  padding: 10px 0 16px;
+}
+
+#content-wrapper {
+  background: url(../img/bg.png) no-repeat center -150px;
+}
+
+#content {
+  @include container;
+  position: relative;
+  padding-bottom: 600px;
+
+  article {
+    margin-bottom: 200px;
+    position: relative;
+    display: block;
+  }
+}
+
+#logo {
+  @include transition(all .4s);
+  margin-left: -49px;
+  margin-right: 20px;
+}
+
+@media all and (min-width: 990px) and (max-width: 1100px) {
+  #logo {
+    margin-left: 0px;
+  }
+}
+
+@media all and (max-width: 989px) {
+  #logo {
+    margin-left: 14px;
+  }
+  #menu {
+    margin-right: 14px;
+  }
+}
+
+#menu {
+  position: relative;
+  float: right;
+  margin-top: 19px;
+  font-family: 'QuestrialRegular';
+  font-weight: normal;
+
+  a:link, a:visited {
+    @include transition(all .4s);
+    color: $gray_light;
+    @include inline-block;
+    font-size: 1.25em;
+    text-decoration: none;
+    padding: 7px 10px 5px;
+    @include border-radius(3px);
+    z-index: 2;
+    position: relative;
+  }
+
+  a.slider-active {
+    color: white;
+    font-style: italic;
+  }
+
+  #menu-slider {
+    background: $green_light;
+    position:absolute;
+    left: 0;
+    top: 0px;
+    padding: 7px 0px 5px;
+    @include border-radius(3px);
+    height: 20px;
+    width: 0;
+    z-index: 1;
+  }
+
+  span.menu-pipe {
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: default;
+    color: $gray_lighter;
+    z-index: 0;
+    position: relative;
+  }
+}
+
+@media all and (max-width: 862px) {
+  #logo {
+    clear: both;
+    float: left;
+    margin-left: 4px;
+  }
+  #menu-wrapper {
+  padding: 10px 20px 16px 10px;
+  }
+  #menu {
+    float: left;
+    clear: both;
+    span.menu-pipe {
+      display: none;
+    }
+     a:link, a:visited {
+      margin: 0 5px;
+    }
+    #menu-slider {
+      margin-left: 5px;
+      max-width: 100%;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  #menu {
+    width: 100%;
+     a:link, a:visited {
+      float: left;
+      clear: both;
+      width: 100%;
+    }
+  }
+}
+
+h2 {
+  font-size: 4em;
+  @include text-shadow(0 -2px 5px #051D05);
+  font-family: 'bariol_regularregular';
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 3em;
+  font-family: 'bariol_regularregular';
+}
+
+h4 {
+  font-size: 1.5em;
+  line-height: 2em;
+  font-family: 'bariol_regularregular';
+}
+
+em {
+  font-family: 'bariolregular_italic';
+}
+
+article#introduction {
+  @include animate(fadeInUp, 1s);
+}
+
+span.streamer {
+  padding: 100px 0 180px;
+  display: block;
+  color: white;
+
+  h4 {
+    margin-top: 30px;
+    @include text-shadow(0 3px 3px $green_shadow);
+  }
+}
+
+#mobile-with-leaflet {
+  background: url("../img/phone.png") no-repeat scroll 0 0 transparent;
+  height: 599px;
+  position: absolute;
+  right: -37px;
+  top: 0;
+  width: 345px;
+}
+
+#map {
+  display: block;
+  height: 344px;
+  left: 64px;
+  top: 120px;
+  width: 218px;
+}
+
+#wufoo-z7x3p3 {
+  margin-left: -10px;
+}
