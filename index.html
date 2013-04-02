@@ -109,6 +109,23 @@
         <article id="contact">
             <h3>Contact</h3>
 
+            <form action="email.php" autocomplete="on">
+                <div class="form-item-wrapper">
+                    <label>Name: </label><input type="text" name="fname" />
+                </div>
+                <div class="form-item-wrapper">
+                    <label>Phone: </label><input type="text" name="phone" />
+                </div>
+                <div class="form-item-wrapper">
+                    <label>E-mail: </label><input type="email" name="email" autocomplete="off" required />
+                </div>
+                <div class="form-item-wrapper">
+                    <label>Message: </label><textarea name="message" rows="8" required></textarea>
+                </div>
+                    <input type="submit" value="Send">
+            </form>
+
+            <p>Nam adipiscing tempor orci, id viverra risus ultricies eget. Maecenas sodales eros at purus lobortis congue commodo velit auctor. Nunc ipsum nulla, scelerisque a lacinia non, congue ac velit. Maecenas iaculis massa eget tellus cursus egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer pretium diam vitae nibh suscipit at cursus risus vehicula. Quisque lectus nunc, sodales et interdum quis, viverra ut erat. Maecenas at tellus suscipit eros congue vulputate sagittis non elit. Phasellus at nisi et nunc euismod pretium. Suspendisse quam ligula, rhoncus volutpat posuere non, molestie vitae purus. Maecenas tempus lorem et nunc mollis sed aliquet ligula volutpat.</p>
         </article>
     </section>
 </div>
