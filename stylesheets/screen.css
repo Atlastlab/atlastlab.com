@@ -5133,7 +5133,7 @@ h3:after {
 
 /* line 188, ../sass/_layout.scss */
 h4 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 2em;
   font-family: 'bariol_regularregular';
 }
@@ -5327,7 +5327,7 @@ article#team .team-member em {
 }
 
 /* line 330, ../sass/_layout.scss */
-input[type="submit"] {
+.button {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -5349,7 +5349,7 @@ input[type="submit"] {
   box-shadow: 0 3px 12px -6px #004500 inset, 0px 12px 11px -11px #888a85;
 }
 /* line 344, ../sass/_layout.scss */
-input[type="submit"]:hover {
+.button:hover {
   -webkit-box-shadow: 0 3px 15px -3px #004500 inset, 0px 12px 11px -11px lightgrey;
   -moz-box-shadow: 0 3px 15px -3px #004500 inset, 0px 12px 11px -11px lightgrey;
   box-shadow: 0 3px 15px -3px #004500 inset, 0px 12px 11px -11px lightgrey;
@@ -5390,7 +5390,7 @@ input[type="submit"]:hover {
   border-bottom: 4px solid #5fbc07;
 }
 /* line 369, ../sass/_layout.scss */
-#extentions div.row div.block p {
+#extentions div.row div.block p, #extentions div.row div.block h4 {
   width: 87.17949%;
   float: left;
   margin-right: 2.5641%;

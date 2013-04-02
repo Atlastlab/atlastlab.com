@@ -186,7 +186,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 2em;
   font-family: 'bariol_regularregular';
 }
@@ -327,7 +327,7 @@ article#team .team-member {
   }
 }
 
-input[type="submit"] {
+.button {
   @include transition(all 0.4s);
   padding: 10px 30px;
   font-size: 1.2em;
@@ -366,7 +366,7 @@ input[type="submit"] {
       border-bottom: 4px solid $green_light;
     }
 
-    p {
+    p, h4 {
       @include span-columns(7, 8);
       @include omega;
     }
