@@ -8,6 +8,8 @@ $green_light: #5fbc07;
 $green_shadow: #004500;
 $green_lightest: #f7fdf1;
 
+$blue_dark: #2e3436;
+
 $gray_light: #888a85;
 $gray_lighter: #D3D3D3;
 
@@ -197,6 +199,10 @@ p {
   line-height: 1.4em;
 }
 
+textarea:focus, input:focus{
+    outline: none;
+}
+
 article#introduction {
   @include animate(fadeInUp, 1s);
 }
@@ -262,6 +268,10 @@ span.streamer {
 }
 
 article#team .team-member {
+  h4 {
+    color: $blue_dark;
+  }
+
   @include span-columns(2, 6);
   &:nth-child(4n) { @include omega; }
 
@@ -296,9 +306,10 @@ article#team .team-member {
     }
 
     input[type="text"], input[type="email"], textarea {
+      outline: none !important;
       @include transition(all 0.4s);
       padding: 10px 2%;
-      @include border-radius();
+      @include border-radius(4px);
       width: 98%;
       border: 1px solid $gray_light;
       @include box-shadow(0 3px 7px -4px $gray_light inset);
@@ -321,7 +332,7 @@ input[type="submit"] {
   padding: 10px 30px;
   font-size: 1.2em;
   float: right;
-  @include border-radius();
+  @include border-radius(4px);
   border: 0px;
   cursor: pointer;
   background: $green_light;
@@ -332,5 +343,32 @@ input[type="submit"] {
 
   &:hover {
     @include box-shadow(0 3px 15px -3px $green_shadow inset, 0px 12px 11px -11px $gray_lighter);
+  }
+}
+
+#extentions div.row {
+  float: left;
+  clear: both;
+  margin-bottom: 4em;
+
+  div.block {
+    @include span-columns(1, 2);
+    &:nth-child(2n) { @include omega; }
+
+    i {
+      @include span-columns(1, 8);
+      font-size: 1.5em;
+      font-weight: normal;
+      background: $gray_lighter;
+      padding: 10px 0;
+      text-align: center;
+      color: $blue_dark;
+      border-bottom: 4px solid $green_light;
+    }
+
+    p {
+      @include span-columns(7, 8);
+      @include omega;
+    }
   }
 }
