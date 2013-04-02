@@ -36,9 +36,9 @@ header#menu-zone {
 #content {
   @include container;
   position: relative;
-  padding-bottom: 600px;
 
   article {
+    padding-top: 10px;
     margin-bottom: 200px;
     position: relative;
     display: block;

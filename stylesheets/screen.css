@@ -3341,7 +3341,6 @@ header#menu-zone {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  padding-bottom: 600px;
 }
 /* line 38, ../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #content:after {
@@ -3349,8 +3348,9 @@ header#menu-zone {
   display: table;
   clear: both;
 }
-/* line 41, ../sass/_layout.scss */
+/* line 40, ../sass/_layout.scss */
 #content article {
+  padding-top: 10px;
   margin-bottom: 200px;
   position: relative;
   display: block;

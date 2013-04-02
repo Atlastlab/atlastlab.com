@@ -8,15 +8,14 @@ $(function() {
   }, function(){
     timeOut = setTimeout(function() {
       menuSlideTo($('#menu a.active'));
-    }, 800);
+    }, 200);
   });
 
   // Init.
   menuSlideTo($('#menu a.active'));
   $('#content-wrapper').css('padding-top', $('#menu-zone').height());
   $('body').localScroll({
-    offset: {top: -$('#menu-zone').height(), left: 0},
-    // hash: true
+    offset: {top: -$('#menu-zone').height(), left: 0}
   });
 
   // Leaflet
@@ -43,41 +42,23 @@ $(function() {
     clearTimeout(timeOut);
 
     timeOut = setTimeout(function() {
-      var mostInViewPort = 0;
-      var mostInViewPortId = 0;
-
-
       $.each($('#content article'), function(index, article) {
-        var windowHeight = $(window).height();
-
         var articleOffset = $(article).offset();
         var articleTop = articleOffset.top;
         var articleHeight = $(article).height();
-        var articleBottom = articleTop + articleHeight;
-
         // Add the threshold
         var scrollTop = $(window).scrollTop() + ($('#menu-zone').height() + 10);
-        var scrollBottom = scrollTop + windowHeight;
 
-        var pixelsInViewport = 0;
+        if (scrollTop > articleTop && scrollTop < articleTop + articleHeight) {
 
-        // Top part inside viewport
-        if (articleTop > scrollTop && articleTop < scrollBottom) {
-          pixelsInViewport = scrollBottom - articleTop;
-        // Bottom part inside viewpart
-        } else if (articleBottom < scrollBottom && articleBottom > scrollTop) {
-          pixelsInViewport = articleBottom - scrollTop;
-        // Full frontal
-        } else if (articleTop < scrollTop && articleBottom > scrollBottom) {
-          pixelsInViewport = windowHeight;
-        }
+          // Maybe it is better active the one that is the most visible.
 
-        if (pixelsInViewport > mostInViewPort) {
-          mostInViewPortId = $(article).attr('id');
-          mostInViewPort = pixelsInViewport;
+          console.log($(article).attr('id'));
+          console.log(scrollTop - articleTop);
+
+          menuSlideTo($('#menu a[href="#' + $(article).attr('id') + '"]'));
         }
       });
-      menuSlideTo($('#menu a[href="#' + mostInViewPortId + '"]'));
     }, 100);
   });
 
@@ -96,9 +77,6 @@ $(function() {
 
   // This is the animation function.
   function menuSlideTo(object) {
-    if ($('#menu a:hover').length) {
-      object = $('#menu a:hover');
-    }
     if (!$(object).hasClass('slider-active')) {
       var left = $(object).position().left;
       var top = $(object).position().top;
