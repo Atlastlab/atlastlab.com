@@ -3291,12 +3291,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   }
 }
 
-/* line 14, ../sass/_layout.scss */
+/* line 15, ../sass/_layout.scss */
 body {
   background: url(../img/debut_light.png);
+  font-family: 'bariol_regularregular';
 }
 
-/* line 18, ../sass/_layout.scss */
+/* line 20, ../sass/_layout.scss */
 header#menu-zone {
   position: fixed;
   width: 100%;
@@ -3308,7 +3309,7 @@ header#menu-zone {
   box-shadow: 0 0 10px #505757;
 }
 
-/* line 27, ../sass/_layout.scss */
+/* line 29, ../sass/_layout.scss */
 #menu-wrapper {
   *zoom: 1;
   max-width: 59em;
@@ -3326,12 +3327,12 @@ header#menu-zone {
   clear: both;
 }
 
-/* line 32, ../sass/_layout.scss */
+/* line 34, ../sass/_layout.scss */
 #content-wrapper {
   background: url(../img/bg.png) no-repeat center -150px;
 }
 
-/* line 36, ../sass/_layout.scss */
+/* line 38, ../sass/_layout.scss */
 #content {
   *zoom: 1;
   max-width: 59em;
@@ -3348,15 +3349,21 @@ header#menu-zone {
   display: table;
   clear: both;
 }
-/* line 40, ../sass/_layout.scss */
+/* line 42, ../sass/_layout.scss */
 #content article {
   padding-top: 10px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   position: relative;
   display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+  overflow: visible;
 }
 
-/* line 48, ../sass/_layout.scss */
+/* line 55, ../sass/_layout.scss */
 #logo {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -3367,23 +3374,23 @@ header#menu-zone {
 }
 
 @media all and (min-width: 990px) and (max-width: 1100px) {
-  /* line 55, ../sass/_layout.scss */
+  /* line 62, ../sass/_layout.scss */
   #logo {
     margin-left: 0px;
   }
 }
 @media all and (max-width: 989px) {
-  /* line 61, ../sass/_layout.scss */
+  /* line 68, ../sass/_layout.scss */
   #logo {
     margin-left: 14px;
   }
 
-  /* line 64, ../sass/_layout.scss */
+  /* line 71, ../sass/_layout.scss */
   #menu {
     margin-right: 14px;
   }
 }
-/* line 69, ../sass/_layout.scss */
+/* line 76, ../sass/_layout.scss */
 #menu {
   position: relative;
   float: right;
@@ -3391,7 +3398,7 @@ header#menu-zone {
   font-family: 'QuestrialRegular';
   font-weight: normal;
 }
-/* line 76, ../sass/_layout.scss */
+/* line 83, ../sass/_layout.scss */
 #menu a:link, #menu a:visited {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -3415,12 +3422,12 @@ header#menu-zone {
   z-index: 2;
   position: relative;
 }
-/* line 88, ../sass/_layout.scss */
+/* line 95, ../sass/_layout.scss */
 #menu a.slider-active {
   color: white;
   font-style: italic;
 }
-/* line 93, ../sass/_layout.scss */
+/* line 100, ../sass/_layout.scss */
 #menu #menu-slider {
   background: #5fbc07;
   position: absolute;
@@ -3436,87 +3443,97 @@ header#menu-zone {
   width: 0;
   z-index: 1;
 }
-/* line 105, ../sass/_layout.scss */
+/* line 112, ../sass/_layout.scss */
 #menu span.menu-pipe {
   margin: 0 10px;
   font-weight: bold;
   cursor: default;
-  color: #eeeeec;
+  color: lightgrey;
   z-index: 0;
   position: relative;
 }
 
 @media all and (max-width: 862px) {
-  /* line 116, ../sass/_layout.scss */
+  /* line 123, ../sass/_layout.scss */
   #logo {
     clear: both;
     float: left;
     margin-left: 4px;
   }
 
-  /* line 121, ../sass/_layout.scss */
+  /* line 128, ../sass/_layout.scss */
   #menu-wrapper {
     padding: 10px 20px 16px 10px;
   }
 
-  /* line 124, ../sass/_layout.scss */
+  /* line 131, ../sass/_layout.scss */
   #menu {
     float: left;
     clear: both;
   }
-  /* line 127, ../sass/_layout.scss */
+  /* line 134, ../sass/_layout.scss */
   #menu span.menu-pipe {
     display: none;
   }
-  /* line 130, ../sass/_layout.scss */
+  /* line 137, ../sass/_layout.scss */
   #menu a:link, #menu a:visited {
     margin: 0 5px;
   }
-  /* line 133, ../sass/_layout.scss */
+  /* line 140, ../sass/_layout.scss */
   #menu #menu-slider {
     margin-left: 5px;
     max-width: 100%;
   }
 }
 @media all and (max-width: 600px) {
-  /* line 141, ../sass/_layout.scss */
+  /* line 148, ../sass/_layout.scss */
   #menu {
     width: 100%;
   }
-  /* line 143, ../sass/_layout.scss */
+  /* line 150, ../sass/_layout.scss */
   #menu a:link, #menu a:visited {
     float: left;
     clear: both;
     width: 100%;
   }
 }
-/* line 151, ../sass/_layout.scss */
+/* line 158, ../sass/_layout.scss */
 h2 {
   font-size: 4em;
   text-shadow: 0 -2px 5px #051d05;
   font-family: 'bariol_regularregular';
 }
 
-/* line 157, ../sass/_layout.scss */
+/* line 164, ../sass/_layout.scss */
 h3 {
-  font-size: 2em;
-  line-height: 3em;
+  border-bottom: 1px dashed lightgrey;
   font-family: 'bariol_regularregular';
+  font-size: 2em;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+  padding-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: #4e9a06;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.6) 10px, rgba(255, 255, 255, 0.6) 20px);
 }
 
-/* line 163, ../sass/_layout.scss */
+/* line 176, ../sass/_layout.scss */
 h4 {
   font-size: 1.5em;
   line-height: 2em;
   font-family: 'bariol_regularregular';
 }
 
-/* line 169, ../sass/_layout.scss */
+/* line 182, ../sass/_layout.scss */
 em {
   font-family: 'bariolregular_italic';
 }
 
-/* line 173, ../sass/_layout.scss */
+/* line 186, ../sass/_layout.scss */
 article#introduction {
   -webkit-animation: fadeInUp 1s 0.2s ease both;
   -moz-animation: fadeInUp 1s 0.2s ease both;
@@ -3525,30 +3542,31 @@ article#introduction {
   animation: fadeInUp 1s 0.2s ease both;
 }
 
-/* line 177, ../sass/_layout.scss */
+/* line 190, ../sass/_layout.scss */
 span.streamer {
   padding: 100px 0 180px;
   display: block;
   color: white;
 }
-/* line 182, ../sass/_layout.scss */
+/* line 195, ../sass/_layout.scss */
 span.streamer h4 {
   margin-top: 30px;
   text-shadow: 0 3px 3px #004500;
 }
 
-/* line 188, ../sass/_layout.scss */
-#mobile-with-leaflet {
-  background: url("../img/phone.png") no-repeat scroll 0 0 transparent;
+/* line 202, ../sass/_layout.scss */
+#mobile-with-leaflet,
+.Linux #mobile-with-leaflet {
+  background: url("../img/phone-android.png") no-repeat scroll 0 0 transparent;
   height: 599px;
   position: absolute;
-  right: -37px;
+  right: -52px;
   top: 0;
   width: 345px;
 }
-
-/* line 197, ../sass/_layout.scss */
-#map {
+/* line 209, ../sass/_layout.scss */
+#mobile-with-leaflet #map,
+.Linux #mobile-with-leaflet #map {
   display: block;
   height: 344px;
   left: 64px;
@@ -3556,9 +3574,78 @@ span.streamer h4 {
   width: 218px;
 }
 
-/* line 205, ../sass/_layout.scss */
-#wufoo-z7x3p3 {
-  margin-left: -10px;
+/* line 218, ../sass/_layout.scss */
+.Mac #mobile-with-leaflet {
+  background: url("../img/phone-iphone.png") no-repeat scroll 0 0 transparent;
+  height: 599px;
+  position: absolute;
+  right: -44px;
+  top: 40px;
+  width: 365px;
+}
+/* line 225, ../sass/_layout.scss */
+.Mac #mobile-with-leaflet #map {
+  display: block;
+  height: 354px;
+  left: 98px;
+  top: 80px;
+  width: 207px;
+}
+
+/* line 234, ../sass/_layout.scss */
+.Windows #mobile-with-leaflet {
+  background: url("../img/phone-windows.png") no-repeat scroll 0 0 transparent;
+  height: 553px;
+  position: absolute;
+  right: -63px;
+  top: 40px;
+  width: 387px;
+}
+/* line 241, ../sass/_layout.scss */
+.Windows #mobile-with-leaflet #map {
+  display: block;
+  height: 346px;
+  left: 94px;
+  top: 100px;
+  width: 209px;
+}
+
+/* line 250, ../sass/_layout.scss */
+article#team .team-member {
+  width: 31.03448%;
+  float: left;
+  margin-right: 3.44828%;
+  display: inline;
+}
+/* line 252, ../sass/_layout.scss */
+article#team .team-member:nth-child(4n) {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+/* line 254, ../sass/_layout.scss */
+article#team .team-member img {
+  max-width: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  width: 28.57143%;
+  float: left;
+  margin-right: 7.14286%;
+  display: inline;
+}
+/* line 260, ../sass/_layout.scss */
+article#team .team-member p {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px dashed #5fbc07;
+  width: 100%;
+  float: left;
+  margin-right: 11.11111%;
+  display: inline;
 }
 
 @font-face {

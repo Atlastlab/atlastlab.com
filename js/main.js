@@ -13,6 +13,11 @@ $(function() {
 
   // Init.
   menuSlideTo($('#menu a.active'));
+  BrowserDetect.init();
+
+  $('body').addClass(BrowserDetect.OS);
+
+
   $('#content-wrapper').css('padding-top', $('#menu-zone').height());
   $('body').localScroll({
     offset: {top: -$('#menu-zone').height(), left: 0},

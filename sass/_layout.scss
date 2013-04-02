@@ -6,13 +6,15 @@ $grid-padding   : $gutter-width;  // grid-padding equal to gutters
 $green_dark: #4e9a06;
 $green_light: #5fbc07;
 $green_shadow: #004500;
+$green_lightest: #f7fdf1;
 
 $gray_light: #888a85;
-$gray_lighter: #eeeeec;
+$gray_lighter: #D3D3D3;
 
 
 body {
   background: url(../img/debut_light.png);
+  font-family: 'bariol_regularregular';
 }
 
 header#menu-zone {
@@ -39,9 +41,14 @@ header#menu-zone {
 
   article {
     padding-top: 10px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     position: relative;
     display: block;
+    float: left;
+    clear: both;
+    width: 100%;
+    @include clearfix();
+    overflow: visible;
   }
 }
 
@@ -155,9 +162,15 @@ h2 {
 }
 
 h3 {
-  font-size: 2em;
-  line-height: 3em;
+  border-bottom: 1px dashed $gray_lighter;
   font-family: 'bariol_regularregular';
+  font-size: 2em;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+  padding-left: 10px;
+  @include border-radius(4px);
+  color: $green_dark;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.6) 10px, rgba(255, 255, 255, 0.6) 20px);
 }
 
 h4 {
@@ -185,23 +198,69 @@ span.streamer {
   }
 }
 
-#mobile-with-leaflet {
-  background: url("../img/phone.png") no-repeat scroll 0 0 transparent;
+#mobile-with-leaflet,
+.Linux #mobile-with-leaflet {
+  background: url("../img/phone-android.png") no-repeat scroll 0 0 transparent;
   height: 599px;
   position: absolute;
-  right: -37px;
+  right: -52px;
   top: 0;
   width: 345px;
+  #map {
+    display: block;
+    height: 344px;
+    left: 64px;
+    top: 120px;
+    width: 218px;
+  }
 }
 
-#map {
-  display: block;
-  height: 344px;
-  left: 64px;
-  top: 120px;
-  width: 218px;
+.Mac #mobile-with-leaflet {
+  background: url("../img/phone-iphone.png") no-repeat scroll 0 0 transparent;
+  height: 599px;
+  position: absolute;
+  right: -44px;
+  top: 40px;
+  width: 365px;
+  #map {
+    display: block;
+    height: 354px;
+    left: 98px;
+    top: 80px;
+    width: 207px;
+  }
 }
 
-#wufoo-z7x3p3 {
-  margin-left: -10px;
+.Windows #mobile-with-leaflet {
+  background: url("../img/phone-windows.png") no-repeat scroll 0 0 transparent;
+  height: 553px;
+  position: absolute;
+  right: -63px;
+  top: 40px;
+  width: 387px;
+  #map {
+    display: block;
+    height: 346px;
+    left: 94px;
+    top: 100px;
+    width: 209px;
+  }
+}
+
+article#team .team-member {
+  @include span-columns(2, 6);
+  &:nth-child(4n) { @include omega; }
+
+  img {
+    max-width: 100%;
+    @include border-radius(100%);
+    @include span-columns(1, 3);
+  }
+
+  p {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dashed $green_light;
+    @include span-columns(2, 2);
+  }
 }
