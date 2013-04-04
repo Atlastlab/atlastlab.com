@@ -5576,14 +5576,22 @@ article#team .team-member em {
   text-indent: -99999px;
   width: 90px;
 }
+/* line 510, ../sass/_layout.scss */
+.en .language-toggle a:hover {
+  background: url("../img/toggle-on.png") no-repeat scroll 0 0 transparent;
+}
 
-/* line 511, ../sass/_layout.scss */
+/* line 515, ../sass/_layout.scss */
 .nl .language-toggle a {
   background: url("../img/toggle-on.png") no-repeat scroll 0 0 transparent;
   display: block;
   height: 32px;
   text-indent: -99999px;
   width: 90px;
+}
+/* line 521, ../sass/_layout.scss */
+.nl .language-toggle a:hover {
+  background: url("../img/toggle-off.png") no-repeat scroll 0 0 transparent;
 }
 
 @font-face {

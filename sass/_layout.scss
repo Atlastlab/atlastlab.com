@@ -506,6 +506,10 @@ article#team .team-member {
   height: 32px;
   text-indent: -99999px;
   width: 90px;
+
+  &:hover {
+    background: url("../img/toggle-on.png") no-repeat scroll 0 0 transparent;
+  }
 }
 
 .nl .language-toggle a {
@@ -514,4 +518,7 @@ article#team .team-member {
   height: 32px;
   text-indent: -99999px;
   width: 90px;
+  &:hover {
+    background: url("../img/toggle-off.png") no-repeat scroll 0 0 transparent;
+  }
 }
