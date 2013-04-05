@@ -98,7 +98,7 @@ header#menu-zone {
 
   a.slider-active {
     color: white;
-    font-style: italic;
+    // font-style: italic;
     @include text-shadow(0 2px 2px $green_shadow);
   }
 
@@ -373,7 +373,9 @@ article#team .team-member {
   border-top: 2px solid $green_light;
   text-decoration: none;
   margin-top: 18px;
-  @include box-shadow(0 3px 12px -6px $green_shadow inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5));
+  // @include box-shadow(0 3px 12px -6px $green_shadow inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5));
+  @include box-shadow(0 3px 12px -6px $green_shadow inset, 0px 6px 11px -8px rgba(0, 0, 0, 0.5));
+
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
 
   &.icon-right i {
@@ -390,7 +392,7 @@ article#team .team-member {
   &:hover {
     border-bottom: 2px solid $green_dark;
     border-top: 2px solid $green_dark;
-    @include box-shadow(0 3px 15px -3px $green_shadow inset, 0px 6px 11px -6px rgba(0, 0, 0, 0.5));
+    @include box-shadow(0 3px 15px -3px $green_shadow inset, 0px 6px 11px -5px rgba(0, 0, 0, 0.5));
 
     i {
       color: $yellow;

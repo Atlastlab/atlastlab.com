@@ -5028,7 +5028,6 @@ header#menu-zone {
 /* line 99, ../sass/_layout.scss */
 #menu a.slider-active {
   color: white;
-  font-style: italic;
   text-shadow: 0 2px 2px #004500;
 }
 /* line 105, ../sass/_layout.scss */
@@ -5394,12 +5393,12 @@ article#team .team-member em {
   border-top: 2px solid #5fbc07;
   text-decoration: none;
   margin-top: 18px;
-  -webkit-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
 }
-/* line 379, ../sass/_layout.scss */
+/* line 381, ../sass/_layout.scss */
 .button.icon-right i, .button:link.icon-right i, .button:visited.icon-right i {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -5413,20 +5412,20 @@ article#team .team-member em {
   position: relative;
   top: 1px;
 }
-/* line 390, ../sass/_layout.scss */
+/* line 392, ../sass/_layout.scss */
 .button:hover, .button:link:hover, .button:visited:hover {
   border-bottom: 2px solid #4e9a06;
   border-top: 2px solid #4e9a06;
-  -webkit-box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -6px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -6px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -5px rgba(0, 0, 0, 0.5);
 }
-/* line 395, ../sass/_layout.scss */
+/* line 397, ../sass/_layout.scss */
 .button:hover i, .button:link:hover i, .button:visited:hover i {
   color: #fae014;
 }
 
-/* line 401, ../sass/_layout.scss */
+/* line 403, ../sass/_layout.scss */
 .button-suffix {
   color: white;
   font-size: 1.3em;
@@ -5435,7 +5434,7 @@ article#team .team-member em {
   top: 10px;
   font-weight: lighter !important;
 }
-/* line 409, ../sass/_layout.scss */
+/* line 411, ../sass/_layout.scss */
 .button-suffix a:link, .button-suffix a:visited {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -5446,19 +5445,19 @@ article#team .team-member em {
   text-decoration: none;
   border-bottom: 1px dotted white;
 }
-/* line 417, ../sass/_layout.scss */
+/* line 419, ../sass/_layout.scss */
 .button-suffix a:hover {
   color: #fae014;
 }
 
-/* line 423, ../sass/_layout.scss */
+/* line 425, ../sass/_layout.scss */
 #details p {
   width: 64.28571%;
   float: left;
   margin-right: 7.14286%;
   display: inline;
 }
-/* line 427, ../sass/_layout.scss */
+/* line 429, ../sass/_layout.scss */
 #details img {
   width: 28.57143%;
   float: left;
@@ -5470,17 +5469,17 @@ article#team .team-member em {
   display: inline;
 }
 
-/* line 433, ../sass/_layout.scss */
+/* line 435, ../sass/_layout.scss */
 #extentions div.row {
   float: left;
   clear: both;
   margin-bottom: 6em;
 }
-/* line 437, ../sass/_layout.scss */
+/* line 439, ../sass/_layout.scss */
 #extentions div.row:last-child {
   margin-bottom: 0;
 }
-/* line 440, ../sass/_layout.scss */
+/* line 442, ../sass/_layout.scss */
 #extentions div.row div.block {
   position: relative;
   width: 44.44444%;
@@ -5488,14 +5487,14 @@ article#team .team-member em {
   margin-right: 11.11111%;
   display: inline;
 }
-/* line 443, ../sass/_layout.scss */
+/* line 445, ../sass/_layout.scss */
 #extentions div.row div.block:nth-child(2n) {
   float: right;
   margin-right: 0;
   *margin-left: -1em;
   display: inline;
 }
-/* line 445, ../sass/_layout.scss */
+/* line 447, ../sass/_layout.scss */
 #extentions div.row div.block i {
   width: 10.25641%;
   float: left;
@@ -5512,7 +5511,7 @@ article#team .team-member em {
   color: #f7fdf1;
   text-shadow: 0 2px 3px #004500;
 }
-/* line 459, ../sass/_layout.scss */
+/* line 461, ../sass/_layout.scss */
 #extentions div.row div.block h4 {
   margin-bottom: 10px;
   border-bottom: 1px dashed lightgrey;
@@ -5521,7 +5520,7 @@ article#team .team-member em {
   font-family: 'bariol_regularregular';
   color: #5fbc07;
 }
-/* line 466, ../sass/_layout.scss */
+/* line 468, ../sass/_layout.scss */
 #extentions div.row div.block h4:after {
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.9) 10px, rgba(255, 255, 255, 0.9) 20px);
   content: ".";
@@ -5534,7 +5533,7 @@ article#team .team-member em {
   width: 100%;
   z-index: -1;
 }
-/* line 481, ../sass/_layout.scss */
+/* line 483, ../sass/_layout.scss */
 #extentions div.row div.block img {
   width: 100%;
   float: left;
@@ -5545,7 +5544,7 @@ article#team .team-member em {
   *margin-left: -1em;
   display: inline;
 }
-/* line 486, ../sass/_layout.scss */
+/* line 488, ../sass/_layout.scss */
 #extentions div.row div.block p, #extentions div.row div.block h4 {
   width: 87.17949%;
   float: left;
@@ -5556,19 +5555,19 @@ article#team .team-member em {
   *margin-left: -1em;
   display: inline;
 }
-/* line 491, ../sass/_layout.scss */
+/* line 493, ../sass/_layout.scss */
 #extentions div.row div.block p {
   color: #2e3436;
 }
 
-/* line 497, ../sass/_layout.scss */
+/* line 499, ../sass/_layout.scss */
 .language-toggle {
   float: right;
   margin-left: 14px;
   margin-top: 19px;
 }
 
-/* line 503, ../sass/_layout.scss */
+/* line 505, ../sass/_layout.scss */
 .en .language-toggle a {
   background: url("../img/toggle-off.png") no-repeat scroll 0 0 transparent;
   display: block;
@@ -5576,12 +5575,12 @@ article#team .team-member em {
   text-indent: -99999px;
   width: 90px;
 }
-/* line 510, ../sass/_layout.scss */
+/* line 512, ../sass/_layout.scss */
 .en .language-toggle a:hover {
   background: url("../img/toggle-on.png") no-repeat scroll 0 0 transparent;
 }
 
-/* line 515, ../sass/_layout.scss */
+/* line 517, ../sass/_layout.scss */
 .nl .language-toggle a {
   background: url("../img/toggle-on.png") no-repeat scroll 0 0 transparent;
   display: block;
@@ -5589,7 +5588,7 @@ article#team .team-member em {
   text-indent: -99999px;
   width: 90px;
 }
-/* line 521, ../sass/_layout.scss */
+/* line 523, ../sass/_layout.scss */
 .nl .language-toggle a:hover {
   background: url("../img/toggle-off.png") no-repeat scroll 0 0 transparent;
 }
