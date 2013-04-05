@@ -499,28 +499,21 @@ article#team .team-member {
 .language-toggle {
   float: right;
   margin-left: 14px;
-  margin-top: 19px;
+  margin-top: 29px;
 }
 
 .en .language-toggle a {
-  background: url("../img/toggle-off.png") no-repeat scroll 0 0 transparent;
+  background: url("../img/nl.png") no-repeat scroll 0 0 transparent;
   display: block;
-  height: 32px;
+  height: 11px;
   text-indent: -99999px;
-  width: 90px;
-
-  &:hover {
-    background: url("../img/toggle-on.png") no-repeat scroll 0 0 transparent;
-  }
+  width: 16px;
 }
 
 .nl .language-toggle a {
-  background: url("../img/toggle-on.png") no-repeat scroll 0 0 transparent;
+  background: url("../img/us.png") no-repeat scroll 0 0 transparent;
   display: block;
-  height: 32px;
+  height: 11px;
   text-indent: -99999px;
-  width: 90px;
-  &:hover {
-    background: url("../img/toggle-off.png") no-repeat scroll 0 0 transparent;
-  }
+  width: 16px;
 }

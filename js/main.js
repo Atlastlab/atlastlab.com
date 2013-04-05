@@ -51,6 +51,7 @@ $(function() {
       var mostInViewPort = 0;
       var mostInViewPortId = 0;
 
+      clearTimeout(timeOut);
 
       $.each($('#content article'), function(index, article) {
         var windowHeight = $(window).height();
@@ -116,7 +117,7 @@ $(function() {
           'left': left,
           'top': top,
           'width': width
-      }, function() {
+      }, 300, function() {
         $(object).addClass('slider-active');
       });
     }
