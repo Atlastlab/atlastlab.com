@@ -449,6 +449,7 @@ article#team .team-member {
       font-size: 1.5em;
       font-weight: normal;
       background: $green_light;
+      background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
       padding: 10px 0;
       line-height: 1.7em;
       text-align: center;

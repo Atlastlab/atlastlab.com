@@ -5503,6 +5503,7 @@ article#team .team-member em {
   font-size: 1.5em;
   font-weight: normal;
   background: #5fbc07;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
   padding: 10px 0;
   line-height: 1.7em;
   text-align: center;
@@ -5511,7 +5512,7 @@ article#team .team-member em {
   color: #f7fdf1;
   text-shadow: 0 2px 3px #004500;
 }
-/* line 461, ../sass/_layout.scss */
+/* line 462, ../sass/_layout.scss */
 #extentions div.row div.block h4 {
   margin-bottom: 10px;
   border-bottom: 1px dashed lightgrey;
@@ -5520,7 +5521,7 @@ article#team .team-member em {
   font-family: 'bariol_regularregular';
   color: #5fbc07;
 }
-/* line 468, ../sass/_layout.scss */
+/* line 469, ../sass/_layout.scss */
 #extentions div.row div.block h4:after {
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.9) 10px, rgba(255, 255, 255, 0.9) 20px);
   content: ".";
@@ -5533,7 +5534,7 @@ article#team .team-member em {
   width: 100%;
   z-index: -1;
 }
-/* line 483, ../sass/_layout.scss */
+/* line 484, ../sass/_layout.scss */
 #extentions div.row div.block img {
   width: 100%;
   float: left;
@@ -5544,7 +5545,7 @@ article#team .team-member em {
   *margin-left: -1em;
   display: inline;
 }
-/* line 488, ../sass/_layout.scss */
+/* line 489, ../sass/_layout.scss */
 #extentions div.row div.block p, #extentions div.row div.block h4 {
   width: 87.17949%;
   float: left;
@@ -5555,19 +5556,19 @@ article#team .team-member em {
   *margin-left: -1em;
   display: inline;
 }
-/* line 493, ../sass/_layout.scss */
+/* line 494, ../sass/_layout.scss */
 #extentions div.row div.block p {
   color: #2e3436;
 }
 
-/* line 499, ../sass/_layout.scss */
+/* line 500, ../sass/_layout.scss */
 .language-toggle {
   float: right;
   margin-left: 14px;
   margin-top: 29px;
 }
 
-/* line 505, ../sass/_layout.scss */
+/* line 506, ../sass/_layout.scss */
 .en .language-toggle a {
   background: url("../img/nl.png") no-repeat scroll 0 0 transparent;
   display: block;
@@ -5576,7 +5577,7 @@ article#team .team-member em {
   width: 16px;
 }
 
-/* line 513, ../sass/_layout.scss */
+/* line 514, ../sass/_layout.scss */
 .nl .language-toggle a {
   background: url("../img/us.png") no-repeat scroll 0 0 transparent;
   display: block;
