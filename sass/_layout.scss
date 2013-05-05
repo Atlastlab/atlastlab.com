@@ -45,7 +45,7 @@ header#menu-zone {
 
   article {
     padding-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     position: relative;
     display: block;
     float: left;
@@ -54,6 +54,20 @@ header#menu-zone {
     @include clearfix();
     overflow: visible;
   }
+}
+
+ul {
+  list-style: square inside none;
+  color: $green_light;
+
+  span {
+    color: $blue_dark;
+  }
+}
+
+strong {
+  font-weight: bold !important;
+  color: $green_dark;
 }
 
 #logo {
@@ -304,9 +318,11 @@ article#team .team-member {
   }
 
   p {
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px dashed $green_light;
+    &.top {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px dashed $green_light;
+    }
     @include span-columns(2, 2);
   }
   em {
@@ -366,6 +382,7 @@ article#team .team-member {
   cursor: pointer;
   background: $green_light;
   @include inline-block;
+  line-height: 30px;
   color: white;
   @include text-shadow(0 2px 2px $green_shadow);
   font-family: 'QuestrialRegular';
@@ -421,18 +438,7 @@ article#team .team-member {
   }
 }
 
-#details {
-  p {
-    @include span-columns(2, 3);
-  }
-
-  img {
-    @include span-columns(1, 3);
-    @include omega;
-  }
-}
-
-#extentions div.row {
+#details div.row {
   float: left;
   clear: both;
   margin-bottom: 6em;
@@ -482,11 +488,12 @@ article#team .team-member {
     }
 
     img {
-      @include span-columns(8, 8);
-      @include omega;
+      position: relative;
+      left: 50%;
+      margin-left: -125px;
     }
 
-    p, h4 {
+    p, h4, ul {
       @include span-columns(7, 8);
       @include omega;
     }
