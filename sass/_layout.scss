@@ -4,21 +4,23 @@ $gutter-width   : 1em;            // 1em gutters between columns
 $grid-padding   : $gutter-width;  // grid-padding equal to gutters
 
 $green_dark: #4e9a06;
-$green_light: #5fbc07;
+$green_light: #73d216;
 $green_shadow: #004500;
 $green_lightest: #f7fdf1;
 
 $blue_dark: #2e3436;
 
-$yellow: #fae014;
+$yellow: #edd400;
 
+$gray_dark: #2e3436;
 $gray_light: #888a85;
-$gray_lighter: #D3D3D3;
+$gray_lighter: #d3d7cf;
 
 
 body {
   background: url(../img/debut_light.png);
   font-family: 'bariol_regularregular';
+  color: $gray_dark;
 }
 
 header#menu-zone {
@@ -471,7 +473,7 @@ article#team .team-member {
       font-size: 1.7em;
       line-height: 1.4em;
       font-family: 'bariol_regularregular';
-      color: $green_light;
+      color: $green_dark;
       &:after {
         background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.9) 10px, rgba(255, 255, 255, 0.9) 20px);
         // background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, adjust-lightness($yellow, 32) 10px, adjust-lightness($yellow, 32) 20px);
@@ -490,7 +492,7 @@ article#team .team-member {
     img {
       position: relative;
       left: 50%;
-      margin-left: -125px;
+      margin-left: -105px;
     }
 
     p, h4, ul {
@@ -499,7 +501,7 @@ article#team .team-member {
     }
 
     p {
-      color: $blue_dark;
+      // color: $blue_dark;
     }
   }
 }
