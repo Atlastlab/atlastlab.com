@@ -16,7 +16,7 @@ $(function() {
   BrowserDetect.init();
 
   $('body').addClass(BrowserDetect.OS);
-
+  $('body').addClass(BrowserDetect.browser);
 
   $('#content-wrapper').css('padding-top', $('#menu-zone').height());
   $('body').localScroll({

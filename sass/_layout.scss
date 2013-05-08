@@ -16,6 +16,7 @@ $gray_dark: #2e3436;
 $gray_light: #888a85;
 $gray_lighter: #d3d7cf;
 
+$radius: 3px;
 
 body {
   background: url(../img/debut_light.png);
@@ -30,6 +31,10 @@ header#menu-zone {
   background: url(../img/debut_light.png);
   z-index: 1;
   @include box-shadow(0 0 10px #505757);
+}
+
+i {
+  font-weight: 100 !important;
 }
 
 #menu-wrapper {
@@ -47,7 +52,7 @@ header#menu-zone {
 
   article {
     padding-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     position: relative;
     display: block;
     float: left;
@@ -107,7 +112,7 @@ strong {
     font-size: 1.25em;
     text-decoration: none;
     padding: 7px 10px 5px;
-    @include border-radius(3px);
+    @include border-radius($radius);
     z-index: 2;
     position: relative;
   }
@@ -125,14 +130,12 @@ strong {
     top: 0px;
     margin-top: -2px;
     padding: 7px 0px 5px;
-    @include border-radius(3px);
     height: 20px;
     width: 0;
     z-index: 1;
-
     @include transition(all 0.4s);
     font-size: 1.5em;
-    @include border-radius(6px);
+    @include border-radius($radius);
     border: 0px;
     cursor: pointer;
     background: $green_light;
@@ -197,16 +200,18 @@ h2 {
   font-size: 4em;
   @include text-shadow(0 -2px 5px #051D05);
   font-family: 'bariol_regularregular';
+  font-weight: 400;
 }
 
 h3 {
+  font-weight: 400;
   border-bottom: 1px dashed $gray_lighter;
   font-family: 'bariol_regularregular';
   font-size: 2.5em;
   line-height: 1.4em;
   margin-bottom: 1em;
   margin-top: 0.3em;
-  @include border-radius(4px);
+  @include border-radius($radius);
   color: $green_dark;
   &:after {
     background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.6) 10px, rgba(255, 255, 255, 0.6) 20px);
@@ -224,11 +229,13 @@ h3 {
 
 h4 {
   font-size: 1.3em;
+  font-weight: 400;
   line-height: 2em;
   font-family: 'bariol_regularregular';
 }
 
 em {
+  font-weight: 100;
   font-family: 'bariolregular_italic';
 }
 
@@ -333,6 +340,7 @@ article#team .team-member {
 }
 
 #contact {
+  padding-bottom: 100px;
   form {
     @include span-columns(1, 2);
     label {
@@ -349,7 +357,7 @@ article#team .team-member {
       outline: none !important;
       @include transition(all 0.4s);
       padding: 10px 2%;
-      @include border-radius(4px);
+      @include border-radius($radius);
       width: 98%;
       border: 1px solid $gray_light;
       @include box-shadow(0 3px 7px -4px $gray_light inset);
@@ -379,15 +387,16 @@ article#team .team-member {
   @include transition(all 0.4s);
   padding: 10px 30px 6px 30px;
   font-size: 1.5em;
-  @include border-radius(6px);
+  @include border-radius($radius);
   border: 0px;
   cursor: pointer;
   background: $green_light;
   @include inline-block;
   line-height: 30px;
   color: white;
-  @include text-shadow(0 2px 2px $green_shadow);
+  @include text-shadow(0 2px 3px $green_shadow);
   font-family: 'QuestrialRegular';
+  font-weight: 700;
   border-bottom: 2px solid $green_light;
   border-top: 2px solid $green_light;
   text-decoration: none;
@@ -401,12 +410,12 @@ article#team .team-member {
     @include transition(all 0.4s);
     background: none repeat scroll 0 0 $green_dark;
     @include border-radius(100%);
-    height: 29px;
-    line-height: 20px;
+    height: 18px;
+    line-height: 8px;
     margin-bottom: -32px;
     margin-left: 13px;
     margin-top: -38px;
-    padding: 7px 8px 0;
+    padding: 7px 8px 0 9px;
     position: relative;
     top: 1px;
   }
@@ -419,6 +428,12 @@ article#team .team-member {
     i {
       color: $yellow;
     }
+  }
+}
+
+.Firefox {
+  .button, .button:link, .button:visited {
+    font-weight: 400;
   }
 }
 
@@ -456,12 +471,26 @@ article#team .team-member {
   }
 }
 
+
+.button i.icon-coffee {
+  font-size: 17px;
+  padding: 9px 5px 0px 7px !important;
+  top: -1px !important;
+}
+
+.button i.icon-search {
+  font-size: 17px;
+  padding: 9px 5px 0px 7px !important;
+  top: -1px !important;
+}
+
 #details {
   .cta-wrapper {
     @include push(1);
     @include span-columns(1 omega, 2);
 
     .button-wrapper {
+      margin-top: -74px;
       @include span-columns(7, 8);
       @include omega;
     }
@@ -483,6 +512,7 @@ article#team .team-member {
     i {
       @include span-columns(1, 8);
       font-size: 1.5em;
+      @include border-radius($radius);
       font-weight: normal;
       background: $green_light;
       background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
@@ -557,7 +587,8 @@ article#team .team-member {
 }
 
 #intro-more {
-  margin-top: 100px;
+  float: left;
+  padding-top: 100px;
 
   .image-wrapper {
     @include span-columns(1, 2);
@@ -567,6 +598,9 @@ article#team .team-member {
     position: relative;
     h3 {
       font-size: 2.2em;
+      &:after {
+        top: 43px;
+      }
     }
     @include span-columns(1 omega, 2);
   }
