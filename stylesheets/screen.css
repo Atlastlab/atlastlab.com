@@ -5303,7 +5303,6 @@ article#team .team-member:nth-child(4n) {
 }
 /* line 323, ../sass/_layout.scss */
 article#team .team-member img {
-  max-width: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
@@ -5311,6 +5310,7 @@ article#team .team-member img {
   float: left;
   margin-right: 7.14286%;
   display: inline;
+  width: 100px !important;
 }
 /* line 329, ../sass/_layout.scss */
 article#team .team-member p {
