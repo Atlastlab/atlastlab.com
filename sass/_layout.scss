@@ -484,7 +484,7 @@ article#team .team-member {
   top: -1px !important;
 }
 
-#details {
+#overview {
   .cta-wrapper {
     @include push(1);
     @include span-columns(1 omega, 2);
@@ -497,7 +497,7 @@ article#team .team-member {
   }
 }
 
-#details div.row {
+#overview div.row {
   float: left;
   clear: both;
   margin-bottom: 6em;
@@ -528,7 +528,7 @@ article#team .team-member {
     h4 {
       margin-bottom: 10px;
       border-bottom: 1px dashed $gray_lighter;
-      font-size: 1.7em;
+      font-size: 1.6em;
       line-height: 1.4em;
       font-family: 'bariol_regularregular';
       color: $green_dark;
@@ -579,7 +579,7 @@ article#team .team-member {
 }
 
 .nl .language-toggle a {
-  background: url("../img/us.png") no-repeat scroll 0 0 transparent;
+  background: url("../img/gb.png") no-repeat scroll 0 0 transparent;
   display: block;
   height: 11px;
   text-indent: -99999px;
