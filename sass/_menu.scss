@@ -78,7 +78,7 @@ header#menu-zone {
   }
 }
 
-.en .language-toggle a {
+.en .language-toggle span {
   background: url("../img/nl.png") no-repeat scroll 0 0 transparent;
   @include inline-block;
   height: 11px;
@@ -87,7 +87,7 @@ header#menu-zone {
   margin: 3px 0;
 }
 
-.nl .language-toggle a {
+.nl .language-toggle span {
   background: url("../img/gb.png") no-repeat scroll 0 0 transparent;
   @include inline-block;
   height: 11px;
@@ -99,13 +99,12 @@ header#menu-zone {
 #menu {
   position: relative;
   float: right;
-  margin-top: 19px;
   font-family: 'QuestrialRegular';
   font-weight: normal;
   display: block;
   width: 100%;
-  height: 128px;
-  @include transition(all .4s);
+  height: 132px;
+  @include transition(height .4s);
   overflow: hidden;
 
   a:link, a:visited {
@@ -121,12 +120,7 @@ header#menu-zone {
     float: left;
     clear: both;
     width: 100%;
-  }
-
-  a.slider-active {
-    color: white;
-    // font-style: italic;
-    @include text-shadow(0 2px 2px $green_shadow);
+    -webkit-font-smoothing:antialiased;
   }
 
   #menu-slider {
@@ -166,12 +160,6 @@ header#menu-zone {
     display: none;
   }
 
-  &.hidden-mobile {
-    height: 0px;
-    overflow: hidden;
-    margin: 0;
-  }
-
   @include at-breakpoint(6 720px) {
     #menu-slider {
       display: none;
@@ -190,7 +178,22 @@ header#menu-zone {
     }
   }
 
+  @include at-breakpoint(12 960px) {
+    &.menu-hidden-mobile {
+      height: 0px;
+      overflow: hidden;
+    }
+  }
+
   @include at-breakpoint(960px 12) {
+    a.slider-active {
+      color: white;
+      // font-style: italic;
+      @include text-shadow(0 2px 2px $green_shadow);
+    }
+
+    height: 37px;
+    overflow: visible;
     float: right;
     width: auto !important;
     margin-top: 25px !important;
@@ -211,6 +214,17 @@ header#menu-zone {
       display: block;
       float: left;
       margin-top: 8px;
+    }
+  }
+}
+
+.Chrome,
+.Safari {
+  #menu {
+    a.slider-active {
+      color: white;
+      // font-style: italic;
+      @include text-shadow(0 2px 4px $green_shadow);
     }
   }
 }

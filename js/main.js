@@ -24,15 +24,7 @@ $(function() {
   });
 
   $('.mobile-menu-switcher').click(function() {
-    $('#menu').toggleClass('hidden-mobile');
-    return false;
-  });
-
-  $('#menu a').click(function() {
-    if ($('.mobile-menu-switcher:visible').length) {
-      $('#menu').toggleClass('hidden-mobile');
-    }
-
+    $('#menu').toggleClass('menu-hidden-mobile');
     return false;
   });
 
@@ -104,6 +96,12 @@ $(function() {
     setTimeout(function() {
       clearTimeout(timeOut);
     }, 300);
+
+    setTimeout(function() {
+      if ($('.mobile-menu-switcher:visible').length) {
+        $('#menu').toggleClass('menu-hidden-mobile');
+      }
+    }, 700);
 
     menuSlideTo(this);
     var id = $(this).attr('href').substr(1);

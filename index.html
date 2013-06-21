@@ -33,10 +33,10 @@
     <div id="menu-wrapper">
         <a href="#introduction" id="logo"><img src="img/atlast-logo.png" /></a>
         <a class="mobile-menu-switcher button" href="#"><i class="icon-reorder"></i></a>
-        <div class="language-toggle button">
-            <a href="index-nl.html">Switch language</a>
-        </div>
-        <navigation class="hidden-mobile" id="menu">
+        <a href="index-nl.html" class="language-toggle button">
+            <span class="flag"></span>
+        </a>
+        <navigation class="menu-hidden-mobile" id="menu">
             <a href="#introduction" class="active slider-active">Introduction</a>
                 <span class="menu-pipe">|</span>
             <a href="#overview">Overview</a>
@@ -54,15 +54,15 @@
     <section id="content">
         <article id="introduction" class="active">
             <span class="streamer">
+                <div id="mobile-with-leaflet">
+                    <img id="map" src="img/prototype-en.png" />
+                    <div id="phone-shadow"></div>
+                </div>
                 <h2>We build mobile<br />interactive map apps</h2>
                 <h4><span>Your company will benefit from an interactive map. <em class="hidden-mobile">For a better customer flow, a more efficient use of organizing<br />and last but not least total visibilty with analytic data.</em></span></h4>
                 <a href="#overview" class="button mobile-full-width icon-right">Learn more<i class="icon-angle-right"></i></a>
                 <span class="button-suffix mobile-full-width"><em>or <a href="#contact">contact us</a></em></span>
             </span>
-
-            <div id="mobile-with-leaflet">
-                <img id="map" src="img/prototype-en.png" />
-            </div>
 
             <div class="clearfix">
             </div>
@@ -185,7 +185,6 @@
         <article id="contact">
             <h3>Contact</h3>
             <p><strong>We would really like it if you would come by and have a coffee with us. Our product is in an early stage so there is a lot possible. If it is not possible for you to come by we can mail, call or skype.</strong></p>
-            <p>We love to build great mapping apps. We are always willing to make an appointment and show some of our cases.</p>
 
             <form action="email.php" autocomplete="on">
                 <div class="form-item-wrapper">

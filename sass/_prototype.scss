@@ -5,57 +5,66 @@
 @include at-breakpoint(720px 12) {
   #mobile-with-leaflet {
     display: block;
+    float: right;
   }
 }
 
-#mobile-with-leaflet,
-.Linux #mobile-with-leaflet {
+#mobile-with-leaflet {
+  position: relative;
+  margin-left: 20px;
   background: url("../img/phone-android.png") no-repeat scroll 0 0 transparent;
-  height: 599px;
-  position: absolute;
-  right: -52px;
-  top: 0;
-  width: 345px;
+  height: 515px;
+  width: 252px;
   #map {
-    position: relative;
     display: block;
-    height: 344px;
-    left: 64px;
-    top: 120px;
-    width: 218px;
+    height: 354px;
+    left: 23px;
+    position: relative;
+    top: 62px;
+    width: 207px;
   }
 }
 
 .Mac #mobile-with-leaflet {
   background: url("../img/phone-iphone.png") no-repeat scroll 0 0 transparent;
-  height: 599px;
-  position: absolute;
-  right: -44px;
-  top: 40px;
-  width: 365px;
+  width: 245px;
   #map {
-    position: relative;
     display: block;
-    height: 354px;
-    left: 98px;
-    top: 80px;
-    width: 207px;
+    left: 21px;
+    position: relative;
+    top: 76px;
+  }
+
+  #phone-shadow {
+    bottom: 9px;
   }
 }
 
 .Windows.Explorer #mobile-with-leaflet {
   background: url("../img/phone-windows.png") no-repeat scroll 0 0 transparent;
-  height: 553px;
-  position: absolute;
-  right: -63px;
-  top: 40px;
-  width: 387px;
+
   #map {
-    position: relative;
     display: block;
-    height: 346px;
-    left: 94px;
-    top: 100px;
-    width: 209px;
+    left: 23px;
+    position: relative;
+    top: 98px;
   }
+
+  #phone-shadow {
+    bottom: 9px;
+  }
+}
+
+#phone-shadow {
+  background: none repeat scroll 0 0 black;
+  @include border-radius(100%);
+  bottom: 27px;
+  @include box-shadow(0 22px 40px 20px black);
+  display: block;
+  height: 5px;
+  left: 50%;
+  margin-left: -111px;
+  position: absolute;
+  width: 220px;
+  z-index: -1;
 }

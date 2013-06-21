@@ -4,6 +4,7 @@
   font-size: 1.5em;
   @include border-radius($radius);
   border: 0px;
+  -webkit-font-smoothing:antialiased;
   cursor: pointer;
   background: $green_light;
   @include inline-block;
@@ -53,6 +54,7 @@
   position: relative;
   top: 10px;
   font-weight: lighter !important;
+  margin-right: -20px !important;
 
   a:link, a:visited {
     @include transition(all 0.4s);
@@ -109,5 +111,5 @@
 }
 
 .button.mobile-full-width {
-  margin-right: 20px !important;
+  margin-right: 10px !important;
 }

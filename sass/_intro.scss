@@ -1,5 +1,6 @@
 article#introduction {
   // @include animate(fadeInUp, 1s);
+  margin-bottom: 80px;
 }
 
 span.streamer {
@@ -9,17 +10,31 @@ span.streamer {
 
   h2 {
     font-size: 31px;
+    -webkit-font-smoothing:antialiased;
   }
 
   h4 {
     margin: 20px 0;
     line-height: 20px;
-    @include text-shadow(0 3px 3px $green_shadow);
+    @include text-shadow(0 -3px 2px $green_shadow, 0 2px 5px rgba(0, 0, 0, 0.5));
     em {
       font-size: 17px;
       line-height: 21px;
       margin-top: 24px;
     }
+  }
+}
+
+.Chrome, .Safari {
+  span.streamer {
+    h4 {
+      @include text-shadow(0 -3px 8px $green_shadow, 0 2px 8px rgba(0, 0, 0, 0.5));
+    }
+  }
+
+  .button i.icon-angle-right {
+    padding: 4px 8px 3px 9px;
+    top: -2px;
   }
 }
 
@@ -31,15 +46,12 @@ span.streamer {
 
 @include at-breakpoint(720px 12) {
   .streamer {
-    @include span-columns(2, 3);
+    // @include span-columns(2, 3);
   }
   h2 {
     font-size: 3em !important;
   }
   h4 {
     line-height: 30px !important;
-  }
-  article#introduction  {
-    margin-bottom: 240px;
   }
 }
