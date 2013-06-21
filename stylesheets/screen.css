@@ -4896,516 +4896,13 @@ ul.icons li [class*=" icon-"] {
   content: "\f115";
 }
 
-/* line 21, ../sass/_layout.scss */
-body {
-  background: url(../img/debut_light.png);
-  font-family: 'bariol_regularregular';
-  color: #2e3436;
-}
-
-/* line 27, ../sass/_layout.scss */
-header#menu-zone {
-  position: fixed;
-  width: 100%;
-  border-bottom: 2px solid #4e9a06;
-  background: url(../img/debut_light.png);
-  z-index: 1;
-  -webkit-box-shadow: 0 0 10px #505757;
-  -moz-box-shadow: 0 0 10px #505757;
-  box-shadow: 0 0 10px #505757;
-}
-
-/* line 36, ../sass/_layout.scss */
-i {
-  font-weight: 100 !important;
-}
-
-/* line 40, ../sass/_layout.scss */
-#menu-wrapper {
-  *zoom: 1;
-  max-width: 59em;
-  _width: 59em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 0 16px;
-}
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-#menu-wrapper:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 45, ../sass/_layout.scss */
-#content-wrapper {
-  background: url(../img/bg.png) no-repeat center -150px;
-}
-
-/* line 49, ../sass/_layout.scss */
-#content {
-  position: relative;
-  *zoom: 1;
-  max-width: 59em;
-  _width: 59em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-#content:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 53, ../sass/_layout.scss */
-#content article {
-  padding-top: 10px;
-  margin-bottom: 90px;
-  position: relative;
-  display: block;
-  float: left;
-  clear: both;
-  width: 100%;
-  overflow: hidden;
-  *zoom: 1;
-  overflow: visible;
-}
-
-/* line 66, ../sass/_layout.scss */
-ul {
-  list-style: square inside none;
-  color: #73d216;
-}
-/* line 70, ../sass/_layout.scss */
-ul span {
-  color: #2e3436;
-}
-
-/* line 75, ../sass/_layout.scss */
-strong {
-  font-weight: bold !important;
-  color: #4e9a06;
-}
-
-/* line 80, ../sass/_layout.scss */
-#logo {
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-  margin-left: -49px;
-  margin-right: 20px;
-}
-
-@media all and (min-width: 990px) and (max-width: 1100px) {
-  /* line 87, ../sass/_layout.scss */
-  #logo {
-    margin-left: 0px;
-  }
-}
-@media all and (max-width: 989px) {
-  /* line 93, ../sass/_layout.scss */
-  #logo {
-    margin-left: 14px;
-  }
-
-  /* line 96, ../sass/_layout.scss */
-  #menu {
-    margin-right: 14px;
-  }
-}
-/* line 101, ../sass/_layout.scss */
-#menu {
-  position: relative;
-  float: right;
-  margin-top: 19px;
-  font-family: 'QuestrialRegular';
-  font-weight: normal;
-}
-/* line 108, ../sass/_layout.scss */
-#menu a:link, #menu a:visited {
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-  color: #888a85;
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-  font-size: 1.25em;
-  text-decoration: none;
-  padding: 7px 10px 5px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  z-index: 2;
-  position: relative;
-}
-/* line 120, ../sass/_layout.scss */
-#menu a.slider-active {
-  color: white;
-  text-shadow: 0 2px 2px #004500;
-}
-/* line 126, ../sass/_layout.scss */
-#menu #menu-slider {
-  background: #73d216;
-  position: absolute;
-  left: 0;
-  top: 0px;
-  margin-top: -2px;
-  padding: 7px 0px 5px;
-  height: 20px;
-  width: 0;
-  z-index: 1;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-  font-size: 1.5em;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  border: 0px;
-  cursor: pointer;
-  background: #73d216;
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-  color: white;
-  text-shadow: 0 2px 2px #004500;
-  font-family: 'QuestrialRegular';
-  border-bottom: 2px solid #73d216;
-  border-top: 2px solid #73d216;
-  text-decoration: none;
-  -webkit-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
-}
-/* line 153, ../sass/_layout.scss */
-#menu span.menu-pipe {
-  margin: 0 10px;
-  font-weight: bold;
-  cursor: default;
-  color: #d3d7cf;
-  z-index: 0;
-  position: relative;
-}
-
-@media all and (max-width: 862px) {
-  /* line 164, ../sass/_layout.scss */
-  #logo {
-    clear: both;
-    float: left;
-    margin-left: 4px;
-  }
-
-  /* line 169, ../sass/_layout.scss */
-  #menu-wrapper {
-    padding: 10px 20px 16px 10px;
-  }
-
-  /* line 172, ../sass/_layout.scss */
-  #menu {
-    float: left;
-    clear: both;
-  }
-  /* line 175, ../sass/_layout.scss */
-  #menu span.menu-pipe {
-    display: none;
-  }
-  /* line 178, ../sass/_layout.scss */
-  #menu a:link, #menu a:visited {
-    margin: 0 5px;
-  }
-  /* line 181, ../sass/_layout.scss */
-  #menu #menu-slider {
-    margin-left: 5px;
-    max-width: 100%;
-  }
-}
-@media all and (max-width: 600px) {
-  /* line 189, ../sass/_layout.scss */
-  #menu {
-    width: 100%;
-  }
-  /* line 191, ../sass/_layout.scss */
-  #menu a:link, #menu a:visited {
-    float: left;
-    clear: both;
-    width: 100%;
-  }
-}
-/* line 199, ../sass/_layout.scss */
-h2 {
-  font-size: 4em;
-  text-shadow: 0 -2px 5px #051d05;
-  font-family: 'bariol_regularregular';
-  font-weight: 400;
-}
-
-/* line 206, ../sass/_layout.scss */
-h3 {
-  font-weight: 400;
-  border-bottom: 1px dashed #d3d7cf;
-  font-family: 'bariol_regularregular';
-  font-size: 2.5em;
-  line-height: 1.4em;
-  margin-bottom: 1em;
-  margin-top: 0.3em;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  color: #4e9a06;
-}
-/* line 216, ../sass/_layout.scss */
-h3:after {
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.6) 10px, rgba(255, 255, 255, 0.6) 20px);
-  content: ".";
-  display: block;
-  height: 16px;
-  left: 0;
-  position: absolute;
-  text-indent: -99999px;
-  top: 62px;
-  width: 100%;
-  z-index: -1;
-}
-
-/* line 230, ../sass/_layout.scss */
-h4 {
-  font-size: 1.3em;
-  font-weight: 400;
-  line-height: 2em;
-  font-family: 'bariol_regularregular';
-}
-
-/* line 237, ../sass/_layout.scss */
-em {
-  font-weight: 100;
-  font-family: 'bariolregular_italic';
-}
-
-/* line 242, ../sass/_layout.scss */
-p {
-  line-height: 1.4em;
-  margin-bottom: 1em;
-}
-
-/* line 247, ../sass/_layout.scss */
-textarea:focus, input:focus {
-  outline: none;
-}
-
-/* line 251, ../sass/_layout.scss */
-article#introduction {
-  -webkit-animation: fadeInUp 1s 0.2s ease both;
-  -moz-animation: fadeInUp 1s 0.2s ease both;
-  -ms-animation: fadeInUp 1s 0.2s ease both;
-  -o-animation: fadeInUp 1s 0.2s ease both;
-  animation: fadeInUp 1s 0.2s ease both;
-}
-
-/* line 255, ../sass/_layout.scss */
-span.streamer {
-  padding: 100px 0 180px;
-  display: block;
-  color: white;
-}
-/* line 260, ../sass/_layout.scss */
-span.streamer h4 {
-  margin: 10px 0 30px;
-  text-shadow: 0 3px 3px #004500;
-}
-
-/* line 267, ../sass/_layout.scss */
-#mobile-with-leaflet,
-.Linux #mobile-with-leaflet {
-  background: url("../img/phone-android.png") no-repeat scroll 0 0 transparent;
-  height: 599px;
-  position: absolute;
-  right: -52px;
-  top: 0;
-  width: 345px;
-}
-/* line 274, ../sass/_layout.scss */
-#mobile-with-leaflet #map,
-.Linux #mobile-with-leaflet #map {
-  position: relative;
-  display: block;
-  height: 344px;
-  left: 64px;
-  top: 120px;
-  width: 218px;
-}
-
-/* line 284, ../sass/_layout.scss */
-.Mac #mobile-with-leaflet {
-  background: url("../img/phone-iphone.png") no-repeat scroll 0 0 transparent;
-  height: 599px;
-  position: absolute;
-  right: -44px;
-  top: 40px;
-  width: 365px;
-}
-/* line 291, ../sass/_layout.scss */
-.Mac #mobile-with-leaflet #map {
-  position: relative;
-  display: block;
-  height: 354px;
-  left: 98px;
-  top: 80px;
-  width: 207px;
-}
-
-/* line 301, ../sass/_layout.scss */
-.Windows.Explorer #mobile-with-leaflet {
-  background: url("../img/phone-windows.png") no-repeat scroll 0 0 transparent;
-  height: 553px;
-  position: absolute;
-  right: -63px;
-  top: 40px;
-  width: 387px;
-}
-/* line 308, ../sass/_layout.scss */
-.Windows.Explorer #mobile-with-leaflet #map {
-  position: relative;
-  display: block;
-  height: 346px;
-  left: 94px;
-  top: 100px;
-  width: 209px;
-}
-
-/* line 318, ../sass/_layout.scss */
-article#team .team-member {
-  width: 31.03448%;
-  float: left;
-  margin-right: 3.44828%;
-  display: inline;
-}
-/* line 319, ../sass/_layout.scss */
-article#team .team-member h4 {
-  color: #2e3436;
-}
-/* line 324, ../sass/_layout.scss */
-article#team .team-member:nth-child(4n) {
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-}
-/* line 326, ../sass/_layout.scss */
-article#team .team-member img {
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
-  width: 28.57143%;
-  float: left;
-  margin-right: 7.14286%;
-  display: inline;
-  width: 100px !important;
-}
-/* line 332, ../sass/_layout.scss */
-article#team .team-member p {
-  width: 100%;
-  float: left;
-  margin-right: 11.11111%;
-  display: inline;
-}
-/* line 333, ../sass/_layout.scss */
-article#team .team-member p.top {
-  margin-top: 20px;
-  padding-top: 20px;
-  border-top: 1px dashed #73d216;
-}
-/* line 340, ../sass/_layout.scss */
-article#team .team-member em {
-  color: #888a85;
-}
-
-/* line 345, ../sass/_layout.scss */
-#contact {
-  padding-bottom: 100px;
-}
-/* line 347, ../sass/_layout.scss */
-#contact form {
-  width: 44.44444%;
-  float: left;
-  margin-right: 11.11111%;
-  display: inline;
-}
-/* line 349, ../sass/_layout.scss */
-#contact form label {
-  width: 150px;
-  font-family: 'bariolregular_italic';
-  display: block;
-}
-/* line 355, ../sass/_layout.scss */
-#contact form .form-item-wrapper {
-  width: 97.5%;
-}
-/* line 359, ../sass/_layout.scss */
-#contact form input[type="text"], #contact form input[type="email"], #contact form textarea {
-  outline: none !important;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-  padding: 10px 2%;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  width: 98%;
-  border: 1px solid #888a85;
-  -webkit-box-shadow: 0 3px 7px -4px #888a85 inset;
-  -moz-box-shadow: 0 3px 7px -4px #888a85 inset;
-  box-shadow: 0 3px 7px -4px #888a85 inset;
-  margin: 10px 0;
-}
-/* line 368, ../sass/_layout.scss */
-#contact form input[type="text"]:focus, #contact form input[type="email"]:focus, #contact form textarea:focus {
-  -webkit-box-shadow: 0 3px 12px -6px #004500 inset;
-  -moz-box-shadow: 0 3px 12px -6px #004500 inset;
-  box-shadow: 0 3px 12px -6px #004500 inset;
-  border: 1px solid #73d216;
-}
-/* line 375, ../sass/_layout.scss */
-#contact p {
-  width: 44.44444%;
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-  margin-top: 18px;
-}
-
-/* line 381, ../sass/_layout.scss */
-.float-right {
-  float: right;
-}
-
-/* line 385, ../sass/_layout.scss */
-.float-left {
-  float: left;
-}
-
-/* line 389, ../sass/_layout.scss */
+/* line 1, ../sass/_button.scss */
 .button, .button:link, .button:visited {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
-  padding: 10px 30px 6px 30px;
+  padding: 10px 0px 6px 0px;
   font-size: 1.5em;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -5433,7 +4930,7 @@ article#team .team-member em {
   box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
 }
-/* line 412, ../sass/_layout.scss */
+/* line 24, ../sass/_button.scss */
 .button.icon-right i, .button:link.icon-right i, .button:visited.icon-right i {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -5452,7 +4949,7 @@ article#team .team-member em {
   position: relative;
   top: 1px;
 }
-/* line 426, ../sass/_layout.scss */
+/* line 38, ../sass/_button.scss */
 .button:hover, .button:link:hover, .button:visited:hover {
   border-bottom: 2px solid #4e9a06;
   border-top: 2px solid #4e9a06;
@@ -5460,26 +4957,20 @@ article#team .team-member em {
   -moz-box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -5px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -5px rgba(0, 0, 0, 0.5);
 }
-/* line 431, ../sass/_layout.scss */
+/* line 43, ../sass/_button.scss */
 .button:hover i, .button:link:hover i, .button:visited:hover i {
   color: #edd400;
 }
 
-/* line 438, ../sass/_layout.scss */
-.Firefox .button, .Firefox .button:link, .Firefox .button:visited {
-  font-weight: 400;
-}
-
-/* line 443, ../sass/_layout.scss */
+/* line 49, ../sass/_button.scss */
 .button-suffix {
   color: white;
   font-size: 1.3em;
-  margin-left: 10px;
   position: relative;
   top: 10px;
   font-weight: lighter !important;
 }
-/* line 451, ../sass/_layout.scss */
+/* line 57, ../sass/_button.scss */
 .button-suffix a:link, .button-suffix a:visited {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -5490,55 +4981,838 @@ article#team .team-member em {
   text-decoration: none;
   border-bottom: 1px dotted white;
 }
-/* line 459, ../sass/_layout.scss */
+/* line 65, ../sass/_button.scss */
 .button-suffix a:hover {
   color: #edd400;
 }
 
-/* line 464, ../sass/_layout.scss */
+/* line 70, ../sass/_button.scss */
 .button-suffix.dark {
   color: #4e9a06;
 }
-/* line 467, ../sass/_layout.scss */
+/* line 73, ../sass/_button.scss */
 .button-suffix.dark a:link, .button-suffix.dark a:visited {
   color: #73d216;
   border-bottom: 1px dotted #73d216;
 }
-/* line 471, ../sass/_layout.scss */
+/* line 77, ../sass/_button.scss */
 .button-suffix.dark a:hover {
   color: #edd400;
   border-bottom: 1px dotted #edd400;
 }
 
-/* line 478, ../sass/_layout.scss */
+/* line 84, ../sass/_button.scss */
 .button i.icon-coffee {
   font-size: 17px;
   padding: 9px 5px 0px 7px !important;
   top: -1px !important;
 }
 
-/* line 484, ../sass/_layout.scss */
+/* line 90, ../sass/_button.scss */
 .button i.icon-search {
   font-size: 17px;
   padding: 9px 5px 0px 7px !important;
   top: -1px !important;
 }
 
-/* line 491, ../sass/_layout.scss */
-#overview .cta-wrapper {
-  margin-left: 8.47458%;
+/* line 97, ../sass/_button.scss */
+.Firefox .button, .Firefox .button:link, .Firefox .button:visited {
+  font-weight: 400;
+}
+
+@media (min-width: 720px) {
+  /* line 103, ../sass/_button.scss */
+  .button {
+    padding: 10px 30px 6px 30px !important;
+  }
+
+  /* line 106, ../sass/_button.scss */
+  .button-suffix {
+    margin-top: 19px;
+  }
+}
+/* line 1, ../sass/_layout.scss */
+body {
+  background: url(../img/debut_light.png);
+  font-family: 'bariol_regularregular';
+  color: #2e3436;
+}
+
+/* line 7, ../sass/_layout.scss */
+i {
+  font-weight: 100 !important;
+}
+
+/* line 11, ../sass/_layout.scss */
+ul {
+  list-style: square inside none;
+  color: #73d216;
+}
+/* line 15, ../sass/_layout.scss */
+ul span {
+  color: #2e3436;
+}
+
+/* line 20, ../sass/_layout.scss */
+strong {
+  font-weight: bold !important;
+  color: #4e9a06;
+}
+
+/* line 25, ../sass/_layout.scss */
+h2 {
+  font-size: 4em;
+  text-shadow: 0 -2px 5px #051d05;
+  font-family: 'bariol_regularregular';
+  font-weight: 400;
+}
+
+/* line 32, ../sass/_layout.scss */
+h3 {
+  font-weight: 400;
+  border-bottom: 1px dashed #d3d7cf;
+  font-family: 'bariol_regularregular';
+  font-size: 2.5em;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+  margin-top: 0.3em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #4e9a06;
+}
+/* line 42, ../sass/_layout.scss */
+h3:after {
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.6) 10px, rgba(255, 255, 255, 0.6) 20px);
+  content: ".";
+  display: block;
+  height: 16px;
+  left: 0;
+  position: absolute;
+  text-indent: -99999px;
+  top: 62px;
+  width: 100%;
+  z-index: -1;
+}
+
+/* line 56, ../sass/_layout.scss */
+h4 {
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 2em;
+  font-family: 'bariol_regularregular';
+}
+
+/* line 63, ../sass/_layout.scss */
+em {
+  font-weight: 100;
+  font-family: 'bariolregular_italic';
+}
+
+/* line 68, ../sass/_layout.scss */
+p {
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}
+
+/* line 73, ../sass/_layout.scss */
+textarea:focus, input:focus {
+  outline: none;
+}
+
+/* line 77, ../sass/_layout.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 86, ../sass/_layout.scss */
+.clearfix {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 90, ../sass/_layout.scss */
+#content-wrapper {
+  background: url("../img/bg.png") no-repeat scroll -600px -338px transparent;
+  overflow-x: hidden;
+}
+
+@media (min-width: 720px) {
+  /* line 97, ../sass/_layout.scss */
+  #content-wrapper {
+    background: url(../img/bg.png) no-repeat center -250px;
+  }
+}
+/* line 102, ../sass/_layout.scss */
+#content {
+  position: relative;
+  *zoom: 1;
+  max-width: 29em;
+  _width: 29em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 107, ../sass/_layout.scss */
+#content article {
+  padding-top: 10px;
+  margin-bottom: 90px;
+  position: relative;
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+  overflow: visible;
+}
+
+@media (min-width: 720px) {
+  /* line 121, ../sass/_layout.scss */
+  #content {
+    max-width: 59em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  #content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+/* line 127, ../sass/_layout.scss */
+.float-right {
+  float: right;
+}
+
+/* line 131, ../sass/_layout.scss */
+.float-left {
+  float: left;
+}
+
+/* line 135, ../sass/_layout.scss */
+#intro-more {
+  float: left;
+  padding-top: 100px;
+}
+/* line 139, ../sass/_layout.scss */
+#intro-more .image-wrapper {
+  width: 44.44444%;
+  float: left;
+  margin-right: 11.11111%;
+  display: inline;
+}
+/* line 143, ../sass/_layout.scss */
+#intro-more .detail {
+  position: relative;
   width: 44.44444%;
   float: right;
   margin-right: 0;
   *margin-left: -1em;
   display: inline;
 }
-/* line 495, ../sass/_layout.scss */
+/* line 145, ../sass/_layout.scss */
+#intro-more .detail h3 {
+  font-size: 2.2em;
+}
+/* line 147, ../sass/_layout.scss */
+#intro-more .detail h3:after {
+  top: 43px;
+}
+
+/* line 155, ../sass/_layout.scss */
+.hidden-mobile {
+  display: none !important;
+}
+
+@media (min-width: 720px) {
+  /* line 161, ../sass/_layout.scss */
+  .hidden-mobile {
+    display: block !important;
+  }
+}
+/* line 166, ../sass/_layout.scss */
+.mobile-full-width {
+  width: 100%;
+  float: left;
+  margin-right: 3.44828%;
+  display: inline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media (min-width: 720px) {
+  /* line 175, ../sass/_layout.scss */
+  .mobile-full-width {
+    width: auto !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+  }
+}
+/* line 1, ../sass/_intro.scss */
+article#introduction {
+  -webkit-animation: fadeInUp 1s 0.2s ease both;
+  -moz-animation: fadeInUp 1s 0.2s ease both;
+  -ms-animation: fadeInUp 1s 0.2s ease both;
+  -o-animation: fadeInUp 1s 0.2s ease both;
+  animation: fadeInUp 1s 0.2s ease both;
+}
+
+/* line 5, ../sass/_intro.scss */
+span.streamer {
+  padding-top: 20px;
+  display: block;
+  color: white;
+}
+/* line 10, ../sass/_intro.scss */
+span.streamer h2 {
+  font-size: 31px;
+}
+/* line 14, ../sass/_intro.scss */
+span.streamer h4 {
+  margin: 20px 0;
+  line-height: 20px;
+  text-shadow: 0 3px 3px #004500;
+}
+
+@media (min-width: 720px) {
+  /* line 22, ../sass/_intro.scss */
+  .streamer {
+    width: 64.28571%;
+    float: left;
+    margin-right: 7.14286%;
+  }
+
+  /* line 25, ../sass/_intro.scss */
+  h2 {
+    font-size: 3em !important;
+  }
+
+  /* line 28, ../sass/_intro.scss */
+  h4 {
+    line-height: 30px !important;
+  }
+
+  /* line 31, ../sass/_intro.scss */
+  article#introduction {
+    margin-bottom: 240px;
+  }
+}
+/* line 1, ../sass/_menu.scss */
+header#menu-zone {
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid #4e9a06;
+  background: url(../img/debut_light.png);
+  z-index: 1;
+  -webkit-box-shadow: 0 0 10px #505757;
+  -moz-box-shadow: 0 0 10px #505757;
+  box-shadow: 0 0 10px #505757;
+}
+
+/* line 10, ../sass/_menu.scss */
+#menu-wrapper {
+  *zoom: 1;
+  max-width: 29em;
+  _width: 29em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#menu-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 720px) {
+  /* line 16, ../sass/_menu.scss */
+  #menu-wrapper {
+    max-width: 59em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  #menu-wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+/* line 23, ../sass/_menu.scss */
+#logo {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  display: block;
+  float: left;
+  margin: 5px;
+  margin-left: 13px;
+}
+/* line 30, ../sass/_menu.scss */
+#logo img {
+  width: 96px;
+}
+
+@media (min-width: 720px) {
+  /* line 37, ../sass/_menu.scss */
+  #logo img {
+    width: 150px;
+    margin-bottom: 8px;
+  }
+}
+@media (min-width: 960px) {
+  /* line 45, ../sass/_menu.scss */
+  #logo img {
+    width: 192px !important;
+  }
+}
+/* line 52, ../sass/_menu.scss */
+.language-toggle,
+.mobile-menu-switcher {
+  font-size: 1em !important;
+  line-height: 0 !important;
+  padding: 7px 20px !important;
+  float: right;
+  width: 16px;
+  margin: 5px !important;
+  text-align: center;
+}
+
+@media (min-width: 720px) {
+  /* line 64, ../sass/_menu.scss */
+  .language-toggle,
+  .mobile-menu-switcher {
+    margin-top: 14px !important;
+  }
+}
+@media (min-width: 960px) {
+  /* line 70, ../sass/_menu.scss */
+  .mobile-menu-switcher {
+    display: none !important;
+  }
+
+  /* line 73, ../sass/_menu.scss */
+  .language-toggle {
+    margin-top: 23px !important;
+  }
+}
+/* line 78, ../sass/_menu.scss */
+.en .language-toggle a {
+  background: url("../img/nl.png") no-repeat scroll 0 0 transparent;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  height: 11px;
+  text-indent: -99999px;
+  width: 16px;
+  margin: 3px 0;
+}
+
+/* line 87, ../sass/_menu.scss */
+.nl .language-toggle a {
+  background: url("../img/gb.png") no-repeat scroll 0 0 transparent;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  height: 11px;
+  text-indent: -99999px;
+  width: 16px;
+  margin: 3px 0;
+}
+
+/* line 96, ../sass/_menu.scss */
+#menu {
+  position: relative;
+  float: right;
+  margin-top: 19px;
+  font-family: 'QuestrialRegular';
+  font-weight: normal;
+  display: block;
+  width: 100%;
+  height: 128px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  overflow: hidden;
+}
+/* line 108, ../sass/_menu.scss */
+#menu a:link, #menu a:visited {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  color: #888a85;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  font-size: 1.25em;
+  text-decoration: none;
+  padding: 7px 10px 5px;
+  z-index: 2;
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+/* line 123, ../sass/_menu.scss */
+#menu a.slider-active {
+  color: white;
+  text-shadow: 0 2px 2px #004500;
+}
+/* line 129, ../sass/_menu.scss */
+#menu #menu-slider {
+  background: #73d216;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  margin-top: -2px;
+  padding: 7px 0px 5px;
+  height: 20px;
+  width: 0;
+  z-index: 1;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  font-size: 1.5em;
+  border: 0px;
+  cursor: pointer;
+  background: #73d216;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  color: white;
+  text-shadow: 0 2px 2px #004500;
+  font-family: 'QuestrialRegular';
+  border-bottom: 2px solid #73d216;
+  border-top: 2px solid #73d216;
+  text-decoration: none;
+  -webkit-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
+}
+/* line 156, ../sass/_menu.scss */
+#menu span.menu-pipe {
+  margin: 0 10px;
+  font-weight: bold;
+  cursor: default;
+  color: #d3d7cf;
+  z-index: 0;
+  position: relative;
+  display: none;
+}
+/* line 166, ../sass/_menu.scss */
+#menu.hidden-mobile {
+  height: 0px;
+  overflow: hidden;
+  margin: 0;
+}
+@media (min-width: 960px) {
+  /* line 96, ../sass/_menu.scss */
+  #menu {
+    float: right;
+    width: auto !important;
+    margin-top: 25px !important;
+    margin-right: -5px !important;
+  }
+  /* line 178, ../sass/_menu.scss */
+  #menu.hidden-mobile {
+    height: auto !important;
+    overflow: visible;
+  }
+  /* line 182, ../sass/_menu.scss */
+  #menu a:link, #menu a:visited {
+    width: auto !important;
+    clear: none !important;
+  }
+  /* line 186, ../sass/_menu.scss */
+  #menu #menu-slider {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  /* line 189, ../sass/_menu.scss */
+  #menu span.menu-pipe {
+    display: block;
+    float: left;
+    margin-top: 8px;
+  }
+}
+
+/* line 1, ../sass/_team.scss */
+article#team {
+  margin-bottom: 0 !important;
+}
+/* line 3, ../sass/_team.scss */
+article#team .team-member {
+  margin-bottom: 2em;
+  width: 100%;
+  float: left;
+  margin-right: 25%;
+  display: inline;
+}
+/* line 5, ../sass/_team.scss */
+article#team .team-member h4 {
+  color: #2e3436;
+}
+/* line 10, ../sass/_team.scss */
+article#team .team-member:nth-child(4n) {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+/* line 12, ../sass/_team.scss */
+article#team .team-member img {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  width: 24.13793%;
+  float: left;
+  margin-right: 3.44828%;
+  display: inline;
+}
+/* line 17, ../sass/_team.scss */
+article#team .team-member p {
+  width: 100%;
+  float: left;
+  margin-right: 11.11111%;
+  display: inline;
+}
+/* line 18, ../sass/_team.scss */
+article#team .team-member p.top {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px dashed #73d216;
+}
+/* line 25, ../sass/_team.scss */
+article#team .team-member em {
+  color: #888a85;
+}
+
+@media (min-width: 720px) {
+  /* line 33, ../sass/_team.scss */
+  article#team .team-member {
+    width: 28.57143%;
+    float: left;
+    margin-right: 7.14286%;
+  }
+  /* line 36, ../sass/_team.scss */
+  article#team .team-member img {
+    width: 70px;
+  }
+}
+/* line 1, ../sass/_contact.scss */
+#contact {
+  padding-bottom: 30px;
+  margin-bottom: 0 !important;
+}
+/* line 4, ../sass/_contact.scss */
+#contact form {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  margin-right: 25%;
+  display: inline;
+}
+/* line 7, ../sass/_contact.scss */
+#contact form label {
+  width: 150px;
+  font-family: 'bariolregular_italic';
+  display: block;
+}
+/* line 13, ../sass/_contact.scss */
+#contact form input[type="text"], #contact form input[type="email"], #contact form textarea {
+  outline: none !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  padding: 10px;
+  text-align: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #888a85;
+  -webkit-box-shadow: 0 3px 7px -4px #888a85 inset;
+  -moz-box-shadow: 0 3px 7px -4px #888a85 inset;
+  box-shadow: 0 3px 7px -4px #888a85 inset;
+  margin: 10px 0;
+}
+/* line 23, ../sass/_contact.scss */
+#contact form input[type="text"]:focus, #contact form input[type="email"]:focus, #contact form textarea:focus {
+  -webkit-box-shadow: 0 3px 12px -6px #004500 inset;
+  -moz-box-shadow: 0 3px 12px -6px #004500 inset;
+  box-shadow: 0 3px 12px -6px #004500 inset;
+  border: 1px solid #73d216;
+}
+/* line 30, ../sass/_contact.scss */
+#contact p {
+  width: 100%;
+  float: left;
+  margin-right: 25%;
+  display: inline;
+}
+
+@media (min-width: 720px) {
+  /* line 37, ../sass/_contact.scss */
+  #contact form {
+    width: 44.44444%;
+    float: left;
+    margin-right: 11.11111%;
+    position: relative;
+    top: -121px;
+  }
+  /* line 42, ../sass/_contact.scss */
+  #contact form input[type="text"], #contact form input[type="email"], #contact form textarea {
+    width: 100%;
+    float: left;
+    margin-right: 25%;
+    width: 100% !important;
+  }
+  /* line 47, ../sass/_contact.scss */
+  #contact p {
+    clear: right;
+    width: 44.44444%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 1, ../sass/_prototype.scss */
+#mobile-with-leaflet {
+  display: none;
+}
+
+@media (min-width: 720px) {
+  /* line 6, ../sass/_prototype.scss */
+  #mobile-with-leaflet {
+    display: block;
+  }
+}
+/* line 12, ../sass/_prototype.scss */
+#mobile-with-leaflet,
+.Linux #mobile-with-leaflet {
+  background: url("../img/phone-android.png") no-repeat scroll 0 0 transparent;
+  height: 599px;
+  position: absolute;
+  right: -52px;
+  top: 0;
+  width: 345px;
+}
+/* line 19, ../sass/_prototype.scss */
+#mobile-with-leaflet #map,
+.Linux #mobile-with-leaflet #map {
+  position: relative;
+  display: block;
+  height: 344px;
+  left: 64px;
+  top: 120px;
+  width: 218px;
+}
+
+/* line 29, ../sass/_prototype.scss */
+.Mac #mobile-with-leaflet {
+  background: url("../img/phone-iphone.png") no-repeat scroll 0 0 transparent;
+  height: 599px;
+  position: absolute;
+  right: -44px;
+  top: 40px;
+  width: 365px;
+}
+/* line 36, ../sass/_prototype.scss */
+.Mac #mobile-with-leaflet #map {
+  position: relative;
+  display: block;
+  height: 354px;
+  left: 98px;
+  top: 80px;
+  width: 207px;
+}
+
+/* line 46, ../sass/_prototype.scss */
+.Windows.Explorer #mobile-with-leaflet {
+  background: url("../img/phone-windows.png") no-repeat scroll 0 0 transparent;
+  height: 553px;
+  position: absolute;
+  right: -63px;
+  top: 40px;
+  width: 387px;
+}
+/* line 53, ../sass/_prototype.scss */
+.Windows.Explorer #mobile-with-leaflet #map {
+  position: relative;
+  display: block;
+  height: 346px;
+  left: 94px;
+  top: 100px;
+  width: 209px;
+}
+
+/* line 2, ../sass/_overview.scss */
+#overview .cta-wrapper {
+  float: left;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-right: 25%;
+  display: inline;
+}
+/* line 7, ../sass/_overview.scss */
 #overview .cta-wrapper .button-wrapper {
   margin-top: -74px;
-  width: 87.17949%;
+  width: 100%;
   float: left;
-  margin-right: 2.5641%;
+  margin-right: 25%;
   display: inline;
   float: right;
   margin-right: 0;
@@ -5546,32 +5820,21 @@ article#team .team-member em {
   display: inline;
 }
 
-/* line 503, ../sass/_layout.scss */
+/* line 15, ../sass/_overview.scss */
 #overview div.row {
   float: left;
   clear: both;
-  margin-bottom: 6em;
+  margin-bottom: 2em;
 }
-/* line 507, ../sass/_layout.scss */
+/* line 19, ../sass/_overview.scss */
 #overview div.row:last-child {
   margin-bottom: 0;
 }
-/* line 510, ../sass/_layout.scss */
+/* line 21, ../sass/_overview.scss */
 #overview div.row div.block {
   position: relative;
-  width: 44.44444%;
-  float: left;
-  margin-right: 11.11111%;
-  display: inline;
 }
-/* line 513, ../sass/_layout.scss */
-#overview div.row div.block:nth-child(2n) {
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-}
-/* line 515, ../sass/_layout.scss */
+/* line 26, ../sass/_overview.scss */
 #overview div.row div.block i {
   width: 10.25641%;
   float: left;
@@ -5591,8 +5854,9 @@ article#team .team-member em {
   border-bottom: 4px solid #4e9a06;
   color: #f7fdf1;
   text-shadow: 0 2px 3px #004500;
+  display: none;
 }
-/* line 531, ../sass/_layout.scss */
+/* line 44, ../sass/_overview.scss */
 #overview div.row div.block h4 {
   margin-bottom: 10px;
   border-bottom: 1px dashed #d3d7cf;
@@ -5601,7 +5865,7 @@ article#team .team-member em {
   font-family: 'bariol_regularregular';
   color: #4e9a06;
 }
-/* line 538, ../sass/_layout.scss */
+/* line 51, ../sass/_overview.scss */
 #overview div.row div.block h4:after {
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.9) 10px, rgba(255, 255, 255, 0.9) 20px);
   content: ".";
@@ -5614,17 +5878,23 @@ article#team .team-member em {
   width: 100%;
   z-index: -1;
 }
-/* line 553, ../sass/_layout.scss */
+/* line 66, ../sass/_overview.scss */
 #overview div.row div.block img {
   position: relative;
-  left: 50%;
-  margin-left: -105px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 20% 30px;
+  width: 100%;
+  float: left;
+  margin-right: 25%;
+  display: inline;
 }
-/* line 559, ../sass/_layout.scss */
+/* line 73, ../sass/_overview.scss */
 #overview div.row div.block p, #overview div.row div.block h4, #overview div.row div.block ul {
-  width: 87.17949%;
+  width: 100%;
   float: left;
-  margin-right: 2.5641%;
+  margin-right: 25%;
   display: inline;
   float: right;
   margin-right: 0;
@@ -5632,61 +5902,45 @@ article#team .team-member em {
   display: inline;
 }
 
-/* line 570, ../sass/_layout.scss */
-.language-toggle {
-  float: right;
-  margin-left: 14px;
-  margin-top: 29px;
+@media (min-width: 720px) {
+  /* line 84, ../sass/_overview.scss */
+  #overview div.row div.block img {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 12% !important;
+  }
+  /* line 89, ../sass/_overview.scss */
+  #overview div.row div.block h4 {
+    margin-bottom: 30px;
+    padding-bottom: 9px;
+  }
+  /* line 95, ../sass/_overview.scss */
+  #overview div.row.odd div.block img {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  /* line 98, ../sass/_overview.scss */
+  #overview div.row.odd div.block p {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 103, ../sass/_overview.scss */
+  #overview div.row.even div.block img {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 106, ../sass/_overview.scss */
+  #overview div.row.even div.block p {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
 }
-
-/* line 576, ../sass/_layout.scss */
-.en .language-toggle a {
-  background: url("../img/nl.png") no-repeat scroll 0 0 transparent;
-  display: block;
-  height: 11px;
-  text-indent: -99999px;
-  width: 16px;
-}
-
-/* line 584, ../sass/_layout.scss */
-.nl .language-toggle a {
-  background: url("../img/gb.png") no-repeat scroll 0 0 transparent;
-  display: block;
-  height: 11px;
-  text-indent: -99999px;
-  width: 16px;
-}
-
-/* line 592, ../sass/_layout.scss */
-#intro-more {
-  float: left;
-  padding-top: 100px;
-}
-/* line 596, ../sass/_layout.scss */
-#intro-more .image-wrapper {
-  width: 44.44444%;
-  float: left;
-  margin-right: 11.11111%;
-  display: inline;
-}
-/* line 600, ../sass/_layout.scss */
-#intro-more .detail {
-  position: relative;
-  width: 44.44444%;
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-}
-/* line 602, ../sass/_layout.scss */
-#intro-more .detail h3 {
-  font-size: 2.2em;
-}
-/* line 604, ../sass/_layout.scss */
-#intro-more .detail h3:after {
-  top: 43px;
-}
-
 @font-face {
   font-family: 'bariolregular_italic';
   src: url("fonts/bariol_regular_italic-webfont.eot");

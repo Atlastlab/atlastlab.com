@@ -32,10 +32,11 @@
 <header id="menu-zone">
     <div id="menu-wrapper">
         <a href="#introduction" id="logo"><img src="img/atlast-logo.png" /></a>
-        <div class="language-toggle">
+        <a class="mobile-menu-switcher button" href="#"><i class="icon-reorder"></i></a>
+        <div class="language-toggle button">
             <a href="index-nl.html">Switch language</a>
         </div>
-        <navigation id="menu">
+        <navigation class="hidden-mobile" id="menu">
             <a href="#introduction" class="active slider-active">Introduction</a>
                 <span class="menu-pipe">|</span>
             <a href="#overview">Overview</a>
@@ -54,102 +55,89 @@
         <article id="introduction" class="active">
             <span class="streamer">
                 <h2>We build mobile<br />interactive map apps</h2>
-                <h4><em>Modular, as a service and whitelabel.</em></h4>
-                <a href="#overview" class="button icon-right">Read more<i class="icon-angle-right"></i></a>
-                <span class="button-suffix"><em>or <a href="#contact">contact us</a></em></span>
+                <h4><span>Your company will benefit from an interactive map. <em class="hidden-mobile">For a better customer flow, a more efficient use of organizing<br />and last but not least total visibilty with analytic data.</em></span></h4>
+                <a href="#overview" class="button mobile-full-width icon-right">Learn more<i class="icon-angle-right"></i></a>
+                <span class="button-suffix mobile-full-width"><em>or <a href="#contact">contact us</a></em></span>
             </span>
 
             <div id="mobile-with-leaflet">
                 <img id="map" src="img/prototype-en.png" />
             </div>
+
+            <div class="clearfix">
+            </div>
         </article>
 
         <article id="overview">
             <h3>Overview</h3>
-            <div class="row">
-                <div class="block">
-                    <img id="map-paint" src="img/map-paint.png" />
-                </div>
+            <div class="row odd">
                 <div class="block">
                     <i class="icon-pencil"></i>
                     <h4>Beautiful custom maps</h4>
+                    <img id="map-paint" src="img/map-paint.png" />
                     <p>One of the things we love at Atlast, is designing maps. We will design a colorful map especially for your organisation. We think your app will fit in and improve the overall experience of your customers.</p>
                     <p>Your organisation may use the map also for other purposes than the app. We don't have restrictive licenses, we like to build maps that give possibilities.</p>
                     <p><strong>Beautiful custom maps ready for your use.</strong></p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row even">
                 <div class="block">
                     <i class="icon-mobile-phone"></i>
                     <h4>One system for every device</h4>
+                    <img id="map-paint" src="img/devices.png" />
                     <p>What do we need to say more? Whether you carry a smartphone, tablet or just using your
                     computer. Our app will never let you down.</p>
                     <p><strong>This app runs on everything, always.</strong></p>
                 </div>
-                <div class="block">
-                    <img id="map-paint" src="img/devices.png" />
-                </div>
             </div>
-            <div class="row">
-                <div class="block">
-                    <img id="balloons" src="img/balloons.png" />
-                </div>
+            <div class="row odd">
                 <div class="block">
                     <i class="icon-star"></i>
                     <h4>Your business is our business</h4>
+                    <img id="balloons" src="img/balloons.png" />
                     <p>Truth to be told, you rely on your customers. Whenever you own a shopping mall, a theme park or when you are organizing a big event, we know how to improve the experience of your customers.</p>
                     <p><strong>Simply put, your success is our success.</strong></p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row even">
                 <div class="block">
                     <i class="icon-cogs"></i>
                     <h4>Whitelabel</h4>
+                    <img id="whitelabel" src="img/whitelabel.png" />
                     <p>If you wish we will brand the app with your trademark. It is important for us that your app will be a great success. We think that with the right branding, the app will create huge business revenue.</p><p><strong>All the buttons, menus and icons can be branded with your organisation style.</strong></p>
                 </div>
-                <div class="block">
-                    <img id="whitelabel" src="img/whitelabel.png" />
-                </div>
             </div>
-            <div class="row">
-                <div class="block">
-                    <img id="beaker" src="img/beaker.png" />
-                </div>
+            <div class="row odd">
                 <div class="block">
                     <i class="icon-beaker"></i>
                     <h4>Constant improvement, low prices</h4>
+                    <img id="beaker" src="img/beaker.png" />
                     <p>Our app is modular, we have all types of plugins available for you. Because the plugins are used by multiple organisations, we can improve them at once for everyone.</p>
                     <p>We love dedicated customers, all customers can bring in feedback, to improve plugins or to create new plugins.</p><p><strong>With your feedback all will profit.</strong></p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row even">
                 <div class="block">
                     <i class="icon-lightbulb"></i>
                     <h4>Modular system, modular pricing</h4>
+                    <img id="modular" src="img/modular.png" />
                     <p>Our system is like lego, a great building blocks framework. You can simply add features when needed. You can buy the app and make it more awesome each year.</p>
                     <p><strong>Our app will prove itself, and plugins can be added when needed.</strong></p>
                 </div>
-                <div class="block">
-                    <img id="modular" src="img/modular.png" />
-                </div>
             </div>
-            <div class="row">
-                <div class="block">
-                    <img id="explore" src="img/explore.png" />
-                </div>
+            <div class="row odd">
                 <div class="block">
                     <i class="icon-search"></i>
                     <h4>Adventure and explore</h4>
+                    <img id="explore" src="img/explore.png" />
                     <p>Our app shows the quickest and best way to let you enjoy the outside. Isn’t that what we all want? Great outdoor joy with friends/family/kids. We make that just a little better for your customer.</p>
                     <p><strong>Our app helps you to improve your clients experience.</strong></p>
                 </div>
 
-                <div class="cta-wrapper">
                     <div class="button-wrapper">
-                        <a href="#contact" class="button icon-right">Coffee?<i class="icon-coffee"></i></a>
-                        <span class="button-suffix dark"><em>or <a href="#team">see the team</a></em></span>
+                        <a href="#contact" class="button mobile-full-width icon-right">Coffee?<i class="icon-coffee"></i></a>
+                        <span class="button-suffix mobile-full-width dark"><em>or <a href="#team">see the team</a></em></span>
                     </div>
-                </div>
 
             </div>
         </article>
@@ -184,25 +172,24 @@
 
         <article id="contact">
             <h3>Contact</h3>
+            <p><strong>We would really like it if you would come by and have a coffee with us. Our product is in an early stage so there is a lot possible. If it is not possible for you to come by we can mail, call or skype.</strong></p>
+            <p>We love to build great mapping apps. We are always willing to make an appointment and show some of our cases.</p>
 
             <form action="email.php" autocomplete="on">
                 <div class="form-item-wrapper">
-                    <label>Name: </label><input placeholder="Your name" type="text" name="fname" />
+                    <label class="hidden-mobile">Name: </label><input class="mobile-full-width" placeholder="Your name" type="text" name="fname" />
                 </div>
                 <div class="form-item-wrapper">
-                    <label>Phone: </label><input placeholder="Your phone number" type="text" name="phone" />
+                    <label class="hidden-mobile">Phone: </label><input class="mobile-full-width" placeholder="Your phone number" type="text" name="phone" />
                 </div>
                 <div class="form-item-wrapper">
-                    <label>E-mail: </label><input placeholder="Your email address" type="email" name="email" autocomplete="off" required />
+                    <label class="hidden-mobile">E-mail: </label><input class="mobile-full-width" placeholder="Your email address" type="email" name="email" autocomplete="off" required />
                 </div>
                 <div class="form-item-wrapper">
-                    <label>Message: </label><textarea placeholder="How can we help you? Do you want more information?" name="message" rows="8" required></textarea>
+                    <label class="hidden-mobile">Message: </label><textarea class="mobile-full-width" placeholder="How can we help you? Do you want more information?" name="message" rows="8" required></textarea>
                 </div>
-                    <input class="button float-right" type="submit" value="Send">
+                    <input class="button mobile-full-width float-right" type="submit" value="Send">
             </form>
-
-            <p><strong>We would really like it if you would come by and have a coffee with us. Our product is in an early stage so there is a lot possible. If it is not possible for you to come by we can mail, call or skype.</strong></p>
-            <p>We love to build great mapping apps. We are always willing to make an appointment and show some of our cases.</p>
         </article>
     </section>
 </div>

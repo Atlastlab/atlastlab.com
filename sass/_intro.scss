@@ -1,0 +1,34 @@
+article#introduction {
+  @include animate(fadeInUp, 1s);
+}
+
+span.streamer {
+  padding-top: 20px;
+  display: block;
+  color: white;
+
+  h2 {
+    font-size: 31px;
+  }
+
+  h4 {
+    margin: 20px 0;
+    line-height: 20px;
+    @include text-shadow(0 3px 3px $green_shadow);
+  }
+}
+
+@include at-breakpoint(720px 12) {
+  .streamer {
+    @include span-columns(2, 3);
+  }
+  h2 {
+    font-size: 3em !important;
+  }
+  h4 {
+    line-height: 30px !important;
+  }
+  article#introduction  {
+    margin-bottom: 240px;
+  }
+}

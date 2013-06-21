@@ -24,6 +24,19 @@ $(function() {
     // hash: true
   });
 
+  $('.mobile-menu-switcher').click(function() {
+    $('#menu').toggleClass('hidden-mobile');
+    return false;
+  });
+
+  $('#menu a').click(function() {
+    if ($('.mobile-menu-switcher:visible').length) {
+      $('#menu').toggleClass('hidden-mobile');
+    }
+
+    return false;
+  });
+
   // // Leaflet
   // // create a map in the "map" div, set the view to a given place and zoom
   // var map = L.map('map', {

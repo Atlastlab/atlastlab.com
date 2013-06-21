@@ -1,0 +1,112 @@
+#overview {
+  .cta-wrapper {
+    float: left;
+    clear: both;
+    @include span-columns(1, 1);
+
+    .button-wrapper {
+      margin-top: -74px;
+      @include span-columns(1, 1);
+      @include omega;
+    }
+  }
+}
+
+#overview div.row {
+  float: left;
+  clear: both;
+  margin-bottom: 2em;
+  &:last-child { margin-bottom: 0; }
+
+  div.block {
+    position: relative;
+    // @include span-columns(1, 1);
+    // &:nth-child(1n) { @include omega; }
+
+    i {
+      @include span-columns(1, 8);
+      font-size: 1.5em;
+      @include border-radius($radius);
+      font-weight: normal;
+      background: $green_light;
+      background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
+      padding: 10px 0;
+      line-height: 1.7em;
+      text-align: center;
+      color: $blue_dark;
+      border-bottom: 4px solid $green_dark;
+      color: $green_lightest;
+      @include text-shadow(0 2px 3px $green_shadow);
+
+      display: none;
+    }
+
+    h4 {
+      margin-bottom: 10px;
+      border-bottom: 1px dashed $gray_lighter;
+      font-size: 1.6em;
+      line-height: 1.4em;
+      font-family: 'bariol_regularregular';
+      color: $green_dark;
+      &:after {
+        background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.9) 10px, rgba(255, 255, 255, 0.9) 20px);
+        // background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, adjust-lightness($yellow, 32) 10px, adjust-lightness($yellow, 32) 20px);
+        content: ".";
+        display: block;
+        height: 16px;
+        left: 0;
+        position: absolute;
+        text-indent: -99999px;
+        top: 23px;
+        width: 100%;
+        z-index: -1;
+      }
+    }
+
+    img {
+      position: relative;
+      @include box-sizing(border-box);
+      padding: 10px 20% 30px;
+      @include span-columns(1, 1);
+    }
+
+    p, h4, ul {
+      @include span-columns(1, 1);
+      @include omega;
+    }
+
+  }
+}
+
+@include at-breakpoint(720px 12) {
+  #overview div.row {
+    div.block {
+      img {
+        position: relative;
+        @include box-sizing(border-box);
+        padding: 0 12% !important;
+      }
+      h4 {
+        margin-bottom: 30px;
+        padding-bottom: 9px;
+      }
+    }
+    &.odd div.block {
+      img {
+        @include span-columns(6, 12);
+      }
+      p {
+        @include span-columns(6 omega, 12);
+      }
+    }
+    &.even div.block {
+      img {
+        @include span-columns(6 omega, 12);
+      }
+      p {
+        @include span-columns(6, 12);
+      }
+    }
+
+  }
+}

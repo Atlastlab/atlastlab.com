@@ -10,5 +10,33 @@
 @import "susy";
 @import "font-awesome";
 
+$total-columns  : 6;             // a 12-column grid
+$column-width   : 4em;            // each column is 4em wide
+$gutter-width   : 1em;            // 1em gutters between columns
+$grid-padding   : $gutter-width;  // grid-padding equal to gutters
+
+$green_darkest: #4e9a06;
+$green_dark: #4e9a06;
+$green_light: #73d216;
+$green_shadow: #004500;
+$green_lightest: #f7fdf1;
+
+$blue_dark: #2e3436;
+
+$yellow: #edd400;
+
+$gray_dark: #2e3436;
+$gray_light: #888a85;
+$gray_lighter: #d3d7cf;
+
+$radius: 3px;
+
+@import "button";
 @import "layout";
+@import "intro";
+@import "menu";
+@import "team";
+@import "contact";
+@import "prototype";
+@import "overview";
 @import "fonts";

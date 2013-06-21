@@ -1,0 +1,195 @@
+header#menu-zone {
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid $green_dark;
+  background: url(../img/debut_light.png);
+  z-index: 1;
+  @include box-shadow(0 0 10px #505757);
+}
+
+#menu-wrapper {
+  @include container;
+  padding: 0;
+}
+
+@include at-breakpoint(720px 12) {
+  #menu-wrapper {
+    @include container;
+    padding: 0;
+  }
+}
+
+
+#logo {
+  @include transition(all .4s);
+  display: block;
+  float: left;
+  margin: 5px;
+  margin-left: 13px;
+
+  img {
+    width: 96px;
+  }
+}
+
+@include at-breakpoint(720px 12) {
+  #logo {
+    img {
+      width: 150px;
+      margin-bottom: 8px;
+    }
+  }
+}
+@include at-breakpoint(960px 12) {
+  #logo {
+    img {
+      width: 192px !important;
+    }
+  }
+}
+
+.language-toggle,
+.mobile-menu-switcher {
+  font-size: 1em !important;
+  line-height: 0 !important;
+  padding: 7px 20px !important;
+  float: right;
+  width: 16px;
+  margin: 5px !important;
+  text-align: center;
+}
+
+@include at-breakpoint(720px 12) {
+  .language-toggle,
+  .mobile-menu-switcher {
+    margin-top: 14px !important;
+  }
+}
+
+@include at-breakpoint(960px 12) {
+  .mobile-menu-switcher {
+    display: none !important;
+  }
+  .language-toggle {
+    margin-top: 23px !important;
+  }
+}
+
+.en .language-toggle a {
+  background: url("../img/nl.png") no-repeat scroll 0 0 transparent;
+  @include inline-block;
+  height: 11px;
+  text-indent: -99999px;
+  width: 16px;
+  margin: 3px 0;
+}
+
+.nl .language-toggle a {
+  background: url("../img/gb.png") no-repeat scroll 0 0 transparent;
+  @include inline-block;
+  height: 11px;
+  text-indent: -99999px;
+  width: 16px;
+  margin: 3px 0;
+}
+
+#menu {
+  position: relative;
+  float: right;
+  margin-top: 19px;
+  font-family: 'QuestrialRegular';
+  font-weight: normal;
+  display: block;
+  width: 100%;
+  height: 128px;
+  @include transition(all .4s);
+  overflow: hidden;
+
+  a:link, a:visited {
+    @include transition(all .4s);
+    color: $gray_light;
+    @include inline-block;
+    font-size: 1.25em;
+    text-decoration: none;
+    padding: 7px 10px 5px;
+    // @include border-radius($radius);
+    z-index: 2;
+    position: relative;
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+
+  a.slider-active {
+    color: white;
+    // font-style: italic;
+    @include text-shadow(0 2px 2px $green_shadow);
+  }
+
+  #menu-slider {
+    background: $green_light;
+    position:absolute;
+    left: 0;
+    top: 0px;
+    margin-top: -2px;
+    padding: 7px 0px 5px;
+    height: 20px;
+    width: 0;
+    z-index: 1;
+    @include transition(all 0.4s);
+    font-size: 1.5em;
+    // @include border-radius($radius);
+    border: 0px;
+    cursor: pointer;
+    background: $green_light;
+    @include inline-block;
+    color: white;
+    @include text-shadow(0 2px 2px $green_shadow);
+    font-family: 'QuestrialRegular';
+    border-bottom: 2px solid $green_light;
+    border-top: 2px solid $green_light;
+    text-decoration: none;
+    @include box-shadow(0 3px 12px -6px $green_shadow inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5));
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
+  }
+
+  span.menu-pipe {
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: default;
+    color: $gray_lighter;
+    z-index: 0;
+    position: relative;
+    display: none;
+  }
+
+  &.hidden-mobile {
+    height: 0px;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  @include at-breakpoint(960px 12) {
+    float: right;
+    width: auto !important;
+    margin-top: 25px !important;
+    margin-right: -5px !important;
+
+    &.hidden-mobile {
+      height: auto !important;
+      overflow: visible;
+    }
+    a:link, a:visited {
+      width: auto !important;
+      clear: none !important;
+    }
+    #menu-slider {
+      @include border-radius($radius);
+    }
+    span.menu-pipe {
+      display: block;
+      float: left;
+      margin-top: 8px;
+    }
+  }
+}

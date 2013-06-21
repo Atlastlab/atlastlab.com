@@ -1,0 +1,52 @@
+#contact {
+  padding-bottom: 30px;
+  margin-bottom: 0 !important;
+  form {
+    @include box-sizing(border-box);
+    @include span-columns(1, 1);
+    label {
+      width: 150px;
+      font-family: 'bariolregular_italic';
+      display: block;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+      outline: none !important;
+      @include box-sizing(border-box);
+      @include transition(all 0.4s);
+      padding: 10px;
+      text-align: left;
+      @include border-radius($radius);
+      border: 1px solid $gray_light;
+      @include box-shadow(0 3px 7px -4px $gray_light inset);
+      margin: 10px 0;
+      &:focus {
+        @include box-shadow(0 3px 12px -6px $green_shadow inset);
+          border: 1px solid $green_light;
+      }
+    }
+  }
+
+  p {
+    @include span-columns(1, 1);
+  }
+}
+
+@include at-breakpoint(720px 12) {
+  #contact {
+    form {
+      @include span-columns(1, 2);
+      position: relative;
+      top: -121px;
+
+      input[type="text"], input[type="email"], textarea {
+        @include span-columns(1 ,1);
+        width: 100% !important;
+      }
+    }
+    p {
+      clear: right;
+      @include span-columns(1 omega, 2);
+    }
+  }
+}
