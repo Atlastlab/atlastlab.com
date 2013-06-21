@@ -36,8 +36,6 @@
   #contact {
     form {
       @include span-columns(1, 2);
-      position: relative;
-      top: -121px;
 
       input[type="text"], input[type="email"], textarea {
         @include span-columns(1 ,1);

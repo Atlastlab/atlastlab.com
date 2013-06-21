@@ -15,6 +15,11 @@ span.streamer {
     margin: 20px 0;
     line-height: 20px;
     @include text-shadow(0 3px 3px $green_shadow);
+    em {
+      font-size: 17px;
+      line-height: 21px;
+      margin-top: 24px;
+    }
   }
 }
 
