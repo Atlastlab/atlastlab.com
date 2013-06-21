@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>At last</title>
+        <title>Atlast</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -32,10 +32,11 @@
 <header id="menu-zone">
     <div id="menu-wrapper">
         <a href="#introduction" id="logo"><img src="img/atlast-logo.png" /></a>
-        <div class="language-toggle">
+        <a class="mobile-menu-switcher button" href="#"><i class="icon-reorder"></i></a>
+        <div class="language-toggle button">
             <a href="index.html">Switch language</a>
         </div>
-        <navigation id="menu">
+        <navigation class="hidden-mobile" id="menu">
             <a href="#introduction" class="active slider-active">Introductie</a>
                 <span class="menu-pipe">|</span>
             <a href="#overview">Overzicht</a>
@@ -49,7 +50,6 @@
     </div>
 </header>
 
-
 <div id="content-wrapper">
     <section id="content">
         <article id="introduction" class="active">
@@ -61,86 +61,71 @@
             </span>
 
             <div id="mobile-with-leaflet">
-                <div id="map">
-                </div>
+                <img id="map" src="img/prototype-nl.png" />
             </div>
         </article>
 
         <article id="overview">
             <h3>Overzicht</h3>
-            <div class="row">
-                <div class="block">
-                    <img id="map-paint" src="img/map-paint.png" />
-                </div>
+            <div class="row odd">
                 <div class="block">
                     <i class="icon-pencil"></i>
                     <h4>Prachtig ontworpen kaarten</h4>
+                    <img id="map-paint" src="img/map-paint.png" />
                     <p>Een van de dingen waar wij van houden bij Atlast is het designen van kaarten. Wij maken een kleurrijke kaart, speciaal voor uw organisatie. Wij geloven dat onze applicatie goed in de infrastructuur past en de complete gebruikerservaring verbetert van uw klanten.</p>
                     <p>Uw organisatie mag de kaart gebruiken voor andere doeleinden dan de applicatie. Wij hebben geen bindende licenties, wij maken juist kaarten die mogelijkheden creëren.</p>
                     <p><strong>Prachtige kaarten op maat gemaakt, klaar voor gebruik.</strong></p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row even">
                 <div class="block">
                     <i class="icon-mobile-phone"></i>
                     <h4>Eén systeem voor elk platform</h4>
+                    <img id="map-paint" src="img/devices.png" />
                     <p>Wat moeten we er nog meer over zeggen? Wat u ook meeneemt, een smartphone, tablet of juist een laptop. Onze app laat u nooit in de steek.</p>
                     <p><strong>Deze app draait op alles, altijd.</strong></p>
                 </div>
-                <div class="block">
-                    <img id="map-paint" src="img/devices.png" />
-                </div>
             </div>
-            <div class="row">
-                <div class="block">
-                    <img id="balloons" src="img/balloons.png" />
-                </div>
+            <div class="row odd">
                 <div class="block">
                     <i class="icon-star"></i>
                     <h4>Uw business is onze business</h4>
+                    <img id="balloons" src="img/balloons.png" />
                     <p>In welke manier dan ook, u bent afhankelijk van uw klanten. Of u nu een groot evenement organiseert, of de eigenaar bent van een pretpark, wij weten hoe de gebruikservaring van de klant veel meer rendement levert.</p>
                     <p><strong>Met andere woorden, uw succes is ons succes.</strong></p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row even">
                 <div class="block">
                     <i class="icon-cogs"></i>
                     <h4>Whitelabel</h4>
+                    <img id="whitelabel" src="img/whitelabel-nl.png" />
                     <p>Het is heel goed mogelijk om uw merk of bedrijf op de applicatie te zetten. Het is belangrijk voor ons dat uw applicatie een groot succes wordt. Wij geloven dat met de juiste vormgeving de applicatie een heel groot bedrijfsrendement geeft.</p><p><strong>Alle knoppen, menu’s en pictogrammen kunnen gevormd worden in de huisstijl van uw organisatie.</strong></p>
                 </div>
-                <div class="block">
-                    <img id="whitelabel" src="img/whitelabel-nl.png" />
-                </div>
             </div>
-            <div class="row">
-                <div class="block">
-                    <img id="beaker" src="img/beaker.png" />
-                </div>
+            <div class="row odd">
                 <div class="block">
                     <i class="icon-beaker"></i>
                     <h4>Constante verbetering, lage prijzen</h4>
+                    <img id="beaker" src="img/beaker.png" />
                     <p>Onze applicatie is modulair. Wij hebben een rijk scala aan plugins voor u beschikbaar. Omdat deze plugins gebruikt worden door meerdere organisaties, kunnen wij die in één keer verbeteren voor iedereen.</p>
                     <p>We houden van toegewijde gebruikers. Elke gebruiker kan feedback geven om de plugins te verbeteren of juist nieuwe te maken.</p><p><strong>Met uw feedback zal iedereen profiteren.</strong></p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row even">
                 <div class="block">
                     <i class="icon-lightbulb"></i>
                     <h4>Modulair systeem, modulair geprijsd</h4>
+                    <img id="modular" src="img/modular.png" />
                     <p>Ons systeem is net als Lego, een geweldige set bouwstenen. U kunt heel eenvoudig functionaliteit toevoegen. U kunt de applicatie kopen in de basisvorm en daarna wanneer nodig functionaliteit toevoegen.</p>
                     <p><strong>De applicatie zal zichzelf bewijzen en plugins kunnen elk moment bijgevoegd worden.</strong></p>
                 </div>
-                <div class="block">
-                    <img id="modular" src="img/modular.png" />
-                </div>
             </div>
-            <div class="row">
-                <div class="block">
-                    <img id="explore" src="img/explore.png" />
-                </div>
+            <div class="row odd">
                 <div class="block">
                     <i class="icon-search"></i>
                     <h4>Avontuur en ontdekken</h4>
+                    <img id="explore" src="img/explore.png" />
                     <p>De applicatie laat de beste manier zien om te genieten van de buitenwereld. Dat allemaal volgens uw eigen specificaties. Is dat niet wat we allemaal willen? Genieten van de plek waar u bent met familie/kinderen/vrienden. Wij maken dat allemaal nog beter voor uw klant.</p>
                     <p><strong>Wij geloven dat het een slecht iets is om te veel tijd te spenderen met uw telefoon.</strong></p>
                 </div>
@@ -185,25 +170,24 @@
 
         <article id="contact">
             <h3>Contact</h3>
+            <p><strong>We would really like it if you would come by and have a coffee with us. Our product is in an early stage so there is a lot possible. If it is not possible for you to come by we can mail, call or skype.</strong></p>
+            <p>We love to build great mapping apps. We are always willing to make an appointment and show some of our cases.</p>
 
             <form action="email.php" autocomplete="on">
                 <div class="form-item-wrapper">
-                    <label>Naam: </label><input placeholder="Uw naam" type="text" name="fname" />
+                    <label class="hidden-mobile">Naam: </label><input class="mobile-full-width" placeholder="Uw naam" type="text" name="fname" />
                 </div>
                 <div class="form-item-wrapper">
-                    <label>Telefoon: </label><input placeholder="Uw telefoon nummer" type="text" name="phone" />
+                    <label class="hidden-mobile">Telefoon: </label><input class="mobile-full-width" placeholder="Uw telefoon nummer" type="text" name="phone" />
                 </div>
                 <div class="form-item-wrapper">
-                    <label>E-mail: </label><input placeholder="Uw email adres" type="email" name="email" autocomplete="off" required />
+                    <label class="hidden-mobile">E-mail: </label><input class="mobile-full-width" placeholder="Uw email adres" type="email" name="email" autocomplete="off" required />
                 </div>
                 <div class="form-item-wrapper">
-                    <label>Bericht: </label><textarea placeholder="Hoe kunnen we u van dienst zijn? Wilt u meer informatie?" name="message" rows="8" required></textarea>
+                    <label class="hidden-mobile">Bericht: </label><textarea class="mobile-full-width" placeholder="Hoe kunnen we u van dienst zijn? Wilt u meer informatie?" name="message" rows="8" required></textarea>
                 </div>
-                    <input class="button float-right" type="submit" value="Send">
+                    <input class="button mobile-full-width float-right" type="submit" value="Send">
             </form>
-
-            <p><strong>We would really like it if you would come by and have a coffee with us. Our product is in an early stage so there is a lot possible. If it is not possible for you to come by we can mail, call or skype.</strong></p>
-            <p>We love to build great mapping apps. We are always willing to make an appointment and show some of our cases.</p>
         </article>
     </section>
 </div>
