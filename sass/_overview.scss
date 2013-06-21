@@ -24,19 +24,6 @@
     // &:nth-child(1n) { @include omega; }
 
     i {
-      @include span-columns(1, 8);
-      font-size: 1.5em;
-      @include border-radius($radius);
-      font-weight: normal;
-      background: $green_light;
-      background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
-      padding: 10px 0;
-      line-height: 1.7em;
-      text-align: center;
-      color: $blue_dark;
-      border-bottom: 4px solid $green_dark;
-      color: $green_lightest;
-      @include text-shadow(0 2px 3px $green_shadow);
 
       display: none;
     }
@@ -80,6 +67,7 @@
 
 @include at-breakpoint(720px 12) {
   #overview div.row {
+    margin-bottom: 3em;
     div.block {
       img {
         position: relative;
@@ -89,24 +77,73 @@
       h4 {
         margin-bottom: 30px;
         padding-bottom: 9px;
+        position: relative;
       }
+    }
+    .button-wrapper {
+      @include span-columns(6 omega, 12);
+      clear: right;
     }
     &.odd div.block {
       img {
         @include span-columns(6, 12);
       }
-      p {
+      p, h4 {
         @include span-columns(6 omega, 12);
+        clear: right;
+      }
+      h4:after {
+        position: absolute;
+        right: 0;
       }
     }
     &.even div.block {
       img {
         @include span-columns(6 omega, 12);
       }
-      p {
+      p, h4 {
         @include span-columns(6, 12);
+        clear: left;
+      }
+      h4:after {
+        position: absolute;
+        left: 0;
       }
     }
 
+  }
+}
+
+@include at-breakpoint(960px 12) {
+  #overview div.row {
+    div.block {
+      > i {
+        display: block !important;
+        width: 40px;
+        font-size: 1.5em;
+        @include border-radius($radius);
+        font-weight: normal;
+        background: $green_light;
+        background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
+        padding: 10px 0;
+        line-height: 1.7em;
+        text-align: center;
+        color: $blue_dark;
+        border-bottom: 4px solid $green_dark;
+        color: $green_lightest;
+        position: absolute;
+        @include text-shadow(0 2px 3px $green_shadow);
+      }
+    }
+    &.odd div.block {
+      i {
+        right: 50%;
+      }
+    }
+    &.even div.block {
+      i {
+        left: -48px;
+      }
+    }
   }
 }
