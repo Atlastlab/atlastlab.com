@@ -88,16 +88,32 @@ textarea:focus, input:focus{
 }
 
 #content-wrapper {
+  padding-top: 45px;
   background: url("../img/bg.png") no-repeat scroll -600px -338px transparent;
   // background: url(../img/bg.png) no-repeat center -150px;
   overflow-x: hidden;
 }
 
-@include at-breakpoint(720px 12) {
+
+@include at-breakpoint(6 400px) {
   #content-wrapper {
-    background: url(../img/bg.png) no-repeat center -250px;
+    background: url("../img/bg.png") no-repeat scroll -918px -294px transparent;
   }
 }
+
+@include at-breakpoint(720px 12) {
+  #content-wrapper {
+    padding-top: 65px;
+    background: url(../img/bg.png) no-repeat center -210px;
+  }
+}
+
+@include at-breakpoint(960px 12) {
+  #content-wrapper {
+    padding-top: 78px;
+  }
+}
+
 
 #content {
   position: relative;
@@ -176,5 +192,11 @@ textarea:focus, input:focus{
     width: auto !important;
     @include box-sizing(border-box);
     text-align: left;
+  }
+}
+
+@include at-breakpoint(6 720px) {
+  h4, h3, h2 {
+    text-align: center;
   }
 }

@@ -18,6 +18,12 @@ span.streamer {
   }
 }
 
+@include at-breakpoint(6 400px) {
+  article#introduction {
+    padding-bottom: 40px;
+  }
+}
+
 @include at-breakpoint(720px 12) {
   .streamer {
     @include span-columns(2, 3);

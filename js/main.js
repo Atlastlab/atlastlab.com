@@ -18,7 +18,6 @@ $(function() {
   $('body').addClass(BrowserDetect.OS);
   $('body').addClass(BrowserDetect.browser);
 
-  $('#content-wrapper').css('padding-top', $('#menu-zone').height());
   $('body').localScroll({
     offset: {top: -$('#menu-zone').height(), left: 0},
     // hash: true
