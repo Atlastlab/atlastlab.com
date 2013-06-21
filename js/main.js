@@ -24,15 +24,15 @@ $(function() {
     // hash: true
   });
 
-  // Leaflet
-  // create a map in the "map" div, set the view to a given place and zoom
-  var map = L.map('map', {
-    attributionControl: false,
-    zoomControl: false
-  }).setView([51.505, -0.09], 18);
+  // // Leaflet
+  // // create a map in the "map" div, set the view to a given place and zoom
+  // var map = L.map('map', {
+  //   attributionControl: false,
+  //   zoomControl: false
+  // }).setView([51.505, -0.09], 18);
 
-  // add an OpenStreetMap tile layer
-  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
+  // // add an OpenStreetMap tile layer
+  // L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
 
   // Window resize.
   $(window).resize(function() {

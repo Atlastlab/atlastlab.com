@@ -272,6 +272,7 @@ span.streamer {
   top: 0;
   width: 345px;
   #map {
+    position: relative;
     display: block;
     height: 344px;
     left: 64px;
@@ -288,6 +289,7 @@ span.streamer {
   top: 40px;
   width: 365px;
   #map {
+    position: relative;
     display: block;
     height: 354px;
     left: 98px;
@@ -296,7 +298,7 @@ span.streamer {
   }
 }
 
-.Windows #mobile-with-leaflet {
+.Windows.Explorer #mobile-with-leaflet {
   background: url("../img/phone-windows.png") no-repeat scroll 0 0 transparent;
   height: 553px;
   position: absolute;
@@ -304,6 +306,7 @@ span.streamer {
   top: 40px;
   width: 387px;
   #map {
+    position: relative;
     display: block;
     height: 346px;
     left: 94px;
