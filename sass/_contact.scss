@@ -44,6 +44,7 @@
     }
     p {
       clear: right;
+      margin-top: 20px;
       @include span-columns(1 omega, 2);
     }
   }

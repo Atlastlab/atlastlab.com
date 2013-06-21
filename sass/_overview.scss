@@ -54,7 +54,9 @@
     img {
       position: relative;
       @include box-sizing(border-box);
-      padding: 10px 20% 30px;
+      margin: -20px 0;
+      image-rendering: optimizeQuality;
+      image-rendering: -webkit-optimize-contrast;
       @include span-columns(1, 1);
     }
 
@@ -73,7 +75,8 @@
       img {
         position: relative;
         @include box-sizing(border-box);
-        padding: 0 12% !important;
+        padding: 0 !important;
+        margin-top: -60px;
       }
       h4 {
         margin-bottom: 30px;
@@ -135,6 +138,9 @@
         position: absolute;
         @include text-shadow(0 2px 3px $green_shadow);
       }
+    }
+    img {
+      margin-top: -90px !important;
     }
     &.odd div.block {
       i {
