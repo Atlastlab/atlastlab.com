@@ -1,7 +1,7 @@
 $(function() {
   var timeOut;
-
   // Event binding.
+
   $('#menu a').hoverIntent(function(){
     clearTimeout(timeOut);
     menuSlideTo(this);
@@ -91,8 +91,10 @@ $(function() {
     }, 100);
   });
 
+  var clickOrTouch = (('ontouchend' in window)) ? 'touchend' : 'click';
+
   // Add active class to clicked item.
-  $("#menu a").click(function() {
+  $("#menu a").on(clickOrTouch, function() {
     setTimeout(function() {
       clearTimeout(timeOut);
     }, 300);

@@ -5,6 +5,10 @@ body {
   @include text-shadow(0 0 1px rgba(0,0,0,0.2));
 }
 
+input, textarea, select {
+   -webkit-appearance: none;
+}
+
 i {
   font-weight: 100 !important;
 }
@@ -104,7 +108,7 @@ textarea:focus, input:focus{
 
 @include at-breakpoint(6 320px) {
   #content-wrapper {
-    background: url("../img/bg.png") no-repeat scroll -918px -246px transparent;
+    background: url("../img/bg.png") no-repeat scroll -918px -286px transparent;
   }
 }
 
