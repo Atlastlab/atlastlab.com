@@ -34,7 +34,8 @@
 	// If everything is filled out correctly, send the e-mail
 	if ($body != "") {
 		mail($simpleFormMailRecipient, $simpleFormMailSubject, $body, $header);
-		echo $simpleFormSuccessMessage;
+				header('Location: http://atlastlab.com/thanks.html');
+
 	}
 
 ?>
