@@ -51,12 +51,10 @@
       }
     }
 
-    img {
+    img, iframe {
       position: relative;
       @include box-sizing(border-box);
       margin: -20px 0;
-      image-rendering: optimizeQuality;
-      image-rendering: -webkit-optimize-contrast;
       @include span-columns(1, 1);
     }
 
@@ -72,7 +70,7 @@
   #overview div.row {
     margin-bottom: 3em;
     div.block {
-      img {
+      img, iframe {
         position: relative;
         @include box-sizing(border-box);
         padding: 0 !important;
@@ -89,7 +87,7 @@
       clear: right;
     }
     &.odd div.block {
-      img {
+      img, iframe {
         @include span-columns(6, 12);
       }
       p, h4 {
@@ -102,7 +100,7 @@
       }
     }
     &.even div.block {
-      img {
+      img, iframe {
         @include span-columns(6 omega, 12);
       }
       p, h4 {
@@ -139,7 +137,7 @@
         @include text-shadow(0 2px 3px $green_shadow);
       }
     }
-    img {
+    img, iframe {
       margin-top: -90px !important;
     }
     &.odd div.block {
