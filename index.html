@@ -187,18 +187,18 @@
             <h3>Contact</h3>
             <p><strong>We would really like it if you would come by and have a coffee with us. Our product is in an early stage so there is a lot possible. If it is not possible for you to come by we can mail, call or skype.</strong></p>
 
-            <form action="email.php" autocomplete="on">
+            <form id="contact" action="scripts/mail.php" method="post">
                 <div class="form-item-wrapper">
-                    <label class="hidden-mobile">Name: </label><input class="mobile-full-width" placeholder="Your name" type="text" name="fname" />
+                    <label class="hidden-mobile">Name: </label><input class="mobile-full-width" placeholder="Your name" type="text" name="Your_Name" />
                 </div>
                 <div class="form-item-wrapper">
-                    <label class="hidden-mobile">Phone: </label><input class="mobile-full-width" placeholder="Your phone number" type="text" name="phone" />
+                    <label class="hidden-mobile">Phone: </label><input class="mobile-full-width" placeholder="Your phone number" type="text" name="Phone_Number" />
                 </div>
                 <div class="form-item-wrapper">
-                    <label class="hidden-mobile">E-mail: </label><input class="mobile-full-width" placeholder="Your email address" type="email" name="email" autocomplete="off" required />
+                    <label class="hidden-mobile">E-mail: </label><input class="mobile-full-width" placeholder="Your email address" type="email" name="Email_Address" autocomplete="off" required />
                 </div>
                 <div class="form-item-wrapper">
-                    <label class="hidden-mobile">Message: </label><textarea class="mobile-full-width" placeholder="How can we help you? Do you want more information?" name="message" rows="8" required></textarea>
+                    <label class="hidden-mobile">Message: </label><textarea class="mobile-full-width" placeholder="How can we help you? Do you want more information?" name="Message" rows="8" required></textarea>
                 </div>
                     <input class="button mobile-full-width float-right" type="submit" value="Send">
             </form>
@@ -216,6 +216,10 @@
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script src="scripts/validation.js"></script>
+        <script src="scripts/form.js"></script>
+        <script src="scripts/index.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
