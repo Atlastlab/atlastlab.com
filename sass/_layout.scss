@@ -101,6 +101,7 @@ textarea:focus, input:focus{
 
 #content-wrapper {
   padding-top: 45px;
+  min-height: 700px;
   background: url("../img/bg.png") no-repeat scroll -195px -339px transparent;
   // background: url(../img/bg.png) no-repeat center -150px;
   overflow-x: hidden;

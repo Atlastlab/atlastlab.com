@@ -5162,36 +5162,37 @@ textarea:focus, input:focus {
 /* line 102, ../sass/_layout.scss */
 #content-wrapper {
   padding-top: 45px;
+  min-height: 700px;
   background: url("../img/bg.png") no-repeat scroll -195px -339px transparent;
   overflow-x: hidden;
 }
 
 @media (max-width: 320px) {
-  /* line 110, ../sass/_layout.scss */
+  /* line 111, ../sass/_layout.scss */
   #content-wrapper {
     background: url("../img/bg.png") no-repeat scroll -918px -286px transparent;
   }
 }
 @media (min-width: 321px) and (max-width: 400px) {
-  /* line 116, ../sass/_layout.scss */
+  /* line 117, ../sass/_layout.scss */
   #content-wrapper {
     background: url("../img/bg.png") no-repeat scroll -918px -294px transparent;
   }
 }
 @media (min-width: 720px) {
-  /* line 122, ../sass/_layout.scss */
+  /* line 123, ../sass/_layout.scss */
   #content-wrapper {
     padding-top: 65px;
     background: url(../img/bg.png) no-repeat center -150px;
   }
 }
 @media (min-width: 960px) {
-  /* line 129, ../sass/_layout.scss */
+  /* line 130, ../sass/_layout.scss */
   #content-wrapper {
     padding-top: 78px;
   }
 }
-/* line 135, ../sass/_layout.scss */
+/* line 136, ../sass/_layout.scss */
 #content {
   position: relative;
   *zoom: 1;
@@ -5208,7 +5209,7 @@ textarea:focus, input:focus {
   display: table;
   clear: both;
 }
-/* line 140, ../sass/_layout.scss */
+/* line 141, ../sass/_layout.scss */
 #content article {
   padding-top: 10px;
   margin-bottom: 70px;
@@ -5223,7 +5224,7 @@ textarea:focus, input:focus {
 }
 
 @media (min-width: 720px) {
-  /* line 154, ../sass/_layout.scss */
+  /* line 155, ../sass/_layout.scss */
   #content {
     max-width: 59em;
     padding-left: 2em;
@@ -5238,29 +5239,29 @@ textarea:focus, input:focus {
     clear: both;
   }
 }
-/* line 160, ../sass/_layout.scss */
+/* line 161, ../sass/_layout.scss */
 .float-right {
   float: right;
 }
 
-/* line 164, ../sass/_layout.scss */
+/* line 165, ../sass/_layout.scss */
 .float-left {
   float: left;
 }
 
-/* line 168, ../sass/_layout.scss */
+/* line 169, ../sass/_layout.scss */
 #intro-more {
   float: left;
   padding-top: 100px;
 }
-/* line 172, ../sass/_layout.scss */
+/* line 173, ../sass/_layout.scss */
 #intro-more .image-wrapper {
   width: 44.44444%;
   float: left;
   margin-right: 11.11111%;
   display: inline;
 }
-/* line 176, ../sass/_layout.scss */
+/* line 177, ../sass/_layout.scss */
 #intro-more .detail {
   position: relative;
   width: 44.44444%;
@@ -5269,27 +5270,27 @@ textarea:focus, input:focus {
   *margin-left: -1em;
   display: inline;
 }
-/* line 178, ../sass/_layout.scss */
+/* line 179, ../sass/_layout.scss */
 #intro-more .detail h3 {
   font-size: 2.2em;
 }
-/* line 180, ../sass/_layout.scss */
+/* line 181, ../sass/_layout.scss */
 #intro-more .detail h3:after {
   top: 43px;
 }
 
-/* line 188, ../sass/_layout.scss */
+/* line 189, ../sass/_layout.scss */
 .hidden-mobile {
   display: none !important;
 }
 
 @media (min-width: 720px) {
-  /* line 194, ../sass/_layout.scss */
+  /* line 195, ../sass/_layout.scss */
   .hidden-mobile {
     display: block !important;
   }
 }
-/* line 199, ../sass/_layout.scss */
+/* line 200, ../sass/_layout.scss */
 .mobile-full-width {
   width: 100%;
   float: left;
@@ -5302,7 +5303,7 @@ textarea:focus, input:focus {
 }
 
 @media (min-width: 720px) {
-  /* line 208, ../sass/_layout.scss */
+  /* line 209, ../sass/_layout.scss */
   .mobile-full-width {
     width: auto !important;
     -webkit-box-sizing: border-box;
@@ -5312,7 +5313,7 @@ textarea:focus, input:focus {
   }
 }
 @media (max-width: 719px) {
-  /* line 216, ../sass/_layout.scss */
+  /* line 217, ../sass/_layout.scss */
   h4, h3, h2 {
     text-align: center;
   }

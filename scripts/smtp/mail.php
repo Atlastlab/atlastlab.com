@@ -61,6 +61,6 @@
 	if (PEAR::isError($mail)) {
 		echo("<p>" . $mail->getMessage() . "</p>");
 	} else {
-		echo($success);
+		header('Location: http://atlastlab.com/thanks.html');
 	}
 ?>
