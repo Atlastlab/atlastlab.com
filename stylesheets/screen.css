@@ -4016,32 +4016,37 @@ body {
 }
 
 /* line 8, ../sass/_layout.scss */
+a {
+  color: #4e9a06;
+}
+
+/* line 12, ../sass/_layout.scss */
 input, textarea, select {
   -webkit-appearance: none;
 }
 
-/* line 12, ../sass/_layout.scss */
+/* line 16, ../sass/_layout.scss */
 i {
   font-weight: 100 !important;
 }
 
-/* line 16, ../sass/_layout.scss */
+/* line 20, ../sass/_layout.scss */
 ul {
   list-style: square inside none;
   color: #73d216;
 }
-/* line 20, ../sass/_layout.scss */
+/* line 24, ../sass/_layout.scss */
 ul span {
   color: #2e3436;
 }
 
-/* line 25, ../sass/_layout.scss */
+/* line 29, ../sass/_layout.scss */
 strong {
   font-weight: bold !important;
   color: #4e9a06;
 }
 
-/* line 30, ../sass/_layout.scss */
+/* line 34, ../sass/_layout.scss */
 h2 {
   font-size: 4em;
   text-shadow: 0 -2px 5px #051D05;
@@ -4049,13 +4054,13 @@ h2 {
   font-weight: 400;
 }
 
-/* line 39, ../sass/_layout.scss */
+/* line 43, ../sass/_layout.scss */
 .Chrome h2,
 .Safari h2 {
   text-shadow: 0 -2px 9px #051D05;
 }
 
-/* line 44, ../sass/_layout.scss */
+/* line 48, ../sass/_layout.scss */
 h3 {
   font-weight: 400;
   border-bottom: 1px dashed #d3d7cf;
@@ -4069,7 +4074,7 @@ h3 {
   border-radius: 3px;
   color: #4e9a06;
 }
-/* line 54, ../sass/_layout.scss */
+/* line 58, ../sass/_layout.scss */
 h3:after {
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.6) 10px, rgba(255, 255, 255, 0.6) 20px);
   content: ".";
@@ -4083,7 +4088,7 @@ h3:after {
   z-index: -1;
 }
 
-/* line 68, ../sass/_layout.scss */
+/* line 72, ../sass/_layout.scss */
 h4 {
   font-size: 1.3em;
   font-weight: 400;
@@ -4091,24 +4096,24 @@ h4 {
   font-family: 'bariol_regularregular';
 }
 
-/* line 75, ../sass/_layout.scss */
+/* line 79, ../sass/_layout.scss */
 em {
   font-weight: 100;
   font-family: 'bariolregular_italic';
 }
 
-/* line 80, ../sass/_layout.scss */
+/* line 84, ../sass/_layout.scss */
 p {
   line-height: 1.2em;
   margin-bottom: 1em;
 }
 
-/* line 85, ../sass/_layout.scss */
+/* line 89, ../sass/_layout.scss */
 textarea:focus, input:focus {
   outline: none;
 }
 
-/* line 89, ../sass/_layout.scss */
+/* line 93, ../sass/_layout.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -4118,7 +4123,7 @@ textarea:focus, input:focus {
   height: 0;
 }
 
-/* line 98, ../sass/_layout.scss */
+/* line 102, ../sass/_layout.scss */
 .clearfix {
   display: inline-block;
   vertical-align: middle;
@@ -4127,7 +4132,7 @@ textarea:focus, input:focus {
   *display: inline;
 }
 
-/* line 102, ../sass/_layout.scss */
+/* line 106, ../sass/_layout.scss */
 #content-wrapper {
   padding-top: 45px;
   min-height: 700px;
@@ -4136,31 +4141,31 @@ textarea:focus, input:focus {
 }
 
 @media (max-width: 320px) {
-  /* line 111, ../sass/_layout.scss */
+  /* line 115, ../sass/_layout.scss */
   #content-wrapper {
     background: url("../img/bg.png") no-repeat scroll -918px -286px transparent;
   }
 }
 @media (min-width: 321px) and (max-width: 400px) {
-  /* line 117, ../sass/_layout.scss */
+  /* line 121, ../sass/_layout.scss */
   #content-wrapper {
     background: url("../img/bg.png") no-repeat scroll -918px -294px transparent;
   }
 }
 @media (min-width: 720px) {
-  /* line 123, ../sass/_layout.scss */
+  /* line 127, ../sass/_layout.scss */
   #content-wrapper {
     padding-top: 65px;
     background: url(../img/bg.png) no-repeat center -150px;
   }
 }
 @media (min-width: 960px) {
-  /* line 130, ../sass/_layout.scss */
+  /* line 134, ../sass/_layout.scss */
   #content-wrapper {
     padding-top: 78px;
   }
 }
-/* line 136, ../sass/_layout.scss */
+/* line 140, ../sass/_layout.scss */
 #content {
   position: relative;
   *zoom: 1;
@@ -4177,7 +4182,7 @@ textarea:focus, input:focus {
   display: table;
   clear: both;
 }
-/* line 141, ../sass/_layout.scss */
+/* line 145, ../sass/_layout.scss */
 #content article {
   padding-top: 10px;
   margin-bottom: 70px;
@@ -4192,7 +4197,7 @@ textarea:focus, input:focus {
 }
 
 @media (min-width: 720px) {
-  /* line 155, ../sass/_layout.scss */
+  /* line 159, ../sass/_layout.scss */
   #content {
     *zoom: 1;
     max-width: 59em;
@@ -4208,29 +4213,29 @@ textarea:focus, input:focus {
     clear: both;
   }
 }
-/* line 161, ../sass/_layout.scss */
+/* line 165, ../sass/_layout.scss */
 .float-right {
   float: right;
 }
 
-/* line 165, ../sass/_layout.scss */
+/* line 169, ../sass/_layout.scss */
 .float-left {
   float: left;
 }
 
-/* line 169, ../sass/_layout.scss */
+/* line 173, ../sass/_layout.scss */
 #intro-more {
   float: left;
   padding-top: 100px;
 }
-/* line 173, ../sass/_layout.scss */
+/* line 177, ../sass/_layout.scss */
 #intro-more .image-wrapper {
   width: 44.44444%;
   float: left;
   margin-right: 11.11111%;
   display: inline;
 }
-/* line 177, ../sass/_layout.scss */
+/* line 181, ../sass/_layout.scss */
 #intro-more .detail {
   position: relative;
   width: 44.44444%;
@@ -4239,27 +4244,27 @@ textarea:focus, input:focus {
   *margin-left: -1em;
   display: inline;
 }
-/* line 179, ../sass/_layout.scss */
+/* line 183, ../sass/_layout.scss */
 #intro-more .detail h3 {
   font-size: 2.2em;
 }
-/* line 181, ../sass/_layout.scss */
+/* line 185, ../sass/_layout.scss */
 #intro-more .detail h3:after {
   top: 43px;
 }
 
-/* line 189, ../sass/_layout.scss */
+/* line 193, ../sass/_layout.scss */
 .hidden-mobile {
   display: none !important;
 }
 
 @media (min-width: 720px) {
-  /* line 195, ../sass/_layout.scss */
+  /* line 199, ../sass/_layout.scss */
   .hidden-mobile {
     display: block !important;
   }
 }
-/* line 200, ../sass/_layout.scss */
+/* line 204, ../sass/_layout.scss */
 .mobile-full-width {
   width: 100%;
   float: left;
@@ -4272,7 +4277,7 @@ textarea:focus, input:focus {
 }
 
 @media (min-width: 720px) {
-  /* line 209, ../sass/_layout.scss */
+  /* line 213, ../sass/_layout.scss */
   .mobile-full-width {
     width: auto !important;
     -moz-box-sizing: border-box;
@@ -4282,7 +4287,7 @@ textarea:focus, input:focus {
   }
 }
 @media (max-width: 719px) {
-  /* line 217, ../sass/_layout.scss */
+  /* line 221, ../sass/_layout.scss */
   h4, h3, h2 {
     text-align: center;
   }

@@ -5,6 +5,10 @@ body {
   @include text-shadow(0 0 1px rgba(0,0,0,0.2));
 }
 
+a {
+  color: $green_dark;
+}
+
 input, textarea, select {
    -webkit-appearance: none;
 }
