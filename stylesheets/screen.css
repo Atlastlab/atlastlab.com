@@ -4341,14 +4341,15 @@ span.streamer h4 em {
   /* line 49, ../sass/_intro.scss */
   span.streamer {
     padding-top: 50px;
+    margin-top: 35px;
   }
 
-  /* line 52, ../sass/_intro.scss */
+  /* line 53, ../sass/_intro.scss */
   h2 {
     font-size: 3em !important;
   }
 
-  /* line 55, ../sass/_intro.scss */
+  /* line 56, ../sass/_intro.scss */
   h4 {
     line-height: 30px !important;
   }
