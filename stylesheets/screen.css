@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,3274 +24,2266 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
 @-webkit-keyframes fadeIn {
-  /* line 10, ../sass/_animate.sass */
   0% {
     opacity: 0;
   }
-
-  /* line 12, ../sass/_animate.sass */
   100% {
     opacity: 1;
   }
 }
-
 @-webkit-keyframes fadeOut {
-  /* line 16, ../sass/_animate.sass */
   0% {
     opacity: 1;
   }
-
-  /* line 18, ../sass/_animate.sass */
   100% {
     opacity: 0;
   }
 }
-
 @-webkit-keyframes fadeInUp {
-  /* line 22, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateY(20px);
   }
-
-  /* line 25, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 }
-
 @-webkit-keyframes fadeOutUp {
-  /* line 30, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
-
-  /* line 33, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
   }
 }
-
 @-webkit-keyframes fadeInDown {
-  /* line 38, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
   }
-
-  /* line 41, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 }
-
 @-webkit-keyframes fadeOutDown {
-  /* line 46, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
-
-  /* line 49, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateY(20px);
   }
 }
-
 @-webkit-keyframes fadeInRight {
-  /* line 54, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateX(20px);
   }
-
-  /* line 57, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
 }
-
 @-webkit-keyframes fadeOutLeft {
-  /* line 62, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
-
-  /* line 65, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-20px);
   }
 }
-
 @-webkit-keyframes fadeInLeft {
-  /* line 70, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-20px);
   }
-
-  /* line 73, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
 }
-
 @-webkit-keyframes fadeOutRight {
-  /* line 78, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
-
-  /* line 81, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateX(20px);
   }
 }
-
 @-webkit-keyframes fadeInUpBig {
-  /* line 86, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
   }
-
-  /* line 89, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 }
-
 @-webkit-keyframes fadeOutUpBig {
-  /* line 94, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
-
-  /* line 97, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
   }
 }
-
 @-webkit-keyframes fadeInDownBig {
-  /* line 102, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
   }
-
-  /* line 105, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 }
-
 @-webkit-keyframes fadeOutDownBig {
-  /* line 110, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
-
-  /* line 113, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
   }
 }
-
 @-webkit-keyframes fadeInRightBig {
-  /* line 118, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
   }
-
-  /* line 121, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
 }
-
 @-webkit-keyframes fadeOutLeftBig {
-  /* line 126, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
-
-  /* line 129, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
   }
 }
-
 @-webkit-keyframes fadeInLeftBig {
-  /* line 134, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
   }
-
-  /* line 137, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
 }
-
 @-webkit-keyframes fadeOutRightBig {
-  /* line 142, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
-
-  /* line 145, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
   }
 }
-
 @-webkit-keyframes bounceIn {
-  /* line 150, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: scale(0.3);
   }
-
-  /* line 153, ../sass/_animate.sass */
   50% {
     opacity: 1;
     -webkit-transform: scale(1.05);
   }
-
-  /* line 156, ../sass/_animate.sass */
   70% {
     -webkit-transform: scale(0.9);
   }
-
-  /* line 158, ../sass/_animate.sass */
   100% {
     -webkit-transform: scale(1);
   }
 }
-
 @-webkit-keyframes bounceInDown {
-  /* line 162, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
   }
-
-  /* line 165, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -webkit-transform: translateY(30px);
   }
-
-  /* line 168, ../sass/_animate.sass */
   80% {
     -webkit-transform: translateY(-10px);
   }
-
-  /* line 170, ../sass/_animate.sass */
   100% {
     -webkit-transform: translateY(0);
   }
 }
-
 @-webkit-keyframes bounceInUp {
-  /* line 174, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
   }
-
-  /* line 177, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -webkit-transform: translateY(-30px);
   }
-
-  /* line 180, ../sass/_animate.sass */
   80% {
     -webkit-transform: translateY(10px);
   }
-
-  /* line 182, ../sass/_animate.sass */
   100% {
     -webkit-transform: translateY(0);
   }
 }
-
 @-webkit-keyframes bounceInRight {
-  /* line 186, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
   }
-
-  /* line 189, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-30px);
   }
-
-  /* line 192, ../sass/_animate.sass */
   80% {
     -webkit-transform: translateX(10px);
   }
-
-  /* line 194, ../sass/_animate.sass */
   100% {
     -webkit-transform: translateX(0);
   }
 }
-
 @-webkit-keyframes bounceInLeft {
-  /* line 198, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
   }
-
-  /* line 201, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -webkit-transform: translateX(30px);
   }
-
-  /* line 204, ../sass/_animate.sass */
   80% {
     -webkit-transform: translateX(-10px);
   }
-
-  /* line 206, ../sass/_animate.sass */
   100% {
     -webkit-transform: translateX(0);
   }
 }
-
 @-webkit-keyframes bounceOut {
-  /* line 210, ../sass/_animate.sass */
   0% {
     -webkit-transform: scale(1);
   }
-
-  /* line 212, ../sass/_animate.sass */
   25% {
     -webkit-transform: scale(0.95);
   }
-
-  /* line 214, ../sass/_animate.sass */
   50% {
     opacity: 1;
     -webkit-transform: scale(1.1);
   }
-
-  /* line 217, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: scale(0.3);
   }
 }
-
 @-webkit-keyframes bounceOutUp {
-  /* line 222, ../sass/_animate.sass */
   0% {
     -webkit-transform: translateY(0);
   }
-
-  /* line 224, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -webkit-transform: translateY(20px);
   }
-
-  /* line 227, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
   }
 }
-
 @-webkit-keyframes bounceOutDown {
-  /* line 232, ../sass/_animate.sass */
   0% {
     -webkit-transform: translateY(0);
   }
-
-  /* line 234, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -webkit-transform: translateY(-20px);
   }
-
-  /* line 237, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateY(2000px);
   }
 }
-
 @-webkit-keyframes bounceOutLeft {
-  /* line 242, ../sass/_animate.sass */
   0% {
     -webkit-transform: translateX(0);
   }
-
-  /* line 244, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -webkit-transform: translateX(20px);
   }
-
-  /* line 247, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
   }
 }
-
 @-webkit-keyframes bounceOutRight {
-  /* line 252, ../sass/_animate.sass */
   0% {
     -webkit-transform: translateX(0);
   }
-
-  /* line 254, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -webkit-transform: translateX(-20px);
   }
-
-  /* line 257, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
   }
 }
-
 @-webkit-keyframes flash {
-  /* line 262, ../sass/_animate.sass */
   0% {
     opacity: 1;
   }
-
-  /* line 264, ../sass/_animate.sass */
   25% {
     opacity: 0;
   }
-
-  /* line 266, ../sass/_animate.sass */
   50% {
     opacity: 1;
   }
-
-  /* line 268, ../sass/_animate.sass */
   75% {
     opacity: 0;
   }
-
-  /* line 270, ../sass/_animate.sass */
   100% {
     opacity: 1;
   }
 }
-
 @-webkit-keyframes bounce {
-  /* line 274, ../sass/_animate.sass */
   0% {
     -webkit-transform: translateY(0);
   }
-
-  /* line 276, ../sass/_animate.sass */
   20% {
     -webkit-transform: translateY(0);
   }
-
-  /* line 278, ../sass/_animate.sass */
   40% {
     -webkit-transform: translateY(-30px);
   }
-
-  /* line 280, ../sass/_animate.sass */
   50% {
     -webkit-transform: translateY(0);
   }
-
-  /* line 282, ../sass/_animate.sass */
   60% {
     -webkit-transform: translateY(-15px);
   }
-
-  /* line 284, ../sass/_animate.sass */
   80% {
     -webkit-transform: translateY(0);
   }
-
-  /* line 286, ../sass/_animate.sass */
   100% {
     -webkit-transform: translateY(0);
   }
 }
-
 @-webkit-keyframes shake {
-  /* line 290, ../sass/_animate.sass */
   0% {
     -webkit-transform: translateX(0);
   }
-
-  /* line 292, ../sass/_animate.sass */
   10% {
     -webkit-transform: translateX(-10px);
   }
-
-  /* line 294, ../sass/_animate.sass */
   20% {
     -webkit-transform: translateX(10px);
   }
-
-  /* line 296, ../sass/_animate.sass */
   30% {
     -webkit-transform: translateX(-10px);
   }
-
-  /* line 298, ../sass/_animate.sass */
   40% {
     -webkit-transform: translateX(10px);
   }
-
-  /* line 300, ../sass/_animate.sass */
   50% {
     -webkit-transform: translateX(-10px);
   }
-
-  /* line 302, ../sass/_animate.sass */
   60% {
     -webkit-transform: translateX(10px);
   }
-
-  /* line 304, ../sass/_animate.sass */
   70% {
     -webkit-transform: translateX(-10px);
   }
-
-  /* line 306, ../sass/_animate.sass */
   80% {
     -webkit-transform: translateX(10px);
   }
-
-  /* line 308, ../sass/_animate.sass */
   90% {
     -webkit-transform: translateX(-10px);
   }
-
-  /* line 310, ../sass/_animate.sass */
   100% {
     -webkit-transform: translateX(0);
   }
 }
-
 @-webkit-keyframes rotateInDownLeft {
-  /* line 314, ../sass/_animate.sass */
   0% {
     -webkit-transform-origin: left bottom;
     -webkit-transform: rotate(-90deg);
     opacity: 0;
   }
-
-  /* line 318, ../sass/_animate.sass */
   100% {
     -webkit-transform-origin: left bottom;
     -webkit-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-webkit-keyframes rotateInUpLeft {
-  /* line 324, ../sass/_animate.sass */
   0% {
     -webkit-transform-origin: left bottom;
     -webkit-transform: rotate(90deg);
     opacity: 0;
   }
-
-  /* line 328, ../sass/_animate.sass */
   100% {
     -webkit-transform-origin: left bottom;
     -webkit-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-webkit-keyframes rotateInUpRight {
-  /* line 334, ../sass/_animate.sass */
   0% {
     -webkit-transform-origin: right bottom;
     -webkit-transform: rotate(-90deg);
     opacity: 0;
   }
-
-  /* line 338, ../sass/_animate.sass */
   100% {
     -webkit-transform-origin: right bottom;
     -webkit-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-webkit-keyframes rotateInDownRight {
-  /* line 344, ../sass/_animate.sass */
   0% {
     -webkit-transform-origin: right bottom;
     -webkit-transform: rotate(90deg);
     opacity: 0;
   }
-
-  /* line 348, ../sass/_animate.sass */
   100% {
     -webkit-transform-origin: right bottom;
     -webkit-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-webkit-keyframes rotateOutDownLeft {
-  /* line 354, ../sass/_animate.sass */
   0% {
     -webkit-transform-origin: left bottom;
     -webkit-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 358, ../sass/_animate.sass */
   100% {
     -webkit-transform-origin: left bottom;
     -webkit-transform: rotate(90deg);
     opacity: 0;
   }
 }
-
 @-webkit-keyframes rotateOutUpLeft {
-  /* line 364, ../sass/_animate.sass */
   0% {
     -webkit-transform-origin: left bottom;
     -webkit-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 368, ../sass/_animate.sass */
   100% {
     -webkit-transform-origin: left bottom;
     -webkit-transform: rotate(-90deg);
     opacity: 0;
   }
 }
-
 @-webkit-keyframes rotateOutDownRight {
-  /* line 374, ../sass/_animate.sass */
   0% {
     -webkit-transform-origin: right bottom;
     -webkit-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 378, ../sass/_animate.sass */
   100% {
     -webkit-transform-origin: right bottom;
     -webkit-transform: rotate(-90deg);
     opacity: 0;
   }
 }
-
 @-webkit-keyframes rotateOutUpRight {
-  /* line 384, ../sass/_animate.sass */
   0% {
     -webkit-transform-origin: right bottom;
     -webkit-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 388, ../sass/_animate.sass */
   100% {
     -webkit-transform-origin: right bottom;
     -webkit-transform: rotate(90deg);
     opacity: 0;
   }
 }
-
 @-webkit-keyframes rotateIn {
-  /* line 394, ../sass/_animate.sass */
   0% {
     -webkit-transform-origin: center center;
     -webkit-transform: rotate(-200deg);
     opacity: 0;
   }
-
-  /* line 398, ../sass/_animate.sass */
   100% {
     -webkit-transform-origin: center center;
     -webkit-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-webkit-keyframes rotateOut {
-  /* line 404, ../sass/_animate.sass */
   0% {
     -webkit-transform-origin: center center;
     -webkit-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 408, ../sass/_animate.sass */
   100% {
     -webkit-transform-origin: center center;
     -webkit-transform: rotate(200deg);
     opacity: 0;
   }
 }
-
 @-webkit-keyframes tada {
-  /* line 414, ../sass/_animate.sass */
   0% {
     -webkit-transform: scale(1);
   }
-
-  /* line 416, ../sass/_animate.sass */
   10% {
     -webkit-transform: scale(0.9) rotate(-3deg);
   }
-
-  /* line 418, ../sass/_animate.sass */
   20% {
     -webkit-transform: scale(0.9) rotate(-3deg);
   }
-
-  /* line 420, ../sass/_animate.sass */
   30% {
     -webkit-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 422, ../sass/_animate.sass */
   40% {
     -webkit-transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 424, ../sass/_animate.sass */
   50% {
     -webkit-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 426, ../sass/_animate.sass */
   60% {
     -webkit-transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 428, ../sass/_animate.sass */
   70% {
     -webkit-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 430, ../sass/_animate.sass */
   80% {
     -webkit-transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 432, ../sass/_animate.sass */
   90% {
     -webkit-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 434, ../sass/_animate.sass */
   100% {
     -webkit-transform: scale(1) rotate(0);
   }
 }
-
 @-moz-keyframes fadeIn {
-  /* line 438, ../sass/_animate.sass */
   0% {
     opacity: 0;
   }
-
-  /* line 440, ../sass/_animate.sass */
   100% {
     opacity: 1;
   }
 }
-
 @-moz-keyframes fadeOut {
-  /* line 444, ../sass/_animate.sass */
   0% {
     opacity: 1;
   }
-
-  /* line 446, ../sass/_animate.sass */
   100% {
     opacity: 0;
   }
 }
-
 @-moz-keyframes fadeInUp {
-  /* line 450, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateY(20px);
   }
-
-  /* line 453, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -moz-transform: translateY(0);
   }
 }
-
 @-moz-keyframes fadeOutUp {
-  /* line 458, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -moz-transform: translateY(0);
   }
-
-  /* line 461, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateY(-20px);
   }
 }
-
 @-moz-keyframes fadeInDown {
-  /* line 466, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateY(-20px);
   }
-
-  /* line 469, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -moz-transform: translateY(0);
   }
 }
-
 @-moz-keyframes fadeOutDown {
-  /* line 474, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -moz-transform: translateY(0);
   }
-
-  /* line 477, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateY(20px);
   }
 }
-
 @-moz-keyframes fadeInRight {
-  /* line 482, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateX(20px);
   }
-
-  /* line 485, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -moz-transform: translateX(0);
   }
 }
-
 @-moz-keyframes fadeOutLeft {
-  /* line 490, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -moz-transform: translateX(0);
   }
-
-  /* line 493, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateX(-20px);
   }
 }
-
 @-moz-keyframes fadeInLeft {
-  /* line 498, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateX(-20px);
   }
-
-  /* line 501, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -moz-transform: translateX(0);
   }
 }
-
 @-moz-keyframes fadeOutRight {
-  /* line 506, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -moz-transform: translateX(0);
   }
-
-  /* line 509, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateX(20px);
   }
 }
-
 @-moz-keyframes fadeInUpBig {
-  /* line 514, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateY(2000px);
   }
-
-  /* line 517, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -moz-transform: translateY(0);
   }
 }
-
 @-moz-keyframes fadeOutUpBig {
-  /* line 522, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -moz-transform: translateY(0);
   }
-
-  /* line 525, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateY(-2000px);
   }
 }
-
 @-moz-keyframes fadeInDownBig {
-  /* line 530, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateY(-2000px);
   }
-
-  /* line 533, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -moz-transform: translateY(0);
   }
 }
-
 @-moz-keyframes fadeOutDownBig {
-  /* line 538, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -moz-transform: translateY(0);
   }
-
-  /* line 541, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateY(2000px);
   }
 }
-
 @-moz-keyframes fadeInRightBig {
-  /* line 546, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateX(2000px);
   }
-
-  /* line 549, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -moz-transform: translateX(0);
   }
 }
-
 @-moz-keyframes fadeOutLeftBig {
-  /* line 554, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -moz-transform: translateX(0);
   }
-
-  /* line 557, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateX(-2000px);
   }
 }
-
 @-moz-keyframes fadeInLeftBig {
-  /* line 562, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateX(-2000px);
   }
-
-  /* line 565, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -moz-transform: translateX(0);
   }
 }
-
 @-moz-keyframes fadeOutRightBig {
-  /* line 570, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -moz-transform: translateX(0);
   }
-
-  /* line 573, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateX(2000px);
   }
 }
-
 @-moz-keyframes bounceIn {
-  /* line 578, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: scale(0.3);
   }
-
-  /* line 581, ../sass/_animate.sass */
   50% {
     opacity: 1;
     -moz-transform: scale(1.05);
   }
-
-  /* line 584, ../sass/_animate.sass */
   70% {
     -moz-transform: scale(0.9);
   }
-
-  /* line 586, ../sass/_animate.sass */
   100% {
     -moz-transform: scale(1);
   }
 }
-
 @-moz-keyframes bounceInDown {
-  /* line 590, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateY(-2000px);
   }
-
-  /* line 593, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -moz-transform: translateY(30px);
   }
-
-  /* line 596, ../sass/_animate.sass */
   80% {
     -moz-transform: translateY(-10px);
   }
-
-  /* line 598, ../sass/_animate.sass */
   100% {
     -moz-transform: translateY(0);
   }
 }
-
 @-moz-keyframes bounceInUp {
-  /* line 602, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateY(2000px);
   }
-
-  /* line 605, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -moz-transform: translateY(-30px);
   }
-
-  /* line 608, ../sass/_animate.sass */
   80% {
     -moz-transform: translateY(10px);
   }
-
-  /* line 610, ../sass/_animate.sass */
   100% {
     -moz-transform: translateY(0);
   }
 }
-
 @-moz-keyframes bounceInRight {
-  /* line 614, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateX(2000px);
   }
-
-  /* line 617, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -moz-transform: translateX(-30px);
   }
-
-  /* line 620, ../sass/_animate.sass */
   80% {
     -moz-transform: translateX(10px);
   }
-
-  /* line 622, ../sass/_animate.sass */
   100% {
     -moz-transform: translateX(0);
   }
 }
-
 @-moz-keyframes bounceInLeft {
-  /* line 626, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -moz-transform: translateX(-2000px);
   }
-
-  /* line 629, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -moz-transform: translateX(30px);
   }
-
-  /* line 632, ../sass/_animate.sass */
   80% {
     -moz-transform: translateX(-10px);
   }
-
-  /* line 634, ../sass/_animate.sass */
   100% {
     -moz-transform: translateX(0);
   }
 }
-
 @-moz-keyframes bounceOut {
-  /* line 638, ../sass/_animate.sass */
   0% {
     -moz-transform: scale(1);
   }
-
-  /* line 640, ../sass/_animate.sass */
   25% {
     -moz-transform: scale(0.95);
   }
-
-  /* line 642, ../sass/_animate.sass */
   50% {
     opacity: 1;
     -moz-transform: scale(1.1);
   }
-
-  /* line 645, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: scale(0.3);
   }
 }
-
 @-moz-keyframes bounceOutUp {
-  /* line 650, ../sass/_animate.sass */
   0% {
     -moz-transform: translateY(0);
   }
-
-  /* line 652, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -moz-transform: translateY(20px);
   }
-
-  /* line 655, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateY(-2000px);
   }
 }
-
 @-moz-keyframes bounceOutDown {
-  /* line 660, ../sass/_animate.sass */
   0% {
     -moz-transform: translateY(0);
   }
-
-  /* line 662, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -moz-transform: translateY(-20px);
   }
-
-  /* line 665, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateY(2000px);
   }
 }
-
 @-moz-keyframes bounceOutLeft {
-  /* line 670, ../sass/_animate.sass */
   0% {
     -moz-transform: translateX(0);
   }
-
-  /* line 672, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -moz-transform: translateX(20px);
   }
-
-  /* line 675, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateX(-2000px);
   }
 }
-
 @-moz-keyframes bounceOutRight {
-  /* line 680, ../sass/_animate.sass */
   0% {
     -moz-transform: translateX(0);
   }
-
-  /* line 682, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -moz-transform: translateX(-20px);
   }
-
-  /* line 685, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -moz-transform: translateX(2000px);
   }
 }
-
 @-moz-keyframes flash {
-  /* line 690, ../sass/_animate.sass */
   0% {
     opacity: 1;
   }
-
-  /* line 692, ../sass/_animate.sass */
   25% {
     opacity: 0;
   }
-
-  /* line 694, ../sass/_animate.sass */
   50% {
     opacity: 1;
   }
-
-  /* line 696, ../sass/_animate.sass */
   75% {
     opacity: 0;
   }
-
-  /* line 698, ../sass/_animate.sass */
   100% {
     opacity: 1;
   }
 }
-
 @-moz-keyframes bounce {
-  /* line 702, ../sass/_animate.sass */
   0% {
     -moz-transform: translateY(0);
   }
-
-  /* line 704, ../sass/_animate.sass */
   20% {
     -moz-transform: translateY(0);
   }
-
-  /* line 706, ../sass/_animate.sass */
   40% {
     -moz-transform: translateY(-30px);
   }
-
-  /* line 708, ../sass/_animate.sass */
   50% {
     -moz-transform: translateY(0);
   }
-
-  /* line 710, ../sass/_animate.sass */
   60% {
     -moz-transform: translateY(-15px);
   }
-
-  /* line 712, ../sass/_animate.sass */
   80% {
     -moz-transform: translateY(0);
   }
-
-  /* line 714, ../sass/_animate.sass */
   100% {
     -moz-transform: translateY(0);
   }
 }
-
 @-moz-keyframes shake {
-  /* line 718, ../sass/_animate.sass */
   0% {
     -moz-transform: translateX(0);
   }
-
-  /* line 720, ../sass/_animate.sass */
   10% {
     -moz-transform: translateX(-10px);
   }
-
-  /* line 722, ../sass/_animate.sass */
   20% {
     -moz-transform: translateX(10px);
   }
-
-  /* line 724, ../sass/_animate.sass */
   30% {
     -moz-transform: translateX(-10px);
   }
-
-  /* line 726, ../sass/_animate.sass */
   40% {
     -moz-transform: translateX(10px);
   }
-
-  /* line 728, ../sass/_animate.sass */
   50% {
     -moz-transform: translateX(-10px);
   }
-
-  /* line 730, ../sass/_animate.sass */
   60% {
     -moz-transform: translateX(10px);
   }
-
-  /* line 732, ../sass/_animate.sass */
   70% {
     -moz-transform: translateX(-10px);
   }
-
-  /* line 734, ../sass/_animate.sass */
   80% {
     -moz-transform: translateX(10px);
   }
-
-  /* line 736, ../sass/_animate.sass */
   90% {
     -moz-transform: translateX(-10px);
   }
-
-  /* line 738, ../sass/_animate.sass */
   100% {
     -moz-transform: translateX(0);
   }
 }
-
 @-moz-keyframes rotateInDownLeft {
-  /* line 742, ../sass/_animate.sass */
   0% {
     -moz-transform-origin: left bottom;
     -moz-transform: rotate(-90deg);
     opacity: 0;
   }
-
-  /* line 746, ../sass/_animate.sass */
   100% {
     -moz-transform-origin: left bottom;
     -moz-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-moz-keyframes rotateInUpLeft {
-  /* line 752, ../sass/_animate.sass */
   0% {
     -moz-transform-origin: left bottom;
     -moz-transform: rotate(90deg);
     opacity: 0;
   }
-
-  /* line 756, ../sass/_animate.sass */
   100% {
     -moz-transform-origin: left bottom;
     -moz-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-moz-keyframes rotateInUpRight {
-  /* line 762, ../sass/_animate.sass */
   0% {
     -moz-transform-origin: right bottom;
     -moz-transform: rotate(-90deg);
     opacity: 0;
   }
-
-  /* line 766, ../sass/_animate.sass */
   100% {
     -moz-transform-origin: right bottom;
     -moz-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-moz-keyframes rotateInDownRight {
-  /* line 772, ../sass/_animate.sass */
   0% {
     -moz-transform-origin: right bottom;
     -moz-transform: rotate(90deg);
     opacity: 0;
   }
-
-  /* line 776, ../sass/_animate.sass */
   100% {
     -moz-transform-origin: right bottom;
     -moz-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-moz-keyframes rotateOutDownLeft {
-  /* line 782, ../sass/_animate.sass */
   0% {
     -moz-transform-origin: left bottom;
     -moz-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 786, ../sass/_animate.sass */
   100% {
     -moz-transform-origin: left bottom;
     -moz-transform: rotate(90deg);
     opacity: 0;
   }
 }
-
 @-moz-keyframes rotateOutUpLeft {
-  /* line 792, ../sass/_animate.sass */
   0% {
     -moz-transform-origin: left bottom;
     -moz-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 796, ../sass/_animate.sass */
   100% {
     -moz-transform-origin: left bottom;
     -moz-transform: rotate(-90deg);
     opacity: 0;
   }
 }
-
 @-moz-keyframes rotateOutDownRight {
-  /* line 802, ../sass/_animate.sass */
   0% {
     -moz-transform-origin: right bottom;
     -moz-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 806, ../sass/_animate.sass */
   100% {
     -moz-transform-origin: right bottom;
     -moz-transform: rotate(-90deg);
     opacity: 0;
   }
 }
-
 @-moz-keyframes rotateOutUpRight {
-  /* line 812, ../sass/_animate.sass */
   0% {
     -moz-transform-origin: right bottom;
     -moz-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 816, ../sass/_animate.sass */
   100% {
     -moz-transform-origin: right bottom;
     -moz-transform: rotate(90deg);
     opacity: 0;
   }
 }
-
 @-moz-keyframes rotateIn {
-  /* line 822, ../sass/_animate.sass */
   0% {
     -moz-transform-origin: center center;
     -moz-transform: rotate(-200deg);
     opacity: 0;
   }
-
-  /* line 826, ../sass/_animate.sass */
   100% {
     -moz-transform-origin: center center;
     -moz-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-moz-keyframes rotateOut {
-  /* line 832, ../sass/_animate.sass */
   0% {
     -moz-transform-origin: center center;
     -moz-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 836, ../sass/_animate.sass */
   100% {
     -moz-transform-origin: center center;
     -moz-transform: rotate(200deg);
     opacity: 0;
   }
 }
-
 @-moz-keyframes tada {
-  /* line 842, ../sass/_animate.sass */
   0% {
     -moz-transform: scale(1);
   }
-
-  /* line 844, ../sass/_animate.sass */
   10% {
     -moz-transform: scale(0.9) rotate(-3deg);
   }
-
-  /* line 846, ../sass/_animate.sass */
   20% {
     -moz-transform: scale(0.9) rotate(-3deg);
   }
-
-  /* line 848, ../sass/_animate.sass */
   30% {
     -moz-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 850, ../sass/_animate.sass */
   40% {
     -moz-transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 852, ../sass/_animate.sass */
   50% {
     -moz-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 854, ../sass/_animate.sass */
   60% {
     -moz-transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 856, ../sass/_animate.sass */
   70% {
     -moz-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 858, ../sass/_animate.sass */
   80% {
     -moz-transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 860, ../sass/_animate.sass */
   90% {
     -moz-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 862, ../sass/_animate.sass */
   100% {
     -moz-transform: scale(1) rotate(0);
   }
 }
-
 @-ms-keyframes fadeIn {
-  /* line 866, ../sass/_animate.sass */
   0% {
     opacity: 0;
   }
-
-  /* line 868, ../sass/_animate.sass */
   100% {
     opacity: 1;
   }
 }
-
 @-ms-keyframes fadeOut {
-  /* line 872, ../sass/_animate.sass */
   0% {
     opacity: 1;
   }
-
-  /* line 874, ../sass/_animate.sass */
   100% {
     opacity: 0;
   }
 }
-
 @-ms-keyframes fadeInUp {
-  /* line 878, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateY(20px);
   }
-
-  /* line 881, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -ms-transform: translateY(0);
   }
 }
-
 @-ms-keyframes fadeOutUp {
-  /* line 886, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -ms-transform: translateY(0);
   }
-
-  /* line 889, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateY(-20px);
   }
 }
-
 @-ms-keyframes fadeInDown {
-  /* line 894, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateY(-20px);
   }
-
-  /* line 897, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -ms-transform: translateY(0);
   }
 }
-
 @-ms-keyframes fadeOutDown {
-  /* line 902, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -ms-transform: translateY(0);
   }
-
-  /* line 905, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateY(20px);
   }
 }
-
 @-ms-keyframes fadeInRight {
-  /* line 910, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateX(20px);
   }
-
-  /* line 913, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -ms-transform: translateX(0);
   }
 }
-
 @-ms-keyframes fadeOutLeft {
-  /* line 918, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -ms-transform: translateX(0);
   }
-
-  /* line 921, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateX(-20px);
   }
 }
-
 @-ms-keyframes fadeInLeft {
-  /* line 926, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateX(-20px);
   }
-
-  /* line 929, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -ms-transform: translateX(0);
   }
 }
-
 @-ms-keyframes fadeOutRight {
-  /* line 934, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -ms-transform: translateX(0);
   }
-
-  /* line 937, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateX(20px);
   }
 }
-
 @-ms-keyframes fadeInUpBig {
-  /* line 942, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateY(2000px);
   }
-
-  /* line 945, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -ms-transform: translateY(0);
   }
 }
-
 @-ms-keyframes fadeOutUpBig {
-  /* line 950, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -ms-transform: translateY(0);
   }
-
-  /* line 953, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateY(-2000px);
   }
 }
-
 @-ms-keyframes fadeInDownBig {
-  /* line 958, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateY(-2000px);
   }
-
-  /* line 961, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -ms-transform: translateY(0);
   }
 }
-
 @-ms-keyframes fadeOutDownBig {
-  /* line 966, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -ms-transform: translateY(0);
   }
-
-  /* line 969, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateY(2000px);
   }
 }
-
 @-ms-keyframes fadeInRightBig {
-  /* line 974, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateX(2000px);
   }
-
-  /* line 977, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -ms-transform: translateX(0);
   }
 }
-
 @-ms-keyframes fadeOutLeftBig {
-  /* line 982, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -ms-transform: translateX(0);
   }
-
-  /* line 985, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateX(-2000px);
   }
 }
-
 @-ms-keyframes fadeInLeftBig {
-  /* line 990, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateX(-2000px);
   }
-
-  /* line 993, ../sass/_animate.sass */
   100% {
     opacity: 1;
     -ms-transform: translateX(0);
   }
 }
-
 @-ms-keyframes fadeOutRightBig {
-  /* line 998, ../sass/_animate.sass */
   0% {
     opacity: 1;
     -ms-transform: translateX(0);
   }
-
-  /* line 1001, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateX(2000px);
   }
 }
-
 @-ms-keyframes bounceIn {
-  /* line 1006, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: scale(0.3);
   }
-
-  /* line 1009, ../sass/_animate.sass */
   50% {
     opacity: 1;
     -ms-transform: scale(1.05);
   }
-
-  /* line 1012, ../sass/_animate.sass */
   70% {
     -ms-transform: scale(0.9);
   }
-
-  /* line 1014, ../sass/_animate.sass */
   100% {
     -ms-transform: scale(1);
   }
 }
-
 @-ms-keyframes bounceInDown {
-  /* line 1018, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateY(-2000px);
   }
-
-  /* line 1021, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -ms-transform: translateY(30px);
   }
-
-  /* line 1024, ../sass/_animate.sass */
   80% {
     -ms-transform: translateY(-10px);
   }
-
-  /* line 1026, ../sass/_animate.sass */
   100% {
     -ms-transform: translateY(0);
   }
 }
-
 @-ms-keyframes bounceInUp {
-  /* line 1030, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateY(2000px);
   }
-
-  /* line 1033, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -ms-transform: translateY(-30px);
   }
-
-  /* line 1036, ../sass/_animate.sass */
   80% {
     -ms-transform: translateY(10px);
   }
-
-  /* line 1038, ../sass/_animate.sass */
   100% {
     -ms-transform: translateY(0);
   }
 }
-
 @-ms-keyframes bounceInRight {
-  /* line 1042, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateX(2000px);
   }
-
-  /* line 1045, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -ms-transform: translateX(-30px);
   }
-
-  /* line 1048, ../sass/_animate.sass */
   80% {
     -ms-transform: translateX(10px);
   }
-
-  /* line 1050, ../sass/_animate.sass */
   100% {
     -ms-transform: translateX(0);
   }
 }
-
 @-ms-keyframes bounceInLeft {
-  /* line 1054, ../sass/_animate.sass */
   0% {
     opacity: 0;
     -ms-transform: translateX(-2000px);
   }
-
-  /* line 1057, ../sass/_animate.sass */
   60% {
     opacity: 1;
     -ms-transform: translateX(30px);
   }
-
-  /* line 1060, ../sass/_animate.sass */
   80% {
     -ms-transform: translateX(-10px);
   }
-
-  /* line 1062, ../sass/_animate.sass */
   100% {
     -ms-transform: translateX(0);
   }
 }
-
 @-ms-keyframes bounceOut {
-  /* line 1066, ../sass/_animate.sass */
   0% {
     -ms-transform: scale(1);
   }
-
-  /* line 1068, ../sass/_animate.sass */
   25% {
     -ms-transform: scale(0.95);
   }
-
-  /* line 1070, ../sass/_animate.sass */
   50% {
     opacity: 1;
     -ms-transform: scale(1.1);
   }
-
-  /* line 1073, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: scale(0.3);
   }
 }
-
 @-ms-keyframes bounceOutUp {
-  /* line 1078, ../sass/_animate.sass */
   0% {
     -ms-transform: translateY(0);
   }
-
-  /* line 1080, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -ms-transform: translateY(20px);
   }
-
-  /* line 1083, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateY(-2000px);
   }
 }
-
 @-ms-keyframes bounceOutDown {
-  /* line 1088, ../sass/_animate.sass */
   0% {
     -ms-transform: translateY(0);
   }
-
-  /* line 1090, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -ms-transform: translateY(-20px);
   }
-
-  /* line 1093, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateY(2000px);
   }
 }
-
 @-ms-keyframes bounceOutLeft {
-  /* line 1098, ../sass/_animate.sass */
   0% {
     -ms-transform: translateX(0);
   }
-
-  /* line 1100, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -ms-transform: translateX(20px);
   }
-
-  /* line 1103, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateX(-2000px);
   }
 }
-
 @-ms-keyframes bounceOutRight {
-  /* line 1108, ../sass/_animate.sass */
   0% {
     -ms-transform: translateX(0);
   }
-
-  /* line 1110, ../sass/_animate.sass */
   20% {
     opacity: 1;
     -ms-transform: translateX(-20px);
   }
-
-  /* line 1113, ../sass/_animate.sass */
   100% {
     opacity: 0;
     -ms-transform: translateX(2000px);
   }
 }
-
 @-ms-keyframes flash {
-  /* line 1118, ../sass/_animate.sass */
   0% {
     opacity: 1;
   }
-
-  /* line 1120, ../sass/_animate.sass */
   25% {
     opacity: 0;
   }
-
-  /* line 1122, ../sass/_animate.sass */
   50% {
     opacity: 1;
   }
-
-  /* line 1124, ../sass/_animate.sass */
   75% {
     opacity: 0;
   }
-
-  /* line 1126, ../sass/_animate.sass */
   100% {
     opacity: 1;
   }
 }
-
 @-ms-keyframes bounce {
-  /* line 1130, ../sass/_animate.sass */
   0% {
     -ms-transform: translateY(0);
   }
-
-  /* line 1132, ../sass/_animate.sass */
   20% {
     -ms-transform: translateY(0);
   }
-
-  /* line 1134, ../sass/_animate.sass */
   40% {
     -ms-transform: translateY(-30px);
   }
-
-  /* line 1136, ../sass/_animate.sass */
   50% {
     -ms-transform: translateY(0);
   }
-
-  /* line 1138, ../sass/_animate.sass */
   60% {
     -ms-transform: translateY(-15px);
   }
-
-  /* line 1140, ../sass/_animate.sass */
   80% {
     -ms-transform: translateY(0);
   }
-
-  /* line 1142, ../sass/_animate.sass */
   100% {
     -ms-transform: translateY(0);
   }
 }
-
 @-ms-keyframes shake {
-  /* line 1146, ../sass/_animate.sass */
   0% {
     -ms-transform: translateX(0);
   }
-
-  /* line 1148, ../sass/_animate.sass */
   10% {
     -ms-transform: translateX(-10px);
   }
-
-  /* line 1150, ../sass/_animate.sass */
   20% {
     -ms-transform: translateX(10px);
   }
-
-  /* line 1152, ../sass/_animate.sass */
   30% {
     -ms-transform: translateX(-10px);
   }
-
-  /* line 1154, ../sass/_animate.sass */
   40% {
     -ms-transform: translateX(10px);
   }
-
-  /* line 1156, ../sass/_animate.sass */
   50% {
     -ms-transform: translateX(-10px);
   }
-
-  /* line 1158, ../sass/_animate.sass */
   60% {
     -ms-transform: translateX(10px);
   }
-
-  /* line 1160, ../sass/_animate.sass */
   70% {
     -ms-transform: translateX(-10px);
   }
-
-  /* line 1162, ../sass/_animate.sass */
   80% {
     -ms-transform: translateX(10px);
   }
-
-  /* line 1164, ../sass/_animate.sass */
   90% {
     -ms-transform: translateX(-10px);
   }
-
-  /* line 1166, ../sass/_animate.sass */
   100% {
     -ms-transform: translateX(0);
   }
 }
-
 @-ms-keyframes rotateInDownLeft {
-  /* line 1170, ../sass/_animate.sass */
   0% {
     -ms-transform-origin: left bottom;
     -ms-transform: rotate(-90deg);
     opacity: 0;
   }
-
-  /* line 1174, ../sass/_animate.sass */
   100% {
     -ms-transform-origin: left bottom;
     -ms-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-ms-keyframes rotateInUpLeft {
-  /* line 1180, ../sass/_animate.sass */
   0% {
     -ms-transform-origin: left bottom;
     -ms-transform: rotate(90deg);
     opacity: 0;
   }
-
-  /* line 1184, ../sass/_animate.sass */
   100% {
     -ms-transform-origin: left bottom;
     -ms-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-ms-keyframes rotateInUpRight {
-  /* line 1190, ../sass/_animate.sass */
   0% {
     -ms-transform-origin: right bottom;
     -ms-transform: rotate(-90deg);
     opacity: 0;
   }
-
-  /* line 1194, ../sass/_animate.sass */
   100% {
     -ms-transform-origin: right bottom;
     -ms-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-ms-keyframes rotateInDownRight {
-  /* line 1200, ../sass/_animate.sass */
   0% {
     -ms-transform-origin: right bottom;
     -ms-transform: rotate(90deg);
     opacity: 0;
   }
-
-  /* line 1204, ../sass/_animate.sass */
   100% {
     -ms-transform-origin: right bottom;
     -ms-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-ms-keyframes rotateOutDownLeft {
-  /* line 1210, ../sass/_animate.sass */
   0% {
     -ms-transform-origin: left bottom;
     -ms-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 1214, ../sass/_animate.sass */
   100% {
     -ms-transform-origin: left bottom;
     -ms-transform: rotate(90deg);
     opacity: 0;
   }
 }
-
 @-ms-keyframes rotateOutUpLeft {
-  /* line 1220, ../sass/_animate.sass */
   0% {
     -ms-transform-origin: left bottom;
     -ms-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 1224, ../sass/_animate.sass */
   100% {
     -ms-transform-origin: left bottom;
     -ms-transform: rotate(-90deg);
     opacity: 0;
   }
 }
-
 @-ms-keyframes rotateOutDownRight {
-  /* line 1230, ../sass/_animate.sass */
   0% {
     -ms-transform-origin: right bottom;
     -ms-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 1234, ../sass/_animate.sass */
   100% {
     -ms-transform-origin: right bottom;
     -ms-transform: rotate(-90deg);
     opacity: 0;
   }
 }
-
 @-ms-keyframes rotateOutUpRight {
-  /* line 1240, ../sass/_animate.sass */
   0% {
     -ms-transform-origin: right bottom;
     -ms-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 1244, ../sass/_animate.sass */
   100% {
     -ms-transform-origin: right bottom;
     -ms-transform: rotate(90deg);
     opacity: 0;
   }
 }
-
 @-ms-keyframes rotateIn {
-  /* line 1250, ../sass/_animate.sass */
   0% {
     -ms-transform-origin: center center;
     -ms-transform: rotate(-200deg);
     opacity: 0;
   }
-
-  /* line 1254, ../sass/_animate.sass */
   100% {
     -ms-transform-origin: center center;
     -ms-transform: rotate(0);
     opacity: 1;
   }
 }
-
 @-ms-keyframes rotateOut {
-  /* line 1260, ../sass/_animate.sass */
   0% {
     -ms-transform-origin: center center;
     -ms-transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 1264, ../sass/_animate.sass */
   100% {
     -ms-transform-origin: center center;
     -ms-transform: rotate(200deg);
     opacity: 0;
   }
 }
-
 @-ms-keyframes tada {
-  /* line 1270, ../sass/_animate.sass */
   0% {
     -ms-transform: scale(1);
   }
-
-  /* line 1272, ../sass/_animate.sass */
   10% {
     -ms-transform: scale(0.9) rotate(-3deg);
   }
-
-  /* line 1274, ../sass/_animate.sass */
   20% {
     -ms-transform: scale(0.9) rotate(-3deg);
   }
-
-  /* line 1276, ../sass/_animate.sass */
   30% {
     -ms-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 1278, ../sass/_animate.sass */
   40% {
     -ms-transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 1280, ../sass/_animate.sass */
   50% {
     -ms-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 1282, ../sass/_animate.sass */
   60% {
     -ms-transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 1284, ../sass/_animate.sass */
   70% {
     -ms-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 1286, ../sass/_animate.sass */
   80% {
     -ms-transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 1288, ../sass/_animate.sass */
   90% {
     -ms-transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 1290, ../sass/_animate.sass */
   100% {
     -ms-transform: scale(1) rotate(0);
   }
 }
-
 @keyframes fadeIn {
-  /* line 1294, ../sass/_animate.sass */
   0% {
     opacity: 0;
   }
-
-  /* line 1296, ../sass/_animate.sass */
   100% {
     opacity: 1;
   }
 }
-
 @keyframes fadeOut {
-  /* line 1300, ../sass/_animate.sass */
   0% {
     opacity: 1;
   }
-
-  /* line 1302, ../sass/_animate.sass */
   100% {
     opacity: 0;
   }
 }
-
 @keyframes fadeInUp {
-  /* line 1306, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateY(20px);
   }
-
-  /* line 1309, ../sass/_animate.sass */
   100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 @keyframes fadeOutUp {
-  /* line 1314, ../sass/_animate.sass */
   0% {
     opacity: 1;
     transform: translateY(0);
   }
-
-  /* line 1317, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateY(-20px);
   }
 }
-
 @keyframes fadeInDown {
-  /* line 1322, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateY(-20px);
   }
-
-  /* line 1325, ../sass/_animate.sass */
   100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 @keyframes fadeOutDown {
-  /* line 1330, ../sass/_animate.sass */
   0% {
     opacity: 1;
     transform: translateY(0);
   }
-
-  /* line 1333, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateY(20px);
   }
 }
-
 @keyframes fadeInRight {
-  /* line 1338, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateX(20px);
   }
-
-  /* line 1341, ../sass/_animate.sass */
   100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
-
 @keyframes fadeOutLeft {
-  /* line 1346, ../sass/_animate.sass */
   0% {
     opacity: 1;
     transform: translateX(0);
   }
-
-  /* line 1349, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateX(-20px);
   }
 }
-
 @keyframes fadeInLeft {
-  /* line 1354, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateX(-20px);
   }
-
-  /* line 1357, ../sass/_animate.sass */
   100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
-
 @keyframes fadeOutRight {
-  /* line 1362, ../sass/_animate.sass */
   0% {
     opacity: 1;
     transform: translateX(0);
   }
-
-  /* line 1365, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateX(20px);
   }
 }
-
 @keyframes fadeInUpBig {
-  /* line 1370, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateY(2000px);
   }
-
-  /* line 1373, ../sass/_animate.sass */
   100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 @keyframes fadeOutUpBig {
-  /* line 1378, ../sass/_animate.sass */
   0% {
     opacity: 1;
     transform: translateY(0);
   }
-
-  /* line 1381, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateY(-2000px);
   }
 }
-
 @keyframes fadeInDownBig {
-  /* line 1386, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateY(-2000px);
   }
-
-  /* line 1389, ../sass/_animate.sass */
   100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 @keyframes fadeOutDownBig {
-  /* line 1394, ../sass/_animate.sass */
   0% {
     opacity: 1;
     transform: translateY(0);
   }
-
-  /* line 1397, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateY(2000px);
   }
 }
-
 @keyframes fadeInRightBig {
-  /* line 1402, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateX(2000px);
   }
-
-  /* line 1405, ../sass/_animate.sass */
   100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
-
 @keyframes fadeOutLeftBig {
-  /* line 1410, ../sass/_animate.sass */
   0% {
     opacity: 1;
     transform: translateX(0);
   }
-
-  /* line 1413, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateX(-2000px);
   }
 }
-
 @keyframes fadeInLeftBig {
-  /* line 1418, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateX(-2000px);
   }
-
-  /* line 1421, ../sass/_animate.sass */
   100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
-
 @keyframes fadeOutRightBig {
-  /* line 1426, ../sass/_animate.sass */
   0% {
     opacity: 1;
     transform: translateX(0);
   }
-
-  /* line 1429, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateX(2000px);
   }
 }
-
 @keyframes bounceIn {
-  /* line 1434, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: scale(0.3);
   }
-
-  /* line 1437, ../sass/_animate.sass */
   50% {
     opacity: 1;
     transform: scale(1.05);
   }
-
-  /* line 1440, ../sass/_animate.sass */
   70% {
     transform: scale(0.9);
   }
-
-  /* line 1442, ../sass/_animate.sass */
   100% {
     transform: scale(1);
   }
 }
-
 @keyframes bounceInDown {
-  /* line 1446, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateY(-2000px);
   }
-
-  /* line 1449, ../sass/_animate.sass */
   60% {
     opacity: 1;
     transform: translateY(30px);
   }
-
-  /* line 1452, ../sass/_animate.sass */
   80% {
     transform: translateY(-10px);
   }
-
-  /* line 1454, ../sass/_animate.sass */
   100% {
     transform: translateY(0);
   }
 }
-
 @keyframes bounceInUp {
-  /* line 1458, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateY(2000px);
   }
-
-  /* line 1461, ../sass/_animate.sass */
   60% {
     opacity: 1;
     transform: translateY(-30px);
   }
-
-  /* line 1464, ../sass/_animate.sass */
   80% {
     transform: translateY(10px);
   }
-
-  /* line 1466, ../sass/_animate.sass */
   100% {
     transform: translateY(0);
   }
 }
-
 @keyframes bounceInRight {
-  /* line 1470, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateX(2000px);
   }
-
-  /* line 1473, ../sass/_animate.sass */
   60% {
     opacity: 1;
     transform: translateX(-30px);
   }
-
-  /* line 1476, ../sass/_animate.sass */
   80% {
     transform: translateX(10px);
   }
-
-  /* line 1478, ../sass/_animate.sass */
   100% {
     transform: translateX(0);
   }
 }
-
 @keyframes bounceInLeft {
-  /* line 1482, ../sass/_animate.sass */
   0% {
     opacity: 0;
     transform: translateX(-2000px);
   }
-
-  /* line 1485, ../sass/_animate.sass */
   60% {
     opacity: 1;
     transform: translateX(30px);
   }
-
-  /* line 1488, ../sass/_animate.sass */
   80% {
     transform: translateX(-10px);
   }
-
-  /* line 1490, ../sass/_animate.sass */
   100% {
     transform: translateX(0);
   }
 }
-
 @keyframes bounceOut {
-  /* line 1494, ../sass/_animate.sass */
   0% {
     transform: scale(1);
   }
-
-  /* line 1496, ../sass/_animate.sass */
   25% {
     transform: scale(0.95);
   }
-
-  /* line 1498, ../sass/_animate.sass */
   50% {
     opacity: 1;
     transform: scale(1.1);
   }
-
-  /* line 1501, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: scale(0.3);
   }
 }
-
 @keyframes bounceOutUp {
-  /* line 1506, ../sass/_animate.sass */
   0% {
     transform: translateY(0);
   }
-
-  /* line 1508, ../sass/_animate.sass */
   20% {
     opacity: 1;
     transform: translateY(20px);
   }
-
-  /* line 1511, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateY(-2000px);
   }
 }
-
 @keyframes bounceOutDown {
-  /* line 1516, ../sass/_animate.sass */
   0% {
     transform: translateY(0);
   }
-
-  /* line 1518, ../sass/_animate.sass */
   20% {
     opacity: 1;
     transform: translateY(-20px);
   }
-
-  /* line 1521, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateY(2000px);
   }
 }
-
 @keyframes bounceOutLeft {
-  /* line 1526, ../sass/_animate.sass */
   0% {
     transform: translateX(0);
   }
-
-  /* line 1528, ../sass/_animate.sass */
   20% {
     opacity: 1;
     transform: translateX(20px);
   }
-
-  /* line 1531, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateX(-2000px);
   }
 }
-
 @keyframes bounceOutRight {
-  /* line 1536, ../sass/_animate.sass */
   0% {
     transform: translateX(0);
   }
-
-  /* line 1538, ../sass/_animate.sass */
   20% {
     opacity: 1;
     transform: translateX(-20px);
   }
-
-  /* line 1541, ../sass/_animate.sass */
   100% {
     opacity: 0;
     transform: translateX(2000px);
   }
 }
-
 @keyframes flash {
-  /* line 1546, ../sass/_animate.sass */
   0% {
     opacity: 1;
   }
-
-  /* line 1548, ../sass/_animate.sass */
   25% {
     opacity: 0;
   }
-
-  /* line 1550, ../sass/_animate.sass */
   50% {
     opacity: 1;
   }
-
-  /* line 1552, ../sass/_animate.sass */
   75% {
     opacity: 0;
   }
-
-  /* line 1554, ../sass/_animate.sass */
   100% {
     opacity: 1;
   }
 }
-
 @keyframes bounce {
-  /* line 1558, ../sass/_animate.sass */
   0% {
     transform: translateY(0);
   }
-
-  /* line 1560, ../sass/_animate.sass */
   20% {
     transform: translateY(0);
   }
-
-  /* line 1562, ../sass/_animate.sass */
   40% {
     transform: translateY(-30px);
   }
-
-  /* line 1564, ../sass/_animate.sass */
   50% {
     transform: translateY(0);
   }
-
-  /* line 1566, ../sass/_animate.sass */
   60% {
     transform: translateY(-15px);
   }
-
-  /* line 1568, ../sass/_animate.sass */
   80% {
     transform: translateY(0);
   }
-
-  /* line 1570, ../sass/_animate.sass */
   100% {
     transform: translateY(0);
   }
 }
-
 @keyframes shake {
-  /* line 1574, ../sass/_animate.sass */
   0% {
     transform: translateX(0);
   }
-
-  /* line 1576, ../sass/_animate.sass */
   10% {
     transform: translateX(-10px);
   }
-
-  /* line 1578, ../sass/_animate.sass */
   20% {
     transform: translateX(10px);
   }
-
-  /* line 1580, ../sass/_animate.sass */
   30% {
     transform: translateX(-10px);
   }
-
-  /* line 1582, ../sass/_animate.sass */
   40% {
     transform: translateX(10px);
   }
-
-  /* line 1584, ../sass/_animate.sass */
   50% {
     transform: translateX(-10px);
   }
-
-  /* line 1586, ../sass/_animate.sass */
   60% {
     transform: translateX(10px);
   }
-
-  /* line 1588, ../sass/_animate.sass */
   70% {
     transform: translateX(-10px);
   }
-
-  /* line 1590, ../sass/_animate.sass */
   80% {
     transform: translateX(10px);
   }
-
-  /* line 1592, ../sass/_animate.sass */
   90% {
     transform: translateX(-10px);
   }
-
-  /* line 1594, ../sass/_animate.sass */
   100% {
     transform: translateX(0);
   }
 }
-
 @keyframes rotateInDownLeft {
-  /* line 1598, ../sass/_animate.sass */
   0% {
     transform-origin: left bottom;
     transform: rotate(-90deg);
     opacity: 0;
   }
-
-  /* line 1602, ../sass/_animate.sass */
   100% {
     transform-origin: left bottom;
     transform: rotate(0);
     opacity: 1;
   }
 }
-
 @keyframes rotateInUpLeft {
-  /* line 1608, ../sass/_animate.sass */
   0% {
     transform-origin: left bottom;
     transform: rotate(90deg);
     opacity: 0;
   }
-
-  /* line 1612, ../sass/_animate.sass */
   100% {
     transform-origin: left bottom;
     transform: rotate(0);
     opacity: 1;
   }
 }
-
 @keyframes rotateInUpRight {
-  /* line 1618, ../sass/_animate.sass */
   0% {
     transform-origin: right bottom;
     transform: rotate(-90deg);
     opacity: 0;
   }
-
-  /* line 1622, ../sass/_animate.sass */
   100% {
     transform-origin: right bottom;
     transform: rotate(0);
     opacity: 1;
   }
 }
-
 @keyframes rotateInDownRight {
-  /* line 1628, ../sass/_animate.sass */
   0% {
     transform-origin: right bottom;
     transform: rotate(90deg);
     opacity: 0;
   }
-
-  /* line 1632, ../sass/_animate.sass */
   100% {
     transform-origin: right bottom;
     transform: rotate(0);
     opacity: 1;
   }
 }
-
 @keyframes rotateOutDownLeft {
-  /* line 1638, ../sass/_animate.sass */
   0% {
     transform-origin: left bottom;
     transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 1642, ../sass/_animate.sass */
   100% {
     transform-origin: left bottom;
     transform: rotate(90deg);
     opacity: 0;
   }
 }
-
 @keyframes rotateOutUpLeft {
-  /* line 1648, ../sass/_animate.sass */
   0% {
     transform-origin: left bottom;
     transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 1652, ../sass/_animate.sass */
   100% {
     transform-origin: left bottom;
     transform: rotate(-90deg);
     opacity: 0;
   }
 }
-
 @keyframes rotateOutDownRight {
-  /* line 1658, ../sass/_animate.sass */
   0% {
     transform-origin: right bottom;
     transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 1662, ../sass/_animate.sass */
   100% {
     transform-origin: right bottom;
     transform: rotate(-90deg);
     opacity: 0;
   }
 }
-
 @keyframes rotateOutUpRight {
-  /* line 1668, ../sass/_animate.sass */
   0% {
     transform-origin: right bottom;
     transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 1672, ../sass/_animate.sass */
   100% {
     transform-origin: right bottom;
     transform: rotate(90deg);
     opacity: 0;
   }
 }
-
 @keyframes rotateIn {
-  /* line 1678, ../sass/_animate.sass */
   0% {
     transform-origin: center center;
     transform: rotate(-200deg);
     opacity: 0;
   }
-
-  /* line 1682, ../sass/_animate.sass */
   100% {
     transform-origin: center center;
     transform: rotate(0);
     opacity: 1;
   }
 }
-
 @keyframes rotateOut {
-  /* line 1688, ../sass/_animate.sass */
   0% {
     transform-origin: center center;
     transform: rotate(0);
     opacity: 1;
   }
-
-  /* line 1692, ../sass/_animate.sass */
   100% {
     transform-origin: center center;
     transform: rotate(200deg);
     opacity: 0;
   }
 }
-
 @keyframes tada {
-  /* line 1698, ../sass/_animate.sass */
   0% {
     transform: scale(1);
   }
-
-  /* line 1700, ../sass/_animate.sass */
   10% {
     transform: scale(0.9) rotate(-3deg);
   }
-
-  /* line 1702, ../sass/_animate.sass */
   20% {
     transform: scale(0.9) rotate(-3deg);
   }
-
-  /* line 1704, ../sass/_animate.sass */
   30% {
     transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 1706, ../sass/_animate.sass */
   40% {
     transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 1708, ../sass/_animate.sass */
   50% {
     transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 1710, ../sass/_animate.sass */
   60% {
     transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 1712, ../sass/_animate.sass */
   70% {
     transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 1714, ../sass/_animate.sass */
   80% {
     transform: scale(1.1) rotate(-3deg);
   }
-
-  /* line 1716, ../sass/_animate.sass */
   90% {
     transform: scale(1.1) rotate(3deg);
   }
-
-  /* line 1718, ../sass/_animate.sass */
   100% {
     transform: scale(1) rotate(0);
   }
 }
-
-/*
+/*!
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
  *  -------------------------------------------------------
@@ -3320,10 +2312,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: normal;
   font-style: normal;
 }
-
 /*  Font Awesome styles
     ------------------------------------------------------- */
-/* line 43, ../sass/_font-awesome.scss */
+/* line 42, ../sass/_font-awesome.scss */
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: FontAwesome;
@@ -3344,7 +2335,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* more sprites.less reset */
-/* line 75, ../sass/_font-awesome.scss */
+/* line 63, ../sass/_font-awesome.scss */
 .icon-white,
 .nav-pills > .active > a > [class^="icon-"],
 .nav-pills > .active > a > [class*=" icon-"],
@@ -3361,7 +2352,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-image: none;
 }
 
-/* line 80, ../sass/_font-awesome.scss */
+/* line 79, ../sass/_font-awesome.scss */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   text-decoration: inherit;
@@ -3370,7 +2361,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* makes sure icons active on rollover in links */
-/* line 89, ../sass/_font-awesome.scss */
+/* line 88, ../sass/_font-awesome.scss */
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline-block;
@@ -3383,7 +2374,7 @@ a [class*=" icon-"] {
   font-size: 1.3333333333333333em;
 }
 
-/* line 102, ../sass/_font-awesome.scss */
+/* line 101, ../sass/_font-awesome.scss */
 .btn [class^="icon-"],
 .btn [class*=" icon-"], .nav [class^="icon-"],
 .nav [class*=" icon-"] {
@@ -3403,7 +2394,7 @@ a [class*=" icon-"] {
   display: inline-block;
 }
 
-/* line 112, ../sass/_font-awesome.scss */
+/* line 111, ../sass/_font-awesome.scss */
 .nav-tabs [class^="icon-"],
 .nav-tabs [class*=" icon-"], .nav-pills [class^="icon-"],
 .nav-pills [class*=" icon-"] {
@@ -3418,7 +2409,7 @@ a [class*=" icon-"] {
   line-height: .9em;
 }
 
-/* line 120, ../sass/_font-awesome.scss */
+/* line 119, ../sass/_font-awesome.scss */
 li [class^="icon-"],
 li [class*=" icon-"], .nav li [class^="icon-"],
 .nav li [class*=" icon-"] {
@@ -3437,9 +2428,9 @@ li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
 /* line 131, ../sass/_font-awesome.scss */
 ul.icons {
   list-style-type: none;
-  text-indent: -0.75em;
+  text-indent: -.75em;
 }
-/* line 137, ../sass/_font-awesome.scss */
+/* line 136, ../sass/_font-awesome.scss */
 ul.icons li [class^="icon-"],
 ul.icons li [class*=" icon-"] {
   width: .75em;
@@ -3447,12 +2438,12 @@ ul.icons li [class*=" icon-"] {
 
 /* line 143, ../sass/_font-awesome.scss */
 .icon-muted {
-  color: #eeeeee;
+  color: #eee;
 }
 
 /* line 150, ../sass/_font-awesome.scss */
 .icon-border {
-  border: solid 1px #eeeeee;
+  border: solid 1px #eee;
   padding: .2em .25em .15em;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -3535,7 +2526,7 @@ ul.icons li [class*=" icon-"] {
   margin-top: .25em;
 }
 
-/* line 219, ../sass/_font-awesome.scss */
+/* line 218, ../sass/_font-awesome.scss */
 .btn.btn-large [class^="icon-"],
 .btn.btn-large [class*=" icon-"] {
   margin-top: 0;
@@ -3567,65 +2558,45 @@ ul.icons li [class*=" icon-"] {
 }
 
 @-moz-keyframes spin {
-  /* line 239, ../sass/_font-awesome.scss */
   0% {
     -moz-transform: rotate(0deg);
   }
-
-  /* line 240, ../sass/_font-awesome.scss */
   100% {
     -moz-transform: rotate(359deg);
   }
 }
-
 @-webkit-keyframes spin {
-  /* line 243, ../sass/_font-awesome.scss */
   0% {
     -webkit-transform: rotate(0deg);
   }
-
-  /* line 244, ../sass/_font-awesome.scss */
   100% {
     -webkit-transform: rotate(359deg);
   }
 }
-
 @-o-keyframes spin {
-  /* line 247, ../sass/_font-awesome.scss */
   0% {
     -o-transform: rotate(0deg);
   }
-
-  /* line 248, ../sass/_font-awesome.scss */
   100% {
     -o-transform: rotate(359deg);
   }
 }
-
 @-ms-keyframes spin {
-  /* line 251, ../sass/_font-awesome.scss */
   0% {
     -ms-transform: rotate(0deg);
   }
-
-  /* line 252, ../sass/_font-awesome.scss */
   100% {
     -ms-transform: rotate(359deg);
   }
 }
-
 @keyframes spin {
-  /* line 255, ../sass/_font-awesome.scss */
   0% {
     transform: rotate(0deg);
   }
-
-  /* line 256, ../sass/_font-awesome.scss */
   100% {
     transform: rotate(359deg);
   }
 }
-
 @-moz-document url-prefix() {
   /* line 260, ../sass/_font-awesome.scss */
   .icon-spin {
@@ -3647,7 +2618,6 @@ ul.icons li [class*=" icon-"] {
     height: .75em;
   }
 }
-
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
 /* line 268, ../sass/_font-awesome.scss */
@@ -4898,9 +3868,9 @@ ul.icons li [class*=" icon-"] {
 
 /* line 1, ../sass/_button.scss */
 .button, .button:link, .button:visited {
-  -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   padding: 10px 0px 6px 0px;
   font-size: 1.5em;
@@ -4911,11 +3881,10 @@ ul.icons li [class*=" icon-"] {
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
   background: #73d216;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   line-height: 30px;
   color: white;
@@ -4926,16 +3895,16 @@ ul.icons li [class*=" icon-"] {
   border-top: 2px solid #73d216;
   text-decoration: none;
   margin-top: 18px;
-  -webkit-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
 }
 /* line 25, ../sass/_button.scss */
 .button.icon-right i, .button:link.icon-right i, .button:visited.icon-right i {
-  -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   background: none repeat scroll 0 0 #4e9a06;
   -webkit-border-radius: 100%;
@@ -4954,8 +3923,8 @@ ul.icons li [class*=" icon-"] {
 .button:hover, .button:link:hover, .button:visited:hover {
   border-bottom: 2px solid #4e9a06;
   border-top: 2px solid #4e9a06;
-  -webkit-box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -5px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 15px -3px #004500 inset, 0px 6px 11px -5px rgba(0, 0, 0, 0.5);
 }
 /* line 44, ../sass/_button.scss */
@@ -4974,9 +3943,9 @@ ul.icons li [class*=" icon-"] {
 }
 /* line 59, ../sass/_button.scss */
 .button-suffix a:link, .button-suffix a:visited {
-  -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   color: white;
   margin-left: 8px;
@@ -5075,7 +4044,7 @@ strong {
 /* line 30, ../sass/_layout.scss */
 h2 {
   font-size: 4em;
-  text-shadow: 0 -2px 5px #051d05;
+  text-shadow: 0 -2px 5px #051D05;
   font-family: 'bariol_regularregular';
   font-weight: 400;
 }
@@ -5083,7 +4052,7 @@ h2 {
 /* line 39, ../sass/_layout.scss */
 .Chrome h2,
 .Safari h2 {
-  text-shadow: 0 -2px 9px #051d05;
+  text-shadow: 0 -2px 9px #051D05;
 }
 
 /* line 44, ../sass/_layout.scss */
@@ -5151,11 +4120,10 @@ textarea:focus, input:focus {
 
 /* line 98, ../sass/_layout.scss */
 .clearfix {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
 }
 
@@ -5203,7 +4171,7 @@ textarea:focus, input:focus {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
 #content:after {
   content: "";
   display: table;
@@ -5226,13 +4194,14 @@ textarea:focus, input:focus {
 @media (min-width: 720px) {
   /* line 155, ../sass/_layout.scss */
   #content {
+    *zoom: 1;
     max-width: 59em;
     padding-left: 2em;
     padding-right: 2em;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   #content:after {
     content: "";
     display: table;
@@ -5296,8 +4265,8 @@ textarea:focus, input:focus {
   float: left;
   margin-right: 3.44828%;
   display: inline;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
 }
@@ -5306,8 +4275,8 @@ textarea:focus, input:focus {
   /* line 209, ../sass/_layout.scss */
   .mobile-full-width {
     width: auto !important;
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: left;
   }
@@ -5364,12 +4333,17 @@ span.streamer h4 em {
   }
 }
 @media (min-width: 720px) {
-  /* line 51, ../sass/_intro.scss */
+  /* line 49, ../sass/_intro.scss */
+  span.streamer {
+    padding-top: 50px;
+  }
+
+  /* line 52, ../sass/_intro.scss */
   h2 {
     font-size: 3em !important;
   }
 
-  /* line 54, ../sass/_intro.scss */
+  /* line 55, ../sass/_intro.scss */
   h4 {
     line-height: 30px !important;
   }
@@ -5381,8 +4355,8 @@ header#menu-zone {
   border-bottom: 2px solid #4e9a06;
   background: url(../img/debut_light.png);
   z-index: 1;
-  -webkit-box-shadow: 0 0 10px #505757;
   -moz-box-shadow: 0 0 10px #505757;
+  -webkit-box-shadow: 0 0 10px #505757;
   box-shadow: 0 0 10px #505757;
 }
 
@@ -5397,7 +4371,7 @@ header#menu-zone {
   margin-right: auto;
   padding: 0;
 }
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
 #menu-wrapper:after {
   content: "";
   display: table;
@@ -5407,6 +4381,7 @@ header#menu-zone {
 @media (min-width: 720px) {
   /* line 16, ../sass/_menu.scss */
   #menu-wrapper {
+    *zoom: 1;
     max-width: 59em;
     padding-left: 2em;
     padding-right: 2em;
@@ -5414,7 +4389,7 @@ header#menu-zone {
     margin-right: auto;
     padding: 0;
   }
-  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   #menu-wrapper:after {
     content: "";
     display: table;
@@ -5423,9 +4398,9 @@ header#menu-zone {
 }
 /* line 23, ../sass/_menu.scss */
 #logo {
-  -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   display: block;
   float: left;
@@ -5454,7 +4429,7 @@ header#menu-zone {
     width: 192px !important;
   }
 }
-/* line 54, ../sass/_menu.scss */
+/* line 53, ../sass/_menu.scss */
 .language-toggle,
 .mobile-menu-switcher {
   font-size: 1em !important;
@@ -5467,7 +4442,7 @@ header#menu-zone {
 }
 
 @media (min-width: 720px) {
-  /* line 66, ../sass/_menu.scss */
+  /* line 65, ../sass/_menu.scss */
   .language-toggle,
   .mobile-menu-switcher {
     margin-top: 14px !important;
@@ -5488,11 +4463,10 @@ header#menu-zone {
 /* line 81, ../sass/_menu.scss */
 .en .language-toggle span {
   background: url("../img/nl.png") no-repeat scroll 0 0 transparent;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   height: 11px;
   text-indent: -99999px;
@@ -5503,11 +4477,10 @@ header#menu-zone {
 /* line 90, ../sass/_menu.scss */
 .nl .language-toggle span {
   background: url("../img/gb.png") no-repeat scroll 0 0 transparent;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   height: 11px;
   text-indent: -99999px;
@@ -5524,24 +4497,23 @@ header#menu-zone {
   display: block;
   width: 100%;
   height: 132px;
-  -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
   -o-transition: height 0.4s;
+  -webkit-transition: height 0.4s;
   transition: height 0.4s;
   overflow: hidden;
 }
 /* line 110, ../sass/_menu.scss */
 #menu a:link, #menu a:visited {
-  -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   color: #888a85;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   font-size: 1.25em;
   text-decoration: none;
@@ -5564,19 +4536,18 @@ header#menu-zone {
   height: 20px;
   width: 0;
   z-index: 1;
-  -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   font-size: 1.5em;
   border: 0px;
   cursor: pointer;
   background: #73d216;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   color: white;
   text-shadow: 0 2px 2px #004500;
@@ -5584,8 +4555,8 @@ header#menu-zone {
   border-bottom: 2px solid #73d216;
   border-top: 2px solid #73d216;
   text-decoration: none;
-  -webkit-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
 }
@@ -5614,8 +4585,8 @@ header#menu-zone {
     border-bottom: 2px solid #73d216;
     border-top: 2px solid #73d216;
     text-decoration: none;
-    -webkit-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
     box-shadow: 0 3px 12px -6px #004500 inset, 0px 6px 11px -11px rgba(0, 0, 0, 0.5);
     background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
   }
@@ -5736,59 +4707,61 @@ article#team .team-member em {
 @media (min-width: 720px) {
   /* line 45, ../sass/_team.scss */
   article#team .team-member {
-    width: 28.57143%;
+    width: 44.44444%;
     float: left;
-    margin-right: 7.14286%;
+    margin-right: 11.11111%;
   }
-  /* line 48, ../sass/_team.scss */
+  /* line 47, ../sass/_team.scss */
+  article#team .team-member:nth-child(2n) {
+    float: right;
+    margin-right: 0;
+  }
+  /* line 49, ../sass/_team.scss */
   article#team .team-member img {
     width: 56px;
   }
 }
 @media (min-width: 59em) {
-  /* line 58, ../sass/_team.scss */
+  /* line 59, ../sass/_team.scss */
   article#team .team-member img {
     width: 65px;
   }
 }
 @media (max-width: 720px) {
-  /* line 66, ../sass/_team.scss */
+  /* line 68, ../sass/_team.scss */
   .team-member {
     text-align: center;
   }
-  /* line 68, ../sass/_team.scss */
+  /* line 70, ../sass/_team.scss */
   .team-member .header {
-    display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
-    zoom: 1;
+    *zoom: 1;
     *display: inline;
   }
-  /* line 70, ../sass/_team.scss */
+  /* line 72, ../sass/_team.scss */
   .team-member .header h4 {
     text-align: left;
-    display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
-    zoom: 1;
+    *zoom: 1;
     *display: inline;
   }
-  /* line 74, ../sass/_team.scss */
+  /* line 76, ../sass/_team.scss */
   .team-member .header em {
-    display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
-    zoom: 1;
+    *zoom: 1;
     *display: inline;
   }
-  /* line 77, ../sass/_team.scss */
+  /* line 79, ../sass/_team.scss */
   .team-member .header img {
     width: 100px;
   }
-  /* line 81, ../sass/_team.scss */
+  /* line 83, ../sass/_team.scss */
   .team-member p {
     text-align: left;
   }
@@ -5800,8 +4773,8 @@ article#team .team-member em {
 }
 /* line 4, ../sass/_contact.scss */
 #contact form {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   float: left;
@@ -5817,12 +4790,12 @@ article#team .team-member em {
 /* line 13, ../sass/_contact.scss */
 #contact form input[type="text"], #contact form input[type="email"], #contact form textarea {
   outline: none !important;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   padding: 10px;
   text-align: left;
@@ -5830,15 +4803,15 @@ article#team .team-member em {
   -moz-border-radius: 3px;
   border-radius: 3px;
   border: 1px solid #888a85;
-  -webkit-box-shadow: 0 3px 7px -4px #888a85 inset;
   -moz-box-shadow: 0 3px 7px -4px #888a85 inset;
+  -webkit-box-shadow: 0 3px 7px -4px #888a85 inset;
   box-shadow: 0 3px 7px -4px #888a85 inset;
   margin: 10px 0;
 }
 /* line 23, ../sass/_contact.scss */
 #contact form input[type="text"]:focus, #contact form input[type="email"]:focus, #contact form textarea:focus {
-  -webkit-box-shadow: 0 3px 12px -6px #004500 inset;
   -moz-box-shadow: 0 3px 12px -6px #004500 inset;
+  -webkit-box-shadow: 0 3px 12px -6px #004500 inset;
   box-shadow: 0 3px 12px -6px #004500 inset;
   border: 1px solid #73d216;
 }
@@ -5943,8 +4916,8 @@ article#team .team-member em {
   -moz-border-radius: 100%;
   border-radius: 100%;
   bottom: 27px;
-  -webkit-box-shadow: 0 22px 40px 20px black;
   -moz-box-shadow: 0 22px 40px 20px black;
+  -webkit-box-shadow: 0 22px 40px 20px black;
   box-shadow: 0 22px 40px 20px black;
   display: block;
   height: 5px;
@@ -6021,8 +4994,8 @@ article#team .team-member em {
 /* line 54, ../sass/_overview.scss */
 #overview div.row div.block img, #overview div.row div.block iframe {
   position: relative;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: -20px 0;
   width: 100%;
@@ -6050,8 +5023,8 @@ article#team .team-member em {
   /* line 73, ../sass/_overview.scss */
   #overview div.row div.block img, #overview div.row div.block iframe {
     position: relative;
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0 !important;
     margin-top: -60px;
@@ -6149,7 +5122,6 @@ article#team .team-member em {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
-
 @font-face {
   font-family: 'bariol_regularregular';
   src: url("fonts/bariol_regular-webfont.eot");
@@ -6159,7 +5131,6 @@ article#team .team-member em {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
-
 @font-face {
   font-family: 'QuestrialRegular';
   src: url("fonts/Questrial-Regular-webfont.eot");

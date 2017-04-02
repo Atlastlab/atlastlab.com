@@ -11,6 +11,14 @@ $(function() {
     }, 800);
   });
 
+    setTimeout(function () {
+        var action = 'https://formspree.io/daniel.beeke';
+        action += '@';
+        action += 'gma';
+        action += 'il.com';
+        $('form').attr('action', action)
+    }, 700);
+
   // Init.
   menuSlideTo($('#menu a.active'));
   BrowserDetect.init();

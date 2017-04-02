@@ -45,8 +45,9 @@ span.streamer {
 }
 
 @include at-breakpoint(720px 12) {
-  .streamer {
-    // @include span-columns(2, 3);
+
+  span.streamer {
+    padding-top: 50px;
   }
   h2 {
     font-size: 3em !important;
