@@ -27,7 +27,7 @@ $(function() {
   $('body').addClass(BrowserDetect.browser);
 
   $('body').localScroll({
-    offset: {top: -$('#menu-zone').height(), left: 0},
+    offset: {top: -$('#menu-zone').height() - 30, left: 0},
     // hash: true
   });
 
@@ -125,7 +125,7 @@ $(function() {
     if ($('#menu a:hover').length) {
       object = $('#menu a:hover');
     }
-    if (!$(object).hasClass('slider-active')) {
+    if (!$(object).hasClass('slider-active') && $(window).width() > 960) {
       var left = $(object).position().left;
       var top = $(object).position().top;
       var width = $(object).width() + 20;
