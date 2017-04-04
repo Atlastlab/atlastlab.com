@@ -4642,10 +4642,11 @@ header#menu-zone {
     display: block;
     float: left;
     margin-top: 8px;
+    opacity: 0;
   }
 }
 
-/* line 226, ../sass/_menu.scss */
+/* line 227, ../sass/_menu.scss */
 .Chrome #menu a.slider-active,
 .Safari #menu a.slider-active {
   text-shadow: 0 2px 4px #004500;
