@@ -4858,14 +4858,7 @@ article#team .team-member em {
   display: none;
 }
 
-@media (min-width: 720px) {
-  /* line 6, ../sass/_prototype.scss */
-  #mobile-with-leaflet {
-    display: block;
-    float: right;
-  }
-}
-/* line 12, ../sass/_prototype.scss */
+/* line 5, ../sass/_prototype.scss */
 #mobile-with-leaflet {
   position: relative;
   margin-left: 20px;
@@ -4873,7 +4866,7 @@ article#team .team-member em {
   height: 515px;
   width: 252px;
 }
-/* line 18, ../sass/_prototype.scss */
+/* line 11, ../sass/_prototype.scss */
 #mobile-with-leaflet #map {
   display: block;
   height: 354px;
@@ -4883,40 +4876,40 @@ article#team .team-member em {
   width: 207px;
 }
 
-/* line 28, ../sass/_prototype.scss */
+/* line 21, ../sass/_prototype.scss */
 .Mac #mobile-with-leaflet {
   background: url("../img/phone-iphone.png") no-repeat scroll 0 0 transparent;
   width: 245px;
 }
-/* line 31, ../sass/_prototype.scss */
+/* line 24, ../sass/_prototype.scss */
 .Mac #mobile-with-leaflet #map {
   display: block;
   left: 21px;
   position: relative;
   top: 76px;
 }
-/* line 38, ../sass/_prototype.scss */
+/* line 31, ../sass/_prototype.scss */
 .Mac #mobile-with-leaflet #phone-shadow {
   bottom: 9px;
 }
 
-/* line 43, ../sass/_prototype.scss */
+/* line 36, ../sass/_prototype.scss */
 .Windows.Explorer #mobile-with-leaflet {
   background: url("../img/phone-windows.png") no-repeat scroll 0 0 transparent;
 }
-/* line 46, ../sass/_prototype.scss */
+/* line 39, ../sass/_prototype.scss */
 .Windows.Explorer #mobile-with-leaflet #map {
   display: block;
   left: 23px;
   position: relative;
   top: 98px;
 }
-/* line 53, ../sass/_prototype.scss */
+/* line 46, ../sass/_prototype.scss */
 .Windows.Explorer #mobile-with-leaflet #phone-shadow {
   bottom: 9px;
 }
 
-/* line 58, ../sass/_prototype.scss */
+/* line 51, ../sass/_prototype.scss */
 #phone-shadow {
   background: none repeat scroll 0 0 black;
   -webkit-border-radius: 100%;
@@ -4935,6 +4928,19 @@ article#team .team-member em {
   z-index: -1;
 }
 
+@media (min-width: 720px) {
+  /* line 66, ../sass/_prototype.scss */
+  #mobile-with-leaflet {
+    display: block;
+    float: right;
+  }
+}
+@media (min-width: 960px) {
+  /* line 73, ../sass/_prototype.scss */
+  #mobile-with-leaflet {
+    margin-left: 100px;
+  }
+}
 /* line 2, ../sass/_overview.scss */
 #overview .cta-wrapper {
   float: left;

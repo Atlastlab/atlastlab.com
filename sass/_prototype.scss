@@ -2,13 +2,6 @@
   display: none;
 }
 
-@include at-breakpoint(720px 12) {
-  #mobile-with-leaflet {
-    display: block;
-    float: right;
-  }
-}
-
 #mobile-with-leaflet {
   position: relative;
   margin-left: 20px;
@@ -67,4 +60,17 @@
   position: absolute;
   width: 210px;
   z-index: -1;
+}
+
+@include at-breakpoint(720px 12) {
+  #mobile-with-leaflet {
+    display: block;
+    float: right;
+  }
+}
+
+@include at-breakpoint(960px 12) {
+  #mobile-with-leaflet {
+    margin-left: 100px;
+  }
 }
