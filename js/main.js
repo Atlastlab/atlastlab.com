@@ -31,6 +31,13 @@ $(function() {
     // hash: true
   });
 
+    if (window.location.hash == '#thanks') {
+        $('body').addClass('thank-you-page')
+
+        $('.goto-contact').click()
+
+    }
+
   $('.mobile-menu-switcher').click(function() {
     $('#menu').toggleClass('menu-hidden-mobile');
     return false;

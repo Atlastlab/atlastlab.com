@@ -40,7 +40,7 @@
                 <span class="menu-pipe">|</span>
             <a href="#team">Team</a>
                 <span class="menu-pipe">|</span>
-            <a href="#contact">Contact</a>
+            <a href="#contact" class="goto-contact">Contact</a>
             <div id="menu-slider"></div>
         </navigation>
     </div>
@@ -178,9 +178,12 @@
             <p><strong>Heeft u interesse in een gesprek over Atlast? Leuk! Ik kom graag een keertje koffie met u drinken.</strong>
                 <br><br>
             <span>Vul uw contact gegevens in, dan neem ik zo spoedig mogelijk contact met u op!</span>
+                <br><br>
+                <strong class="thank-you-block">Bedankt voor uw email. Ik neem zo spoedig mogelijk contact met u op.</strong>
             </p>
 
             <form action="" autocomplete="on" method="post">
+                <input type="hidden" name="_next" value="//atlastlab.com#thanks" />
                 <div class="form-item-wrapper">
                     <label class="hidden-mobile">Naam: </label><input class="mobile-full-width" placeholder="Uw naam" type="text" name="fname" />
                 </div>
@@ -188,7 +191,7 @@
                     <label class="hidden-mobile">Telefoon: </label><input class="mobile-full-width" placeholder="Uw telefoon nummer" type="text" name="phone" />
                 </div>
                 <div class="form-item-wrapper">
-                    <label class="hidden-mobile">E-mail: </label><input class="mobile-full-width" placeholder="Uw email adres" type="email" name="email" autocomplete="off" required />
+                    <label class="hidden-mobile">E-mail: </label><input class="mobile-full-width" placeholder="Uw email adres" type="email" name="email" required />
                 </div>
                 <div class="form-item-wrapper">
                     <label class="hidden-mobile">Bericht: </label><textarea class="mobile-full-width" placeholder="Uw bericht" name="message" rows="8" required></textarea>
@@ -197,6 +200,7 @@
             </form>
         </article>
     </section>
+    <br><br><br><br>
 </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>

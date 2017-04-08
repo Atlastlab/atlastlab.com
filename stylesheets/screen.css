@@ -4853,6 +4853,25 @@ article#team .team-member em {
     margin-right: 0;
   }
 }
+/* line 53, ../sass/_contact.scss */
+.thank-you-block {
+  padding: 20px;
+  display: none;
+  color: white;
+  background-color: #4e9a06;
+  border-radius: 3px;
+  -moz-box-shadow: 0 3px 12px -6px #004500, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 12px -6px #004500, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 12px -6px #004500, 0px 6px 11px -8px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 3px #004500;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px);
+}
+
+/* line 68, ../sass/_contact.scss */
+body.thank-you-page .thank-you-block {
+  display: block;
+}
+
 /* line 1, ../sass/_prototype.scss */
 #mobile-with-leaflet {
   display: none;
