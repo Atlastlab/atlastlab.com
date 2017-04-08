@@ -4716,7 +4716,7 @@ article#team .team-member em {
   article#team .team-member {
     width: 44.44444%;
     float: left;
-    margin-right: 11.11111%;
+    margin-right: 1.85185%;
   }
   /* line 47, ../sass/_team.scss */
   article#team .team-member:nth-child(2n) {
@@ -4835,7 +4835,7 @@ article#team .team-member em {
   #contact form {
     width: 44.44444%;
     float: left;
-    margin-right: 11.11111%;
+    margin-right: 1.85185%;
   }
   /* line 40, ../sass/_contact.scss */
   #contact form input[type="text"], #contact form input[type="email"], #contact form textarea {
@@ -5044,20 +5044,20 @@ article#team .team-member em {
   }
   /* line 85, ../sass/_overview.scss */
   #overview div.row .button-wrapper {
-    width: 49.15254%;
+    width: 44.44444%;
     float: right;
     margin-right: 0;
     clear: right;
   }
   /* line 90, ../sass/_overview.scss */
   #overview div.row.odd div.block img, #overview div.row.odd div.block iframe {
-    width: 49.15254%;
+    width: 44.44444%;
     float: left;
-    margin-right: 1.69492%;
+    margin-right: 1.85185%;
   }
   /* line 93, ../sass/_overview.scss */
   #overview div.row.odd div.block p, #overview div.row.odd div.block h4 {
-    width: 49.15254%;
+    width: 44.44444%;
     float: right;
     margin-right: 0;
     clear: right;
@@ -5069,15 +5069,15 @@ article#team .team-member em {
   }
   /* line 103, ../sass/_overview.scss */
   #overview div.row.even div.block img, #overview div.row.even div.block iframe {
-    width: 49.15254%;
+    width: 44.44444%;
     float: right;
     margin-right: 0;
   }
   /* line 106, ../sass/_overview.scss */
   #overview div.row.even div.block p, #overview div.row.even div.block h4 {
-    width: 49.15254%;
+    width: 44.44444%;
     float: left;
-    margin-right: 1.69492%;
+    margin-right: 1.85185%;
     clear: left;
   }
   /* line 110, ../sass/_overview.scss */

@@ -35,7 +35,7 @@
 @include at-breakpoint(720px 12) {
   #contact {
     form {
-      @include span-columns(1, 2);
+      @include span-columns(5, 11);
 
       input[type="text"], input[type="email"], textarea {
         @include span-columns(1 ,1);
@@ -45,7 +45,7 @@
     p {
       clear: right;
       margin-top: 20px;
-      @include span-columns(1 omega, 2);
+      @include span-columns(5 omega, 11);
     }
   }
 }

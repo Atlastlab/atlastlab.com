@@ -125,6 +125,11 @@ $(function() {
     if ($('#menu a:hover').length) {
       object = $('#menu a:hover');
     }
+
+    if (!$(object).length) {
+        return;
+    }
+
     if (!$(object).hasClass('slider-active') && $(window).width() > 960) {
       var left = $(object).position().left;
       var top = $(object).position().top;

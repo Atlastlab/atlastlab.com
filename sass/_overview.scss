@@ -83,15 +83,15 @@
       }
     }
     .button-wrapper {
-      @include span-columns(6 omega, 12);
+      @include span-columns(5 omega, 11);
       clear: right;
     }
     &.odd div.block {
       img, iframe {
-        @include span-columns(6, 12);
+        @include span-columns(5, 11);
       }
       p, h4 {
-        @include span-columns(6 omega, 12);
+        @include span-columns(5 omega, 11);
         clear: right;
       }
       h4:after {
@@ -101,10 +101,10 @@
     }
     &.even div.block {
       img, iframe {
-        @include span-columns(6 omega, 12);
+        @include span-columns(5 omega, 11);
       }
       p, h4 {
-        @include span-columns(6, 12);
+        @include span-columns(5, 11);
         clear: left;
       }
       h4:after {

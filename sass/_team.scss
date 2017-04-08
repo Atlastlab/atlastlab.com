@@ -43,7 +43,7 @@ article#team {
 @include at-breakpoint(720px 12) {
   article#team {
     .team-member {
-      @include span-columns(1, 2);
+      @include span-columns(5, 11);
       &:nth-child(2n) { @include omega; }
 
       img {
