@@ -106,29 +106,28 @@ textarea:focus, input:focus{
 #content-wrapper {
   padding-top: 45px;
   min-height: 700px;
-  background: url("../img/bg.png") no-repeat scroll -195px -339px transparent;
   // background: url(../img/bg.png) no-repeat center -150px;
   overflow-x: hidden;
 }
-
-@include at-breakpoint(6 320px) {
-  #content-wrapper {
-    background: url("../img/bg.png") no-repeat scroll -918px -286px transparent;
-  }
-}
-
-@include at-breakpoint(321px 6 400px) {
-  #content-wrapper {
-    background: url("../img/bg.png") no-repeat scroll -918px -294px transparent;
-  }
-}
-
-@include at-breakpoint(720px 12) {
-  #content-wrapper {
-    padding-top: 65px;
-    background: url(../img/bg.png) no-repeat center -150px;
-  }
-}
+//
+//@include at-breakpoint(6 320px) {
+//  #content-wrapper {
+//    background: url("../img/bg.png") no-repeat scroll -918px -266px transparent;
+//  }
+//}
+//
+//@include at-breakpoint(360px 6 400px) {
+//  #content-wrapper {
+//    background: url("../img/bg.png") no-repeat scroll -918px -294px transparent;
+//  }
+//}
+//
+//@include at-breakpoint(720px 12) {
+//  #content-wrapper {
+//    padding-top: 65px;
+//    background: url(../img/bg.png) no-repeat center -150px;
+//  }
+//}
 
 @include at-breakpoint(960px 12) {
   #content-wrapper {
@@ -216,9 +215,9 @@ textarea:focus, input:focus{
     text-align: left;
   }
 }
-
-@include at-breakpoint(6 719px) {
-  h4, h3, h2 {
-    text-align: center;
-  }
-}
+//
+//@include at-breakpoint(6 719px) {
+//  h4, h3, h2 {
+//    text-align: center;
+//  }
+//}

@@ -7,6 +7,7 @@
   -webkit-font-smoothing:antialiased;
   cursor: pointer;
   background: $green_light;
+  text-align: center;
   @include inline-block;
   line-height: 30px;
   color: white;
@@ -52,14 +53,14 @@
   font-size: 1.3em;
   // margin-left: 10px;
   position: relative;
-  top: 10px;
+  top: 20px;
   font-weight: lighter !important;
   margin-right: -20px !important;
 
   a:link, a:visited {
     @include transition(all 0.4s);
     color: white;
-    margin-left: 8px;
+    margin-left: 7px;
     text-decoration: none;
     border-bottom: 1px dotted white;
   }
@@ -106,6 +107,7 @@
     padding: 10px 30px 6px 30px !important;
   }
   .button-suffix {
+    top: 12px;
     margin-top: 19px;
   }
 }
